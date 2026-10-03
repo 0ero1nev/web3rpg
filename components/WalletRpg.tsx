@@ -36,7 +36,7 @@ export function WalletRpg({ initialWallet = "" }: { initialWallet?: string }) {
 
   return <main className={`game-shell screen-${screen}`}>
     <header className="topbar"><button className="brand" onClick={fullReset} aria-label="Wallet RPG home"><span>W</span> WALLET RPG</button><div className="phase-pill"><i /> PHASE 1 · MOCK ARENA</div></header>
-    {screen === "home" && <HomeScreen wallet={draftWallet} setWallet={setDraftWallet} error={error} onCreate={() => createFighter()} onDemo={(value) => createFighter(value)} />}
+    {screen === "home" && <HomeScreen wallet={draftWallet} setWallet={setDraftWallet} error={error} onCreate={() => createFighter()} />}
     {screen === "reveal" && player && <RevealScreen fighter={player} onChallenge={() => { setError(""); setChallengeOpen(true); }} onShare={() => setShareOpen(true)} />}
     {screen === "intro" && player && opponent && <BattleIntro player={player} opponent={opponent} ready={introReady} />}
     {screen === "battle" && result && <BattleScreen result={result} hp={currentHp} action={action} actionIndex={actionIndex} />}
@@ -48,8 +48,20 @@ export function WalletRpg({ initialWallet = "" }: { initialWallet?: string }) {
   </main>;
 }
 
-function HomeScreen({ wallet, setWallet, error, onCreate, onDemo }: { wallet: string; setWallet: (v: string) => void; error: string; onCreate: () => void; onDemo: (v: string) => void }) {
-  return <section className="home-screen"><div className="noise-label"><span>SEASON 00</span><span>SOLANA TESTNET</span></div><div className="hero-mark" aria-hidden="true"><span>W</span></div><p className="eyebrow"><Zap /> ON-CHAIN COMBAT PROTOCOL</p><h1>YOUR WALLET<br /><em>IS YOUR FIGHTER.</em></h1><p className="hero-copy">Turn your Solana trading history into an RPG character.</p><div className="wallet-composer"><label><span>WALLET ADDRESS</span><input value={wallet} onChange={(e) => setWallet(e.target.value)} onKeyDown={(e) => e.key === "Enter" && onCreate()} placeholder="Paste Solana wallet address…" /></label><button className="primary-button" onClick={onCreate}>CREATE MY FIGHTER <Zap /></button>{error && <p className="field-error">{error}</p>}<p className="fine-print"><i /> No connection. No signing. Public data only.</p></div><div className="demo-row"><span>QUICK SPAWN</span><div>{demos.map(([label, value]) => <button key={value} onClick={() => onDemo(value)}>{label}</button>)}</div></div></section>;
+function PersonaLogo() {
+  return <h1 className="persona-logo" aria-label="Onchain Persona"><span className="logo-onchain">ONCHAIN</span><span className="logo-persona" aria-hidden="true">{"PERSONA!".split("").map((letter, index) => <i key={`${letter}-${index}`} style={{ "--letter": index } as React.CSSProperties}>{letter}</i>)}</span></h1>;
+}
+
+function WalletDialogue({ wallet, setWallet, onCreate }: { wallet: string; setWallet: (value: string) => void; onCreate: () => void }) {
+  return <div className="dialogue-shell"><div className="dialogue-middle"><label className="dialogue-inner"><span className="menu-cursor" aria-hidden="true">▶</span><input aria-label="Solana wallet address" value={wallet} onChange={(event) => setWallet(event.target.value)} onKeyDown={(event) => event.key === "Enter" && onCreate()} placeholder="Paste your Solana wallet…" /><span className="dialogue-diamond" aria-hidden="true">◆</span></label></div></div>;
+}
+
+function OpenPackButton({ onClick }: { onClick: () => void }) {
+  return <button className="open-pack-button" onClick={onClick}><span aria-hidden="true">▶</span> OPEN MY PACK</button>;
+}
+
+function HomeScreen({ wallet, setWallet, error, onCreate }: { wallet: string; setWallet: (v: string) => void; error: string; onCreate: () => void }) {
+  return <section className="home-screen"><div className="persona-hero"><PersonaLogo /><div className="persona-prompt"><h2>WHO ARE YOU ONCHAIN?</h2><p>Your wallet knows more than you think.</p></div><WalletDialogue wallet={wallet} setWallet={setWallet} onCreate={onCreate} />{error && <p className="persona-error" role="alert">{error}</p>}<OpenPackButton onClick={onCreate} /><p className="persona-footer">ONE WALLET · ONE PERSONA</p></div></section>;
 }
 
 function RevealScreen({ fighter, onChallenge, onShare }: { fighter: Fighter; onChallenge: () => void; onShare: () => void }) {
