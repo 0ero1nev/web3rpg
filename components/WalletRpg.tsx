@@ -35,7 +35,7 @@ export function WalletRpg({ initialWallet = "" }: { initialWallet?: string }) {
   function fullReset() { setWallet(""); setDraftWallet(""); setOpponentWallet(""); setOpponentDraft(""); setActionIndex(-1); setScreen("home"); window.history.pushState({}, "", "/"); }
 
   return <main className={`game-shell screen-${screen}`}>
-    <header className="topbar"><button className="brand" onClick={fullReset} aria-label="Wallet RPG home"><span>W</span> WALLET RPG</button><div className="phase-pill"><i /> PHASE 1 · MOCK ARENA</div></header>
+    <header className={`topbar ${screen === "home" ? "persona-topbar" : ""}`}><button className="brand persona-brand" onClick={fullReset} aria-label="Onchain Persona home"><span className="brand-spark" aria-hidden="true">✦</span><span className="brand-words"><b>ONCHAIN</b><strong>PERSONA!</strong></span></button><div className="phase-pill persona-phase"><span className="phase-gem" aria-hidden="true">◆</span> PHASE 1 · PLAYTEST</div></header>
     {screen === "home" && <HomeScreen wallet={draftWallet} setWallet={setDraftWallet} error={error} onCreate={() => createFighter()} />}
     {screen === "reveal" && player && <RevealScreen fighter={player} onChallenge={() => { setError(""); setChallengeOpen(true); }} onShare={() => setShareOpen(true)} />}
     {screen === "intro" && player && opponent && <BattleIntro player={player} opponent={opponent} ready={introReady} />}
