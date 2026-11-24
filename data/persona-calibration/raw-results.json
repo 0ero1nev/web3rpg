@@ -1,0 +1,4439 @@
+{
+  "generatedAt": "2026-10-05T16:30:41.464Z",
+  "dataset": [
+    {
+      "label": "A",
+      "address": "686C4R7PgGipaCYXkngNRpZKEDVPRjGpFTaafucYeUyL",
+      "source": "seed",
+      "addedAt": "2026-10-05T15:36:43.340Z"
+    },
+    {
+      "label": "B",
+      "address": "5V676H2Th83MycbJQ1JuL3f8GCCf6WDDVY2qY8Tj9zFb",
+      "source": "seed",
+      "addedAt": "2026-10-05T15:36:43.341Z"
+    },
+    {
+      "label": "C",
+      "address": "9yuZqpCqtbyr2RkYYzKVooPy1DWUqakumeFQncE9mJh1",
+      "source": "seed",
+      "addedAt": "2026-10-05T15:36:43.341Z"
+    },
+    {
+      "label": "D",
+      "address": "2dAPqfwfhVXKzFxq9sVAQcKTg1vsopkJVyXnR2XqcDCu",
+      "source": "seed",
+      "addedAt": "2026-10-05T15:36:43.341Z"
+    },
+    {
+      "label": "W01",
+      "address": "GLiCiNEnku3pQsmkVkRvnDLbfUN9BWbsrPDWLdPaADng",
+      "source": "pump-c",
+      "addedAt": "2026-10-05T15:36:43.341Z"
+    },
+    {
+      "label": "W02",
+      "address": "AXmnRBrNtYYyyo82cLBBhnWJ7o1iqNLZbuEVpDB3V666",
+      "source": "pump-a",
+      "addedAt": "2026-10-05T15:36:43.341Z"
+    },
+    {
+      "label": "W03",
+      "address": "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51",
+      "source": "pump-b",
+      "addedAt": "2026-10-05T15:36:43.341Z"
+    },
+    {
+      "label": "W04",
+      "address": "gasBidSWW5zmwXs3gn8TG2ijzKkrwpyM7ucwjgDQst6",
+      "source": "meta-d",
+      "addedAt": "2026-10-05T15:36:43.341Z"
+    },
+    {
+      "label": "W05",
+      "address": "9Xi2jHEsU6rcXQj9nxfTdEgsxZDWXGJhAP36aBtkjksp",
+      "source": "jup",
+      "addedAt": "2026-10-05T15:36:43.341Z"
+    },
+    {
+      "label": "W06",
+      "address": "Dy1jE82CCKsSE6aRFVfxQZemHqJ1Qa81CvGdLhxnJXJj",
+      "source": "pump-major",
+      "addedAt": "2026-10-05T15:36:43.341Z"
+    },
+    {
+      "label": "W07",
+      "address": "DPHThXpn2uxDfTkPXTfLDfrA5aJ3kCt6cgsXtmaRKetg",
+      "source": "pump-c",
+      "addedAt": "2026-10-05T15:36:43.341Z"
+    },
+    {
+      "label": "W08",
+      "address": "CzYQ2kFnBxsNEt9Zy34vQ3n5fSDhvA4o4XaTnq1rLvyr",
+      "source": "pump-a",
+      "addedAt": "2026-10-05T15:36:43.341Z"
+    },
+    {
+      "label": "W09",
+      "address": "58NGRa52mQeHrgpeJTUSb2j7uMSob3sZcjrw5eVqstPA",
+      "source": "pump-b",
+      "addedAt": "2026-10-05T15:36:43.341Z"
+    },
+    {
+      "label": "W10",
+      "address": "Gnm3Y2nozDt1pBGFynCJfKMjLuQMSofDNxnW74EDmqA7",
+      "source": "meta-d",
+      "addedAt": "2026-10-05T15:36:43.341Z"
+    },
+    {
+      "label": "W11",
+      "address": "jpFkTLo4uUyLYpchHSH9tcwuwGYo8DGBto7XgGEuTzo",
+      "source": "jup",
+      "addedAt": "2026-10-05T15:36:43.341Z"
+    },
+    {
+      "label": "W12",
+      "address": "99mRw3EzdJZWEUjgp1nrU4WeHsukUBjbh7gYE7pm4F3c",
+      "source": "pump-major",
+      "addedAt": "2026-10-05T15:36:43.341Z"
+    },
+    {
+      "label": "W13",
+      "address": "7UWvC18sPr29sdWeTigYV8Sysm3UUrFSNp2y95uanUSV",
+      "source": "pump-c",
+      "addedAt": "2026-10-05T15:36:43.341Z"
+    },
+    {
+      "label": "W14",
+      "address": "8tdfeokyWnNo7DqVp6DxYEXb4DX5Yy8jFE4zVA4PgLCj",
+      "source": "pump-b",
+      "addedAt": "2026-10-05T15:36:43.341Z"
+    },
+    {
+      "label": "W15",
+      "address": "Gk6ejzhed871icNfAch7stDSTCjVCeudcNPXxAFqLtXE",
+      "source": "jup",
+      "addedAt": "2026-10-05T15:36:43.341Z"
+    },
+    {
+      "label": "W16",
+      "address": "9jHrTCwpDANHLNQz5cem6XLUBM8KiTWKe766Br6KVCXM",
+      "source": "pump-major",
+      "addedAt": "2026-10-05T15:36:43.341Z"
+    },
+    {
+      "label": "W17",
+      "address": "EQMMDjc6hnKymC6NZWFFGPvSUsBs34xD9LycUKtprgoM",
+      "source": "pump-c",
+      "addedAt": "2026-10-05T15:36:43.341Z"
+    },
+    {
+      "label": "W18",
+      "address": "9uGsPcu2a2hJ8XE7U1iqsof54GVTDBjMRoksLRGvTEzQ",
+      "source": "pump-a",
+      "addedAt": "2026-10-05T15:36:43.341Z"
+    },
+    {
+      "label": "W19",
+      "address": "Cyq7wQBLjicojaKsnuAwmT1Tb1M8brVeDSaxowsUE6yh",
+      "source": "pump-b",
+      "addedAt": "2026-10-05T15:36:43.341Z"
+    },
+    {
+      "label": "W20",
+      "address": "btcf1R5sJNgZSwmkLNcKTsw15vGY3LZrXTqU2Ke7DfE",
+      "source": "meta-d",
+      "addedAt": "2026-10-05T15:36:43.341Z"
+    },
+    {
+      "label": "W21",
+      "address": "8SLBD1u56pxL9pXq1R95ZzYREaVMXkW3CqP4VV4psAEv",
+      "source": "jup",
+      "addedAt": "2026-10-05T15:36:43.341Z"
+    },
+    {
+      "label": "W22",
+      "address": "4rzLuHNx2wg1GR4kSHuJLwhpFrDcJawRVVxFsQKNGSFK",
+      "source": "pump-major",
+      "addedAt": "2026-10-05T15:36:43.341Z"
+    },
+    {
+      "label": "W23",
+      "address": "9oQ3cpHjGqQYZgibnxr8fGnipwPheYQPZXdBgsDkTzfN",
+      "source": "pump-c",
+      "addedAt": "2026-10-05T15:36:43.341Z"
+    },
+    {
+      "label": "W24",
+      "address": "HyW7X2KTBV76wSYqK5hXsNBKdx7jRYUaDbabqqZF6Yb2",
+      "source": "pump-b",
+      "addedAt": "2026-10-05T15:36:43.341Z"
+    },
+    {
+      "label": "W25",
+      "address": "D9Ew95W9qBLu6Ku8GupFQCawqhmDUqTgysR7aKja6nW",
+      "source": "meta-d",
+      "addedAt": "2026-10-05T15:36:43.341Z"
+    },
+    {
+      "label": "W26",
+      "address": "CvLuELbgr6a4oNttEka9oUN7GbcxtDqyqQLKUThZUBfH",
+      "source": "jup",
+      "addedAt": "2026-10-05T15:36:43.341Z"
+    },
+    {
+      "label": "W27",
+      "address": "5yAy94tPyYYTEJdar9kD4Etbt62cc8jBiNGcUNamARim",
+      "source": "pump-major",
+      "addedAt": "2026-10-05T15:36:43.341Z"
+    },
+    {
+      "label": "W28",
+      "address": "gasZLYmyuZMUj3ruMMPhBvQ2nXSRiVEquL57Lsa18Pr",
+      "source": "pump-c",
+      "addedAt": "2026-10-05T15:36:43.341Z"
+    },
+    {
+      "label": "W29",
+      "address": "FHpcNSe6tb2n15bAdq4BkeYWGyZKFD7yLYrH92ng7wCT",
+      "source": "pump-b",
+      "addedAt": "2026-10-05T15:36:43.341Z"
+    },
+    {
+      "label": "W30",
+      "address": "HksvPBwLoEprgB5YthLKatZabKgCeox62shhGAq3pPmQ",
+      "source": "meta-d",
+      "addedAt": "2026-10-05T15:36:43.341Z"
+    },
+    {
+      "label": "W31",
+      "address": "DBzMBi9a1An9CRYNKn2BvgBRd465ZLT5SykjummgGye9",
+      "source": "jup",
+      "addedAt": "2026-10-05T15:36:43.341Z"
+    },
+    {
+      "label": "W32",
+      "address": "7DL93uToLjvhzWuuoBfF8tCkQNTnzwe9GAc69txStS8d",
+      "source": "pump-major",
+      "addedAt": "2026-10-05T15:36:43.341Z"
+    },
+    {
+      "label": "W33",
+      "address": "GDKokUfLWdX7chJqwPqwtVnMbAPhbwKGbwjLwEYtXVeG",
+      "source": "pump-c",
+      "addedAt": "2026-10-05T15:36:43.341Z"
+    },
+    {
+      "label": "W34",
+      "address": "BzmU5eP27S3CXbKefaoigEAMhz55XocnBEL4AoawwtiH",
+      "source": "pump-b",
+      "addedAt": "2026-10-05T15:36:43.341Z"
+    },
+    {
+      "label": "W35",
+      "address": "AghktXaSQSuJFSPF4Dsp8usjeiqWZzZRFySZQRqgZ1uK",
+      "source": "meta-d",
+      "addedAt": "2026-10-05T15:36:43.341Z"
+    },
+    {
+      "label": "W36",
+      "address": "Dn4EspAgfPybydvrXhBKeqHaVPiJPDrTiGW2yB5aqryM",
+      "source": "jup",
+      "addedAt": "2026-10-05T15:36:43.341Z"
+    },
+    {
+      "label": "W37",
+      "address": "2BqWx8AmdF2rMZq8zDBwMh677c2NyW94j8BNpPGnw69b",
+      "source": "pump-major",
+      "addedAt": "2026-10-05T15:36:43.341Z"
+    },
+    {
+      "label": "W38",
+      "address": "H6EtpNNizCppByyt5Jj5bmpm1GN9MMpBoycBzDhiWrQS",
+      "source": "pump-c",
+      "addedAt": "2026-10-05T15:36:43.341Z"
+    },
+    {
+      "label": "W39",
+      "address": "4gUvFnzu4GUrTw2w3NdUjfmpmjxE1t4U3ZzhWX8tnaza",
+      "source": "pump-b",
+      "addedAt": "2026-10-05T15:36:43.341Z"
+    },
+    {
+      "label": "W40",
+      "address": "AW4jYyLFbstpitrYET5o5KMfvHcXGAJG5ZrEkUaUtyyK",
+      "source": "meta-d",
+      "addedAt": "2026-10-05T15:36:43.341Z"
+    }
+  ],
+  "failures": [],
+  "results": [
+    {
+      "label": "A",
+      "address": "686C4R7PgGipaCYXkngNRpZKEDVPRjGpFTaafucYeUyL",
+      "source": "seed",
+      "elapsedMs": 47097,
+      "historyComplete": false,
+      "transactionsAnalyzed": 1000,
+      "qualifyingSwaps": 392,
+      "tradedTokenCount": 71,
+      "completedPositions": 50,
+      "openPositions": 13,
+      "reentries": 12,
+      "observedVolumeUsd": 53353.299071245805,
+      "volumeCoverage": 1,
+      "realizedPnlUsd": -2185.7300847667334,
+      "pnlCoverage": 0.7401574803149606,
+      "historicalPriceCoverage": 0.02,
+      "currentPriceCoverage": 0.07692307692307693,
+      "personas": {
+        "newton": {
+          "match": 73,
+          "confidence": 90,
+          "eligible": true
+        },
+        "sisyphus": {
+          "match": 63,
+          "confidence": 83,
+          "eligible": true
+        },
+        "napoleon": {
+          "match": 58,
+          "confidence": 100,
+          "eligible": true
+        },
+        "icarus": {
+          "match": 45,
+          "confidence": 100,
+          "eligible": false
+        },
+        "caesar": {
+          "match": 43,
+          "confidence": 90,
+          "eligible": true
+        },
+        "croesus": {
+          "match": 36,
+          "confidence": 90,
+          "eligible": true
+        },
+        "midas": {
+          "match": null,
+          "confidence": 0,
+          "eligible": false
+        },
+        "don_quixote": {
+          "match": null,
+          "confidence": 0,
+          "eligible": false
+        }
+      },
+      "winner": {
+        "personaId": "newton",
+        "match": 73,
+        "confidence": 90
+      },
+      "runnerUp": {
+        "personaId": "sisyphus",
+        "match": 63,
+        "confidence": 83
+      },
+      "winnerMargin": 10,
+      "icarus": {
+        "eligibleEpisodes": 50,
+        "pricedEpisodes": 1,
+        "externalRequests": 18,
+        "providerFailures": 0,
+        "unsupportedMints": 16,
+        "requestLimitReached": false,
+        "candidates": [
+          {
+            "mint": "98kfF7rmsg1QDUEoCqNE7g7M1FdrTt92TEp2CLzypump",
+            "entryPriceUsd": 0.012547433468453814,
+            "observedPeakPriceUsd": 0.012739060329964235,
+            "finalPriceUsd": 0.010227766785313912,
+            "peakReturnPct": 0.015272195863177851,
+            "givebackPct": 13.105122762310437,
+            "historicalPriceCoverage": 1,
+            "sampleCount": 11
+          }
+        ]
+      },
+      "cost": {
+        "externalRequests": 18,
+        "cacheHits": 0,
+        "providerFailures": 0,
+        "unsupportedMints": 16,
+        "requestLimitReached": false,
+        "positionsAvailable": 63,
+        "positionsConsidered": 24
+      },
+      "outbound": {
+        "helius": 21,
+        "coingecko": 18,
+        "coinbase": 2,
+        "other": 0
+      }
+    },
+    {
+      "label": "B",
+      "address": "5V676H2Th83MycbJQ1JuL3f8GCCf6WDDVY2qY8Tj9zFb",
+      "source": "seed",
+      "elapsedMs": 45457,
+      "historyComplete": false,
+      "transactionsAnalyzed": 1000,
+      "qualifyingSwaps": 229,
+      "tradedTokenCount": 9,
+      "completedPositions": 0,
+      "openPositions": 5,
+      "reentries": 0,
+      "observedVolumeUsd": 1441765.2420759997,
+      "volumeCoverage": 1,
+      "realizedPnlUsd": 24269.11328135308,
+      "pnlCoverage": 0.75,
+      "historicalPriceCoverage": 0,
+      "currentPriceCoverage": 0.2,
+      "personas": {
+        "sisyphus": {
+          "match": 87,
+          "confidence": 83,
+          "eligible": true
+        },
+        "caesar": {
+          "match": 84,
+          "confidence": 88,
+          "eligible": true
+        },
+        "newton": {
+          "match": 79,
+          "confidence": 9,
+          "eligible": false
+        },
+        "croesus": {
+          "match": 73,
+          "confidence": 90,
+          "eligible": true
+        },
+        "napoleon": {
+          "match": null,
+          "confidence": 50,
+          "eligible": false
+        },
+        "icarus": {
+          "match": null,
+          "confidence": 0,
+          "eligible": false
+        },
+        "midas": {
+          "match": null,
+          "confidence": 0,
+          "eligible": false
+        },
+        "don_quixote": {
+          "match": null,
+          "confidence": 0,
+          "eligible": false
+        }
+      },
+      "winner": {
+        "personaId": "sisyphus",
+        "match": 87,
+        "confidence": 83
+      },
+      "runnerUp": {
+        "personaId": "caesar",
+        "match": 84,
+        "confidence": 88
+      },
+      "winnerMargin": 3,
+      "icarus": {
+        "eligibleEpisodes": 0,
+        "pricedEpisodes": 0,
+        "externalRequests": 0,
+        "providerFailures": 0,
+        "unsupportedMints": 0,
+        "requestLimitReached": false,
+        "candidates": []
+      },
+      "cost": {
+        "externalRequests": 0,
+        "cacheHits": 0,
+        "providerFailures": 0,
+        "unsupportedMints": 0,
+        "requestLimitReached": false,
+        "positionsAvailable": 5,
+        "positionsConsidered": 0
+      },
+      "outbound": {
+        "helius": 21,
+        "coingecko": 0,
+        "coinbase": 1,
+        "other": 0
+      }
+    },
+    {
+      "label": "C",
+      "address": "9yuZqpCqtbyr2RkYYzKVooPy1DWUqakumeFQncE9mJh1",
+      "source": "seed",
+      "elapsedMs": 53218,
+      "historyComplete": false,
+      "transactionsAnalyzed": 1000,
+      "qualifyingSwaps": 710,
+      "tradedTokenCount": 205,
+      "completedPositions": 180,
+      "openPositions": 42,
+      "reentries": 50,
+      "observedVolumeUsd": 3582.2582884662,
+      "volumeCoverage": 0.9985915492957746,
+      "realizedPnlUsd": -134.57818277640354,
+      "pnlCoverage": 0.8202247191011236,
+      "historicalPriceCoverage": 0.027932960893854747,
+      "currentPriceCoverage": 0,
+      "personas": {
+        "sisyphus": {
+          "match": 60,
+          "confidence": 85,
+          "eligible": true
+        },
+        "newton": {
+          "match": 54,
+          "confidence": 89,
+          "eligible": true
+        },
+        "napoleon": {
+          "match": 52,
+          "confidence": 100,
+          "eligible": true
+        },
+        "icarus": {
+          "match": 49,
+          "confidence": 100,
+          "eligible": false
+        },
+        "caesar": {
+          "match": 34,
+          "confidence": 90,
+          "eligible": true
+        },
+        "croesus": {
+          "match": 8,
+          "confidence": 90,
+          "eligible": true
+        },
+        "midas": {
+          "match": null,
+          "confidence": 0,
+          "eligible": false
+        },
+        "don_quixote": {
+          "match": null,
+          "confidence": 0,
+          "eligible": false
+        }
+      },
+      "winner": {
+        "personaId": "sisyphus",
+        "match": 60,
+        "confidence": 85
+      },
+      "runnerUp": {
+        "personaId": "newton",
+        "match": 54,
+        "confidence": 89
+      },
+      "winnerMargin": 6,
+      "icarus": {
+        "eligibleEpisodes": 179,
+        "pricedEpisodes": 5,
+        "externalRequests": 20,
+        "providerFailures": 0,
+        "unsupportedMints": 17,
+        "requestLimitReached": true,
+        "candidates": [
+          {
+            "mint": "6ehEcTMCc85aNF4x9CWx8HuvWGhxQtvKdhKVf2HDpump",
+            "entryPriceUsd": 0.0021634460018013385,
+            "observedPeakPriceUsd": 0.007074244493211113,
+            "finalPriceUsd": 0.004639452759420082,
+            "peakReturnPct": 2.2698964925960357,
+            "givebackPct": 0.49580363316680487,
+            "historicalPriceCoverage": 1,
+            "sampleCount": 8
+          },
+          {
+            "mint": "FmbmhYpjBzszfUxDju3g1qQzggXTT5yfMJ94rK7ypump",
+            "entryPriceUsd": 0.00016515104329165443,
+            "observedPeakPriceUsd": 0.00019827669393127602,
+            "finalPriceUsd": 0.00015313479450101337,
+            "peakReturnPct": 0.20057790722594548,
+            "givebackPct": 1.3627475554025321,
+            "historicalPriceCoverage": 1,
+            "sampleCount": 13
+          },
+          {
+            "mint": "7HgfXftRBBqsYtAEYcqjGLQrNJLL6Tww9ek4rE3Apump",
+            "entryPriceUsd": 0.005547990390861036,
+            "observedPeakPriceUsd": 0.006045845507529025,
+            "finalPriceUsd": 0.005347380969552254,
+            "peakReturnPct": 0.0897361173314366,
+            "givebackPct": 1.4029473929110288,
+            "historicalPriceCoverage": 1,
+            "sampleCount": 8
+          }
+        ]
+      },
+      "cost": {
+        "externalRequests": 20,
+        "cacheHits": 0,
+        "providerFailures": 0,
+        "unsupportedMints": 17,
+        "requestLimitReached": true,
+        "positionsAvailable": 222,
+        "positionsConsidered": 24
+      },
+      "outbound": {
+        "helius": 21,
+        "coingecko": 20,
+        "coinbase": 9,
+        "other": 0
+      }
+    },
+    {
+      "label": "D",
+      "address": "2dAPqfwfhVXKzFxq9sVAQcKTg1vsopkJVyXnR2XqcDCu",
+      "source": "seed",
+      "elapsedMs": 48905,
+      "historyComplete": false,
+      "transactionsAnalyzed": 1000,
+      "qualifyingSwaps": 239,
+      "tradedTokenCount": 11,
+      "completedPositions": 14,
+      "openPositions": 4,
+      "reentries": 12,
+      "observedVolumeUsd": 43898.0321556252,
+      "volumeCoverage": 0.9414225941422594,
+      "realizedPnlUsd": 248.21445724689698,
+      "pnlCoverage": 0.23333333333333334,
+      "historicalPriceCoverage": 0.8333333333333334,
+      "currentPriceCoverage": 0,
+      "personas": {
+        "sisyphus": {
+          "match": 90,
+          "confidence": 69,
+          "eligible": false
+        },
+        "caesar": {
+          "match": 74,
+          "confidence": 87,
+          "eligible": true
+        },
+        "newton": {
+          "match": 59,
+          "confidence": 90,
+          "eligible": true
+        },
+        "croesus": {
+          "match": 35,
+          "confidence": 85,
+          "eligible": true
+        },
+        "icarus": {
+          "match": 32,
+          "confidence": 100,
+          "eligible": false
+        },
+        "napoleon": {
+          "match": 0,
+          "confidence": 100,
+          "eligible": false
+        },
+        "midas": {
+          "match": null,
+          "confidence": 0,
+          "eligible": false
+        },
+        "don_quixote": {
+          "match": null,
+          "confidence": 0,
+          "eligible": false
+        }
+      },
+      "winner": {
+        "personaId": "caesar",
+        "match": 74,
+        "confidence": 87
+      },
+      "runnerUp": {
+        "personaId": "newton",
+        "match": 59,
+        "confidence": 90
+      },
+      "winnerMargin": 15,
+      "icarus": {
+        "eligibleEpisodes": 12,
+        "pricedEpisodes": 10,
+        "externalRequests": 1,
+        "providerFailures": 0,
+        "unsupportedMints": 0,
+        "requestLimitReached": false,
+        "candidates": [
+          {
+            "mint": "BANKJmvhT8tiJRsBSS1n2HryMBPvT5Ze4HU95DUAmeta",
+            "entryPriceUsd": 3.81423524007487,
+            "observedPeakPriceUsd": 4.07195116961393,
+            "finalPriceUsd": 3.8839140632356113,
+            "peakReturnPct": 0.06756686814471413,
+            "givebackPct": 0.7296293508695175,
+            "historicalPriceCoverage": 1,
+            "sampleCount": 4
+          },
+          {
+            "mint": "BANKJmvhT8tiJRsBSS1n2HryMBPvT5Ze4HU95DUAmeta",
+            "entryPriceUsd": 3.823060502149821,
+            "observedPeakPriceUsd": 4.132187569792052,
+            "finalPriceUsd": 3.9586737481980965,
+            "peakReturnPct": 0.08085853401179488,
+            "givebackPct": 0.561302583165484,
+            "historicalPriceCoverage": 1,
+            "sampleCount": 10
+          },
+          {
+            "mint": "BANKJmvhT8tiJRsBSS1n2HryMBPvT5Ze4HU95DUAmeta",
+            "entryPriceUsd": 5.01870544289797,
+            "observedPeakPriceUsd": 5.36603559232079,
+            "finalPriceUsd": 5.183575975195952,
+            "peakReturnPct": 0.06920711991860995,
+            "givebackPct": 0.5253204117985218,
+            "historicalPriceCoverage": 1,
+            "sampleCount": 25
+          }
+        ]
+      },
+      "cost": {
+        "externalRequests": 1,
+        "cacheHits": 0,
+        "providerFailures": 0,
+        "unsupportedMints": 0,
+        "requestLimitReached": false,
+        "positionsAvailable": 18,
+        "positionsConsidered": 12
+      },
+      "outbound": {
+        "helius": 21,
+        "coingecko": 1,
+        "coinbase": 4,
+        "other": 0
+      }
+    },
+    {
+      "label": "W01",
+      "address": "GLiCiNEnku3pQsmkVkRvnDLbfUN9BWbsrPDWLdPaADng",
+      "source": "pump-c",
+      "elapsedMs": 44319,
+      "historyComplete": false,
+      "transactionsAnalyzed": 1000,
+      "qualifyingSwaps": 0,
+      "tradedTokenCount": 0,
+      "completedPositions": 0,
+      "openPositions": 0,
+      "reentries": 0,
+      "observedVolumeUsd": null,
+      "volumeCoverage": 0,
+      "realizedPnlUsd": null,
+      "pnlCoverage": 0,
+      "historicalPriceCoverage": 0,
+      "currentPriceCoverage": 0,
+      "personas": {
+        "sisyphus": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "newton": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "caesar": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "croesus": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "midas": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "don_quixote": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "napoleon": {
+          "match": null,
+          "confidence": 50,
+          "eligible": false
+        },
+        "icarus": {
+          "match": null,
+          "confidence": 0,
+          "eligible": false
+        }
+      },
+      "winner": null,
+      "runnerUp": null,
+      "winnerMargin": null,
+      "icarus": {
+        "eligibleEpisodes": 0,
+        "pricedEpisodes": 0,
+        "externalRequests": 0,
+        "providerFailures": 0,
+        "unsupportedMints": 0,
+        "requestLimitReached": false,
+        "candidates": []
+      },
+      "cost": {
+        "externalRequests": 0,
+        "cacheHits": 0,
+        "providerFailures": 0,
+        "unsupportedMints": 0,
+        "requestLimitReached": false,
+        "positionsAvailable": 0,
+        "positionsConsidered": 0
+      },
+      "outbound": {
+        "helius": 21,
+        "coingecko": 0,
+        "coinbase": 0,
+        "other": 0
+      }
+    },
+    {
+      "label": "W02",
+      "address": "AXmnRBrNtYYyyo82cLBBhnWJ7o1iqNLZbuEVpDB3V666",
+      "source": "pump-a",
+      "elapsedMs": 30247,
+      "historyComplete": false,
+      "transactionsAnalyzed": 1000,
+      "qualifyingSwaps": 0,
+      "tradedTokenCount": 0,
+      "completedPositions": 0,
+      "openPositions": 0,
+      "reentries": 0,
+      "observedVolumeUsd": null,
+      "volumeCoverage": 0,
+      "realizedPnlUsd": null,
+      "pnlCoverage": 0,
+      "historicalPriceCoverage": 0,
+      "currentPriceCoverage": 0,
+      "personas": {
+        "sisyphus": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "newton": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "caesar": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "croesus": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "midas": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "don_quixote": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "napoleon": {
+          "match": null,
+          "confidence": 50,
+          "eligible": false
+        },
+        "icarus": {
+          "match": null,
+          "confidence": 0,
+          "eligible": false
+        }
+      },
+      "winner": null,
+      "runnerUp": null,
+      "winnerMargin": null,
+      "icarus": {
+        "eligibleEpisodes": 0,
+        "pricedEpisodes": 0,
+        "externalRequests": 0,
+        "providerFailures": 0,
+        "unsupportedMints": 0,
+        "requestLimitReached": false,
+        "candidates": []
+      },
+      "cost": {
+        "externalRequests": 0,
+        "cacheHits": 0,
+        "providerFailures": 0,
+        "unsupportedMints": 0,
+        "requestLimitReached": false,
+        "positionsAvailable": 0,
+        "positionsConsidered": 0
+      },
+      "outbound": {
+        "helius": 23,
+        "coingecko": 0,
+        "coinbase": 0,
+        "other": 0
+      }
+    },
+    {
+      "label": "W03",
+      "address": "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51",
+      "source": "pump-b",
+      "elapsedMs": 64020,
+      "historyComplete": false,
+      "transactionsAnalyzed": 1000,
+      "qualifyingSwaps": 0,
+      "tradedTokenCount": 0,
+      "completedPositions": 0,
+      "openPositions": 0,
+      "reentries": 0,
+      "observedVolumeUsd": null,
+      "volumeCoverage": 0,
+      "realizedPnlUsd": null,
+      "pnlCoverage": 0,
+      "historicalPriceCoverage": 0,
+      "currentPriceCoverage": 0,
+      "personas": {
+        "sisyphus": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "newton": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "caesar": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "croesus": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "midas": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "don_quixote": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "napoleon": {
+          "match": null,
+          "confidence": 50,
+          "eligible": false
+        },
+        "icarus": {
+          "match": null,
+          "confidence": 0,
+          "eligible": false
+        }
+      },
+      "winner": null,
+      "runnerUp": null,
+      "winnerMargin": null,
+      "icarus": {
+        "eligibleEpisodes": 0,
+        "pricedEpisodes": 0,
+        "externalRequests": 0,
+        "providerFailures": 0,
+        "unsupportedMints": 0,
+        "requestLimitReached": false,
+        "candidates": []
+      },
+      "cost": {
+        "externalRequests": 0,
+        "cacheHits": 0,
+        "providerFailures": 0,
+        "unsupportedMints": 0,
+        "requestLimitReached": false,
+        "positionsAvailable": 0,
+        "positionsConsidered": 0
+      },
+      "outbound": {
+        "helius": 54,
+        "coingecko": 0,
+        "coinbase": 0,
+        "other": 0
+      }
+    },
+    {
+      "label": "W04",
+      "address": "gasBidSWW5zmwXs3gn8TG2ijzKkrwpyM7ucwjgDQst6",
+      "source": "meta-d",
+      "elapsedMs": 63647,
+      "historyComplete": false,
+      "transactionsAnalyzed": 1000,
+      "qualifyingSwaps": 0,
+      "tradedTokenCount": 0,
+      "completedPositions": 0,
+      "openPositions": 0,
+      "reentries": 0,
+      "observedVolumeUsd": null,
+      "volumeCoverage": 0,
+      "realizedPnlUsd": null,
+      "pnlCoverage": 0,
+      "historicalPriceCoverage": 0,
+      "currentPriceCoverage": 0,
+      "personas": {
+        "sisyphus": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "newton": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "caesar": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "croesus": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "midas": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "don_quixote": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "napoleon": {
+          "match": null,
+          "confidence": 50,
+          "eligible": false
+        },
+        "icarus": {
+          "match": null,
+          "confidence": 0,
+          "eligible": false
+        }
+      },
+      "winner": null,
+      "runnerUp": null,
+      "winnerMargin": null,
+      "icarus": {
+        "eligibleEpisodes": 0,
+        "pricedEpisodes": 0,
+        "externalRequests": 0,
+        "providerFailures": 0,
+        "unsupportedMints": 0,
+        "requestLimitReached": false,
+        "candidates": []
+      },
+      "cost": {
+        "externalRequests": 0,
+        "cacheHits": 0,
+        "providerFailures": 0,
+        "unsupportedMints": 0,
+        "requestLimitReached": false,
+        "positionsAvailable": 0,
+        "positionsConsidered": 0
+      },
+      "outbound": {
+        "helius": 21,
+        "coingecko": 0,
+        "coinbase": 0,
+        "other": 0
+      }
+    },
+    {
+      "label": "W05",
+      "address": "9Xi2jHEsU6rcXQj9nxfTdEgsxZDWXGJhAP36aBtkjksp",
+      "source": "jup",
+      "elapsedMs": 69032,
+      "historyComplete": false,
+      "transactionsAnalyzed": 1000,
+      "qualifyingSwaps": 0,
+      "tradedTokenCount": 0,
+      "completedPositions": 0,
+      "openPositions": 0,
+      "reentries": 0,
+      "observedVolumeUsd": null,
+      "volumeCoverage": 0,
+      "realizedPnlUsd": null,
+      "pnlCoverage": 0,
+      "historicalPriceCoverage": 0,
+      "currentPriceCoverage": 0,
+      "personas": {
+        "sisyphus": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "newton": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "caesar": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "croesus": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "midas": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "don_quixote": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "napoleon": {
+          "match": null,
+          "confidence": 50,
+          "eligible": false
+        },
+        "icarus": {
+          "match": null,
+          "confidence": 0,
+          "eligible": false
+        }
+      },
+      "winner": null,
+      "runnerUp": null,
+      "winnerMargin": null,
+      "icarus": {
+        "eligibleEpisodes": 0,
+        "pricedEpisodes": 0,
+        "externalRequests": 0,
+        "providerFailures": 0,
+        "unsupportedMints": 0,
+        "requestLimitReached": false,
+        "candidates": []
+      },
+      "cost": {
+        "externalRequests": 0,
+        "cacheHits": 0,
+        "providerFailures": 0,
+        "unsupportedMints": 0,
+        "requestLimitReached": false,
+        "positionsAvailable": 0,
+        "positionsConsidered": 0
+      },
+      "outbound": {
+        "helius": 21,
+        "coingecko": 0,
+        "coinbase": 1,
+        "other": 0
+      }
+    },
+    {
+      "label": "W06",
+      "address": "Dy1jE82CCKsSE6aRFVfxQZemHqJ1Qa81CvGdLhxnJXJj",
+      "source": "pump-major",
+      "elapsedMs": 35424,
+      "historyComplete": false,
+      "transactionsAnalyzed": 1000,
+      "qualifyingSwaps": 0,
+      "tradedTokenCount": 0,
+      "completedPositions": 0,
+      "openPositions": 0,
+      "reentries": 0,
+      "observedVolumeUsd": null,
+      "volumeCoverage": 0,
+      "realizedPnlUsd": null,
+      "pnlCoverage": 0,
+      "historicalPriceCoverage": 0,
+      "currentPriceCoverage": 0,
+      "personas": {
+        "sisyphus": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "newton": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "caesar": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "croesus": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "midas": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "don_quixote": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "napoleon": {
+          "match": null,
+          "confidence": 50,
+          "eligible": false
+        },
+        "icarus": {
+          "match": null,
+          "confidence": 0,
+          "eligible": false
+        }
+      },
+      "winner": null,
+      "runnerUp": null,
+      "winnerMargin": null,
+      "icarus": {
+        "eligibleEpisodes": 0,
+        "pricedEpisodes": 0,
+        "externalRequests": 0,
+        "providerFailures": 0,
+        "unsupportedMints": 0,
+        "requestLimitReached": false,
+        "candidates": []
+      },
+      "cost": {
+        "externalRequests": 0,
+        "cacheHits": 0,
+        "providerFailures": 0,
+        "unsupportedMints": 0,
+        "requestLimitReached": false,
+        "positionsAvailable": 0,
+        "positionsConsidered": 0
+      },
+      "outbound": {
+        "helius": 21,
+        "coingecko": 0,
+        "coinbase": 0,
+        "other": 0
+      }
+    },
+    {
+      "label": "W07",
+      "address": "DPHThXpn2uxDfTkPXTfLDfrA5aJ3kCt6cgsXtmaRKetg",
+      "source": "pump-c",
+      "elapsedMs": 35434,
+      "historyComplete": false,
+      "transactionsAnalyzed": 1000,
+      "qualifyingSwaps": 0,
+      "tradedTokenCount": 0,
+      "completedPositions": 0,
+      "openPositions": 0,
+      "reentries": 0,
+      "observedVolumeUsd": null,
+      "volumeCoverage": 0,
+      "realizedPnlUsd": null,
+      "pnlCoverage": 0,
+      "historicalPriceCoverage": 0,
+      "currentPriceCoverage": 0,
+      "personas": {
+        "sisyphus": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "newton": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "caesar": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "croesus": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "midas": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "don_quixote": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "napoleon": {
+          "match": null,
+          "confidence": 50,
+          "eligible": false
+        },
+        "icarus": {
+          "match": null,
+          "confidence": 0,
+          "eligible": false
+        }
+      },
+      "winner": null,
+      "runnerUp": null,
+      "winnerMargin": null,
+      "icarus": {
+        "eligibleEpisodes": 0,
+        "pricedEpisodes": 0,
+        "externalRequests": 0,
+        "providerFailures": 0,
+        "unsupportedMints": 0,
+        "requestLimitReached": false,
+        "candidates": []
+      },
+      "cost": {
+        "externalRequests": 0,
+        "cacheHits": 0,
+        "providerFailures": 0,
+        "unsupportedMints": 0,
+        "requestLimitReached": false,
+        "positionsAvailable": 0,
+        "positionsConsidered": 0
+      },
+      "outbound": {
+        "helius": 21,
+        "coingecko": 0,
+        "coinbase": 0,
+        "other": 0
+      }
+    },
+    {
+      "label": "W08",
+      "address": "CzYQ2kFnBxsNEt9Zy34vQ3n5fSDhvA4o4XaTnq1rLvyr",
+      "source": "pump-a",
+      "elapsedMs": 41816,
+      "historyComplete": false,
+      "transactionsAnalyzed": 1000,
+      "qualifyingSwaps": 0,
+      "tradedTokenCount": 0,
+      "completedPositions": 0,
+      "openPositions": 0,
+      "reentries": 0,
+      "observedVolumeUsd": null,
+      "volumeCoverage": 0,
+      "realizedPnlUsd": null,
+      "pnlCoverage": 0,
+      "historicalPriceCoverage": 0,
+      "currentPriceCoverage": 0,
+      "personas": {
+        "sisyphus": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "newton": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "caesar": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "croesus": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "midas": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "don_quixote": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "napoleon": {
+          "match": null,
+          "confidence": 50,
+          "eligible": false
+        },
+        "icarus": {
+          "match": null,
+          "confidence": 0,
+          "eligible": false
+        }
+      },
+      "winner": null,
+      "runnerUp": null,
+      "winnerMargin": null,
+      "icarus": {
+        "eligibleEpisodes": 0,
+        "pricedEpisodes": 0,
+        "externalRequests": 0,
+        "providerFailures": 0,
+        "unsupportedMints": 0,
+        "requestLimitReached": false,
+        "candidates": []
+      },
+      "cost": {
+        "externalRequests": 0,
+        "cacheHits": 0,
+        "providerFailures": 0,
+        "unsupportedMints": 0,
+        "requestLimitReached": false,
+        "positionsAvailable": 0,
+        "positionsConsidered": 0
+      },
+      "outbound": {
+        "helius": 41,
+        "coingecko": 0,
+        "coinbase": 0,
+        "other": 0
+      }
+    },
+    {
+      "label": "W09",
+      "address": "58NGRa52mQeHrgpeJTUSb2j7uMSob3sZcjrw5eVqstPA",
+      "source": "pump-b",
+      "elapsedMs": 7040,
+      "historyComplete": true,
+      "transactionsAnalyzed": 139,
+      "qualifyingSwaps": 0,
+      "tradedTokenCount": 0,
+      "completedPositions": 0,
+      "openPositions": 0,
+      "reentries": 0,
+      "observedVolumeUsd": null,
+      "volumeCoverage": 0,
+      "realizedPnlUsd": null,
+      "pnlCoverage": 0,
+      "historicalPriceCoverage": 0,
+      "currentPriceCoverage": 0,
+      "personas": {
+        "sisyphus": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "newton": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "caesar": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "croesus": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "midas": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "don_quixote": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "napoleon": {
+          "match": null,
+          "confidence": 50,
+          "eligible": false
+        },
+        "icarus": {
+          "match": null,
+          "confidence": 0,
+          "eligible": false
+        }
+      },
+      "winner": null,
+      "runnerUp": null,
+      "winnerMargin": null,
+      "icarus": {
+        "eligibleEpisodes": 0,
+        "pricedEpisodes": 0,
+        "externalRequests": 0,
+        "providerFailures": 0,
+        "unsupportedMints": 0,
+        "requestLimitReached": false,
+        "candidates": []
+      },
+      "cost": {
+        "externalRequests": 0,
+        "cacheHits": 0,
+        "providerFailures": 0,
+        "unsupportedMints": 0,
+        "requestLimitReached": false,
+        "positionsAvailable": 0,
+        "positionsConsidered": 0
+      },
+      "outbound": {
+        "helius": 5,
+        "coingecko": 0,
+        "coinbase": 1,
+        "other": 0
+      }
+    },
+    {
+      "label": "W10",
+      "address": "Gnm3Y2nozDt1pBGFynCJfKMjLuQMSofDNxnW74EDmqA7",
+      "source": "meta-d",
+      "elapsedMs": 8322,
+      "historyComplete": true,
+      "transactionsAnalyzed": 56,
+      "qualifyingSwaps": 2,
+      "tradedTokenCount": 1,
+      "completedPositions": 1,
+      "openPositions": 0,
+      "reentries": 0,
+      "observedVolumeUsd": 5.9480185077600005,
+      "volumeCoverage": 1,
+      "realizedPnlUsd": -1.3791254988000001,
+      "pnlCoverage": 1,
+      "historicalPriceCoverage": 0,
+      "currentPriceCoverage": 0,
+      "personas": {
+        "caesar": {
+          "match": 50,
+          "confidence": 40,
+          "eligible": false
+        },
+        "sisyphus": {
+          "match": 11,
+          "confidence": 54,
+          "eligible": false
+        },
+        "newton": {
+          "match": 4,
+          "confidence": 3,
+          "eligible": false
+        },
+        "croesus": {
+          "match": 0,
+          "confidence": 100,
+          "eligible": false
+        },
+        "midas": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "don_quixote": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "napoleon": {
+          "match": null,
+          "confidence": 55,
+          "eligible": false
+        },
+        "icarus": {
+          "match": null,
+          "confidence": 0,
+          "eligible": false
+        }
+      },
+      "winner": null,
+      "runnerUp": null,
+      "winnerMargin": null,
+      "icarus": {
+        "eligibleEpisodes": 1,
+        "pricedEpisodes": 0,
+        "externalRequests": 1,
+        "providerFailures": 0,
+        "unsupportedMints": 1,
+        "requestLimitReached": false,
+        "candidates": []
+      },
+      "cost": {
+        "externalRequests": 1,
+        "cacheHits": 0,
+        "providerFailures": 0,
+        "unsupportedMints": 1,
+        "requestLimitReached": false,
+        "positionsAvailable": 1,
+        "positionsConsidered": 1
+      },
+      "outbound": {
+        "helius": 3,
+        "coingecko": 1,
+        "coinbase": 1,
+        "other": 0
+      }
+    },
+    {
+      "label": "W11",
+      "address": "jpFkTLo4uUyLYpchHSH9tcwuwGYo8DGBto7XgGEuTzo",
+      "source": "jup",
+      "elapsedMs": 14753,
+      "historyComplete": true,
+      "transactionsAnalyzed": 227,
+      "qualifyingSwaps": 1,
+      "tradedTokenCount": 1,
+      "completedPositions": 0,
+      "openPositions": 0,
+      "reentries": 0,
+      "observedVolumeUsd": 8.4497e-7,
+      "volumeCoverage": 1,
+      "realizedPnlUsd": null,
+      "pnlCoverage": 0,
+      "historicalPriceCoverage": 0,
+      "currentPriceCoverage": 0,
+      "personas": {
+        "caesar": {
+          "match": 42,
+          "confidence": 3,
+          "eligible": false
+        },
+        "newton": {
+          "match": 10,
+          "confidence": 0,
+          "eligible": false
+        },
+        "sisyphus": {
+          "match": 7,
+          "confidence": 22,
+          "eligible": false
+        },
+        "croesus": {
+          "match": 0,
+          "confidence": 100,
+          "eligible": false
+        },
+        "midas": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "don_quixote": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "napoleon": {
+          "match": null,
+          "confidence": 50,
+          "eligible": false
+        },
+        "icarus": {
+          "match": null,
+          "confidence": 0,
+          "eligible": false
+        }
+      },
+      "winner": null,
+      "runnerUp": null,
+      "winnerMargin": null,
+      "icarus": {
+        "eligibleEpisodes": 0,
+        "pricedEpisodes": 0,
+        "externalRequests": 0,
+        "providerFailures": 0,
+        "unsupportedMints": 0,
+        "requestLimitReached": false,
+        "candidates": []
+      },
+      "cost": {
+        "externalRequests": 0,
+        "cacheHits": 0,
+        "providerFailures": 0,
+        "unsupportedMints": 0,
+        "requestLimitReached": false,
+        "positionsAvailable": 0,
+        "positionsConsidered": 0
+      },
+      "outbound": {
+        "helius": 7,
+        "coingecko": 0,
+        "coinbase": 0,
+        "other": 0
+      }
+    },
+    {
+      "label": "W12",
+      "address": "99mRw3EzdJZWEUjgp1nrU4WeHsukUBjbh7gYE7pm4F3c",
+      "source": "pump-major",
+      "elapsedMs": 33233,
+      "historyComplete": false,
+      "transactionsAnalyzed": 1000,
+      "qualifyingSwaps": 337,
+      "tradedTokenCount": 12,
+      "completedPositions": 0,
+      "openPositions": 1,
+      "reentries": 0,
+      "observedVolumeUsd": 57042.14368919336,
+      "volumeCoverage": 0.9643916913946587,
+      "realizedPnlUsd": null,
+      "pnlCoverage": 0,
+      "historicalPriceCoverage": 0,
+      "currentPriceCoverage": 1,
+      "personas": {
+        "sisyphus": {
+          "match": 92,
+          "confidence": 63,
+          "eligible": false
+        },
+        "caesar": {
+          "match": 87,
+          "confidence": 69,
+          "eligible": false
+        },
+        "newton": {
+          "match": 84,
+          "confidence": 9,
+          "eligible": false
+        },
+        "croesus": {
+          "match": 36,
+          "confidence": 87,
+          "eligible": true
+        },
+        "napoleon": {
+          "match": null,
+          "confidence": 50,
+          "eligible": false
+        },
+        "icarus": {
+          "match": null,
+          "confidence": 0,
+          "eligible": false
+        },
+        "midas": {
+          "match": null,
+          "confidence": 0,
+          "eligible": false
+        },
+        "don_quixote": {
+          "match": null,
+          "confidence": 0,
+          "eligible": false
+        }
+      },
+      "winner": {
+        "personaId": "croesus",
+        "match": 36,
+        "confidence": 87
+      },
+      "runnerUp": null,
+      "winnerMargin": null,
+      "icarus": {
+        "eligibleEpisodes": 0,
+        "pricedEpisodes": 0,
+        "externalRequests": 0,
+        "providerFailures": 0,
+        "unsupportedMints": 0,
+        "requestLimitReached": false,
+        "candidates": []
+      },
+      "cost": {
+        "externalRequests": 0,
+        "cacheHits": 0,
+        "providerFailures": 0,
+        "unsupportedMints": 0,
+        "requestLimitReached": false,
+        "positionsAvailable": 1,
+        "positionsConsidered": 0
+      },
+      "outbound": {
+        "helius": 23,
+        "coingecko": 0,
+        "coinbase": 1,
+        "other": 0
+      }
+    },
+    {
+      "label": "W13",
+      "address": "7UWvC18sPr29sdWeTigYV8Sysm3UUrFSNp2y95uanUSV",
+      "source": "pump-c",
+      "elapsedMs": 41090,
+      "historyComplete": false,
+      "transactionsAnalyzed": 1000,
+      "qualifyingSwaps": 93,
+      "tradedTokenCount": 9,
+      "completedPositions": 0,
+      "openPositions": 9,
+      "reentries": 0,
+      "observedVolumeUsd": 524.2998839999997,
+      "volumeCoverage": 1,
+      "realizedPnlUsd": null,
+      "pnlCoverage": 0,
+      "historicalPriceCoverage": 1,
+      "currentPriceCoverage": 0.1111111111111111,
+      "personas": {
+        "sisyphus": {
+          "match": 69,
+          "confidence": 62,
+          "eligible": false
+        },
+        "newton": {
+          "match": 66,
+          "confidence": 9,
+          "eligible": false
+        },
+        "caesar": {
+          "match": 62,
+          "confidence": 89,
+          "eligible": true
+        },
+        "midas": {
+          "match": 57,
+          "confidence": 72,
+          "eligible": true
+        },
+        "icarus": {
+          "match": 55,
+          "confidence": 100,
+          "eligible": true
+        },
+        "croesus": {
+          "match": 0,
+          "confidence": 90,
+          "eligible": true
+        },
+        "don_quixote": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "napoleon": {
+          "match": null,
+          "confidence": 50,
+          "eligible": false
+        }
+      },
+      "winner": {
+        "personaId": "caesar",
+        "match": 62,
+        "confidence": 89
+      },
+      "runnerUp": {
+        "personaId": "midas",
+        "match": 57,
+        "confidence": 72
+      },
+      "winnerMargin": 5,
+      "icarus": {
+        "eligibleEpisodes": 1,
+        "pricedEpisodes": 1,
+        "externalRequests": 1,
+        "providerFailures": 0,
+        "unsupportedMints": 0,
+        "requestLimitReached": false,
+        "candidates": [
+          {
+            "mint": "C2omVhcvt3DDY77S2KZzawFJQeETZofgZ4eNWWkXpump",
+            "symbol": "BULLISH",
+            "entryPriceUsd": 0.00035694342065548156,
+            "observedPeakPriceUsd": 0.0008931301490552501,
+            "finalPriceUsd": 0.0004877338942606001,
+            "peakReturnPct": 1.5021616798962962,
+            "givebackPct": 0.756072900208742,
+            "historicalPriceCoverage": 1,
+            "sampleCount": 101
+          }
+        ]
+      },
+      "cost": {
+        "externalRequests": 1,
+        "cacheHits": 0,
+        "providerFailures": 0,
+        "unsupportedMints": 0,
+        "requestLimitReached": false,
+        "positionsAvailable": 9,
+        "positionsConsidered": 1
+      },
+      "outbound": {
+        "helius": 21,
+        "coingecko": 1,
+        "coinbase": 0,
+        "other": 0
+      }
+    },
+    {
+      "label": "W14",
+      "address": "8tdfeokyWnNo7DqVp6DxYEXb4DX5Yy8jFE4zVA4PgLCj",
+      "source": "pump-b",
+      "elapsedMs": 28086,
+      "historyComplete": false,
+      "transactionsAnalyzed": 1000,
+      "qualifyingSwaps": 45,
+      "tradedTokenCount": 4,
+      "completedPositions": 0,
+      "openPositions": 0,
+      "reentries": 0,
+      "observedVolumeUsd": 1082.83578764134,
+      "volumeCoverage": 1,
+      "realizedPnlUsd": -0.09189507391267628,
+      "pnlCoverage": 0.05,
+      "historicalPriceCoverage": 0,
+      "currentPriceCoverage": 0,
+      "personas": {
+        "sisyphus": {
+          "match": 76,
+          "confidence": 57,
+          "eligible": false
+        },
+        "newton": {
+          "match": 55,
+          "confidence": 8,
+          "eligible": false
+        },
+        "caesar": {
+          "match": 46,
+          "confidence": 80,
+          "eligible": false
+        },
+        "croesus": {
+          "match": 1,
+          "confidence": 90,
+          "eligible": true
+        },
+        "midas": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "don_quixote": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "napoleon": {
+          "match": null,
+          "confidence": 50,
+          "eligible": false
+        },
+        "icarus": {
+          "match": null,
+          "confidence": 0,
+          "eligible": false
+        }
+      },
+      "winner": {
+        "personaId": "croesus",
+        "match": 1,
+        "confidence": 90
+      },
+      "runnerUp": null,
+      "winnerMargin": null,
+      "icarus": {
+        "eligibleEpisodes": 0,
+        "pricedEpisodes": 0,
+        "externalRequests": 0,
+        "providerFailures": 0,
+        "unsupportedMints": 0,
+        "requestLimitReached": false,
+        "candidates": []
+      },
+      "cost": {
+        "externalRequests": 0,
+        "cacheHits": 0,
+        "providerFailures": 0,
+        "unsupportedMints": 0,
+        "requestLimitReached": false,
+        "positionsAvailable": 0,
+        "positionsConsidered": 0
+      },
+      "outbound": {
+        "helius": 21,
+        "coingecko": 0,
+        "coinbase": 1,
+        "other": 0
+      }
+    },
+    {
+      "label": "W15",
+      "address": "Gk6ejzhed871icNfAch7stDSTCjVCeudcNPXxAFqLtXE",
+      "source": "jup",
+      "elapsedMs": 22171,
+      "historyComplete": true,
+      "transactionsAnalyzed": 170,
+      "qualifyingSwaps": 90,
+      "tradedTokenCount": 41,
+      "completedPositions": 12,
+      "openPositions": 27,
+      "reentries": 4,
+      "observedVolumeUsd": 10299.77135996954,
+      "volumeCoverage": 1,
+      "realizedPnlUsd": 963.1885349083573,
+      "pnlCoverage": 0.6551724137931034,
+      "historicalPriceCoverage": 0,
+      "currentPriceCoverage": 0.037037037037037035,
+      "personas": {
+        "newton": {
+          "match": 40,
+          "confidence": 99,
+          "eligible": true
+        },
+        "caesar": {
+          "match": 33,
+          "confidence": 98,
+          "eligible": true
+        },
+        "sisyphus": {
+          "match": 29,
+          "confidence": 88,
+          "eligible": true
+        },
+        "croesus": {
+          "match": 24,
+          "confidence": 100,
+          "eligible": true
+        },
+        "napoleon": {
+          "match": 0,
+          "confidence": 100,
+          "eligible": false
+        },
+        "midas": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "don_quixote": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "icarus": {
+          "match": null,
+          "confidence": 0,
+          "eligible": false
+        }
+      },
+      "winner": {
+        "personaId": "newton",
+        "match": 40,
+        "confidence": 99
+      },
+      "runnerUp": {
+        "personaId": "caesar",
+        "match": 33,
+        "confidence": 98
+      },
+      "winnerMargin": 7,
+      "icarus": {
+        "eligibleEpisodes": 13,
+        "pricedEpisodes": 0,
+        "externalRequests": 11,
+        "providerFailures": 0,
+        "unsupportedMints": 11,
+        "requestLimitReached": false,
+        "candidates": []
+      },
+      "cost": {
+        "externalRequests": 11,
+        "cacheHits": 0,
+        "providerFailures": 0,
+        "unsupportedMints": 11,
+        "requestLimitReached": false,
+        "positionsAvailable": 39,
+        "positionsConsidered": 13
+      },
+      "outbound": {
+        "helius": 5,
+        "coingecko": 12,
+        "coinbase": 1,
+        "other": 0
+      }
+    },
+    {
+      "label": "W16",
+      "address": "9jHrTCwpDANHLNQz5cem6XLUBM8KiTWKe766Br6KVCXM",
+      "source": "pump-major",
+      "elapsedMs": 33535,
+      "historyComplete": false,
+      "transactionsAnalyzed": 1000,
+      "qualifyingSwaps": 499,
+      "tradedTokenCount": 1,
+      "completedPositions": 0,
+      "openPositions": 1,
+      "reentries": 0,
+      "observedVolumeUsd": 6104.25266792413,
+      "volumeCoverage": 1,
+      "realizedPnlUsd": null,
+      "pnlCoverage": 0,
+      "historicalPriceCoverage": 0,
+      "currentPriceCoverage": 0,
+      "personas": {
+        "sisyphus": {
+          "match": 96,
+          "confidence": 63,
+          "eligible": false
+        },
+        "caesar": {
+          "match": 93,
+          "confidence": 81,
+          "eligible": true
+        },
+        "newton": {
+          "match": 90,
+          "confidence": 9,
+          "eligible": false
+        },
+        "croesus": {
+          "match": 11,
+          "confidence": 90,
+          "eligible": true
+        },
+        "napoleon": {
+          "match": null,
+          "confidence": 50,
+          "eligible": false
+        },
+        "icarus": {
+          "match": null,
+          "confidence": 0,
+          "eligible": false
+        },
+        "midas": {
+          "match": null,
+          "confidence": 0,
+          "eligible": false
+        },
+        "don_quixote": {
+          "match": null,
+          "confidence": 0,
+          "eligible": false
+        }
+      },
+      "winner": {
+        "personaId": "caesar",
+        "match": 93,
+        "confidence": 81
+      },
+      "runnerUp": {
+        "personaId": "croesus",
+        "match": 11,
+        "confidence": 90
+      },
+      "winnerMargin": 82,
+      "icarus": {
+        "eligibleEpisodes": 0,
+        "pricedEpisodes": 0,
+        "externalRequests": 0,
+        "providerFailures": 0,
+        "unsupportedMints": 0,
+        "requestLimitReached": false,
+        "candidates": []
+      },
+      "cost": {
+        "externalRequests": 0,
+        "cacheHits": 0,
+        "providerFailures": 0,
+        "unsupportedMints": 0,
+        "requestLimitReached": false,
+        "positionsAvailable": 1,
+        "positionsConsidered": 0
+      },
+      "outbound": {
+        "helius": 21,
+        "coingecko": 0,
+        "coinbase": 0,
+        "other": 0
+      }
+    },
+    {
+      "label": "W17",
+      "address": "EQMMDjc6hnKymC6NZWFFGPvSUsBs34xD9LycUKtprgoM",
+      "source": "pump-c",
+      "elapsedMs": 20044,
+      "historyComplete": true,
+      "transactionsAnalyzed": 548,
+      "qualifyingSwaps": 37,
+      "tradedTokenCount": 13,
+      "completedPositions": 0,
+      "openPositions": 6,
+      "reentries": 0,
+      "observedVolumeUsd": 1073.5201374610601,
+      "volumeCoverage": 0.5945945945945946,
+      "realizedPnlUsd": null,
+      "pnlCoverage": 0,
+      "historicalPriceCoverage": 1,
+      "currentPriceCoverage": 0.5,
+      "personas": {
+        "newton": {
+          "match": 53,
+          "confidence": 8,
+          "eligible": false
+        },
+        "icarus": {
+          "match": 51,
+          "confidence": 100,
+          "eligible": false
+        },
+        "caesar": {
+          "match": 46,
+          "confidence": 67,
+          "eligible": false
+        },
+        "sisyphus": {
+          "match": 43,
+          "confidence": 59,
+          "eligible": false
+        },
+        "croesus": {
+          "match": 6,
+          "confidence": 59,
+          "eligible": true
+        },
+        "midas": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "don_quixote": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "napoleon": {
+          "match": null,
+          "confidence": 50,
+          "eligible": false
+        }
+      },
+      "winner": {
+        "personaId": "croesus",
+        "match": 6,
+        "confidence": 59
+      },
+      "runnerUp": null,
+      "winnerMargin": null,
+      "icarus": {
+        "eligibleEpisodes": 1,
+        "pricedEpisodes": 1,
+        "externalRequests": 1,
+        "providerFailures": 0,
+        "unsupportedMints": 0,
+        "requestLimitReached": false,
+        "candidates": [
+          {
+            "mint": "GMvCfcZg8YvkkQmwDaAzCtHDrrEtgE74nQpQ7xNabonk",
+            "symbol": "1",
+            "entryPriceUsd": 0.00046543717109987084,
+            "observedPeakPriceUsd": 0.0007586606903627399,
+            "finalPriceUsd": 0.0004984767292626202,
+            "peakReturnPct": 0.629995920974586,
+            "givebackPct": 0.8873229601574693,
+            "historicalPriceCoverage": 1,
+            "sampleCount": 38
+          }
+        ]
+      },
+      "cost": {
+        "externalRequests": 1,
+        "cacheHits": 0,
+        "providerFailures": 0,
+        "unsupportedMints": 0,
+        "requestLimitReached": false,
+        "positionsAvailable": 6,
+        "positionsConsidered": 1
+      },
+      "outbound": {
+        "helius": 13,
+        "coingecko": 1,
+        "coinbase": 4,
+        "other": 0
+      }
+    },
+    {
+      "label": "W18",
+      "address": "9uGsPcu2a2hJ8XE7U1iqsof54GVTDBjMRoksLRGvTEzQ",
+      "source": "pump-a",
+      "elapsedMs": 46986,
+      "historyComplete": false,
+      "transactionsAnalyzed": 1000,
+      "qualifyingSwaps": 0,
+      "tradedTokenCount": 0,
+      "completedPositions": 0,
+      "openPositions": 0,
+      "reentries": 0,
+      "observedVolumeUsd": null,
+      "volumeCoverage": 0,
+      "realizedPnlUsd": null,
+      "pnlCoverage": 0,
+      "historicalPriceCoverage": 0,
+      "currentPriceCoverage": 0,
+      "personas": {
+        "sisyphus": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "newton": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "caesar": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "croesus": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "midas": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "don_quixote": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "napoleon": {
+          "match": null,
+          "confidence": 50,
+          "eligible": false
+        },
+        "icarus": {
+          "match": null,
+          "confidence": 0,
+          "eligible": false
+        }
+      },
+      "winner": null,
+      "runnerUp": null,
+      "winnerMargin": null,
+      "icarus": {
+        "eligibleEpisodes": 0,
+        "pricedEpisodes": 0,
+        "externalRequests": 0,
+        "providerFailures": 0,
+        "unsupportedMints": 0,
+        "requestLimitReached": false,
+        "candidates": []
+      },
+      "cost": {
+        "externalRequests": 0,
+        "cacheHits": 0,
+        "providerFailures": 0,
+        "unsupportedMints": 0,
+        "requestLimitReached": false,
+        "positionsAvailable": 0,
+        "positionsConsidered": 0
+      },
+      "outbound": {
+        "helius": 22,
+        "coingecko": 0,
+        "coinbase": 0,
+        "other": 0
+      }
+    },
+    {
+      "label": "W19",
+      "address": "Cyq7wQBLjicojaKsnuAwmT1Tb1M8brVeDSaxowsUE6yh",
+      "source": "pump-b",
+      "elapsedMs": 63726,
+      "historyComplete": false,
+      "transactionsAnalyzed": 1000,
+      "qualifyingSwaps": 192,
+      "tradedTokenCount": 7,
+      "completedPositions": 0,
+      "openPositions": 1,
+      "reentries": 0,
+      "observedVolumeUsd": 39803.41898837697,
+      "volumeCoverage": 0.6875,
+      "realizedPnlUsd": -0.16803833903157006,
+      "pnlCoverage": 0.008695652173913044,
+      "historicalPriceCoverage": 0,
+      "currentPriceCoverage": 0,
+      "personas": {
+        "sisyphus": {
+          "match": 92,
+          "confidence": 63,
+          "eligible": false
+        },
+        "newton": {
+          "match": 76,
+          "confidence": 9,
+          "eligible": false
+        },
+        "caesar": {
+          "match": 68,
+          "confidence": 76,
+          "eligible": true
+        },
+        "croesus": {
+          "match": 37,
+          "confidence": 62,
+          "eligible": true
+        },
+        "napoleon": {
+          "match": null,
+          "confidence": 50,
+          "eligible": false
+        },
+        "icarus": {
+          "match": null,
+          "confidence": 0,
+          "eligible": false
+        },
+        "midas": {
+          "match": null,
+          "confidence": 0,
+          "eligible": false
+        },
+        "don_quixote": {
+          "match": null,
+          "confidence": 0,
+          "eligible": false
+        }
+      },
+      "winner": {
+        "personaId": "caesar",
+        "match": 68,
+        "confidence": 76
+      },
+      "runnerUp": {
+        "personaId": "croesus",
+        "match": 37,
+        "confidence": 62
+      },
+      "winnerMargin": 31,
+      "icarus": {
+        "eligibleEpisodes": 0,
+        "pricedEpisodes": 0,
+        "externalRequests": 0,
+        "providerFailures": 0,
+        "unsupportedMints": 0,
+        "requestLimitReached": false,
+        "candidates": []
+      },
+      "cost": {
+        "externalRequests": 0,
+        "cacheHits": 0,
+        "providerFailures": 0,
+        "unsupportedMints": 0,
+        "requestLimitReached": false,
+        "positionsAvailable": 1,
+        "positionsConsidered": 0
+      },
+      "outbound": {
+        "helius": 21,
+        "coingecko": 0,
+        "coinbase": 1,
+        "other": 0
+      }
+    },
+    {
+      "label": "W20",
+      "address": "btcf1R5sJNgZSwmkLNcKTsw15vGY3LZrXTqU2Ke7DfE",
+      "source": "meta-d",
+      "elapsedMs": 46292,
+      "historyComplete": false,
+      "transactionsAnalyzed": 1000,
+      "qualifyingSwaps": 15,
+      "tradedTokenCount": 7,
+      "completedPositions": 0,
+      "openPositions": 0,
+      "reentries": 0,
+      "observedVolumeUsd": 372.05338058312,
+      "volumeCoverage": 1,
+      "realizedPnlUsd": null,
+      "pnlCoverage": 0,
+      "historicalPriceCoverage": 0,
+      "currentPriceCoverage": 0,
+      "personas": {
+        "newton": {
+          "match": 40,
+          "confidence": 4,
+          "eligible": false
+        },
+        "caesar": {
+          "match": 36,
+          "confidence": 26,
+          "eligible": false
+        },
+        "sisyphus": {
+          "match": 28,
+          "confidence": 38,
+          "eligible": false
+        },
+        "croesus": {
+          "match": 0,
+          "confidence": 90,
+          "eligible": true
+        },
+        "midas": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "don_quixote": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "napoleon": {
+          "match": null,
+          "confidence": 50,
+          "eligible": false
+        },
+        "icarus": {
+          "match": null,
+          "confidence": 0,
+          "eligible": false
+        }
+      },
+      "winner": {
+        "personaId": "croesus",
+        "match": 0,
+        "confidence": 90
+      },
+      "runnerUp": null,
+      "winnerMargin": null,
+      "icarus": {
+        "eligibleEpisodes": 0,
+        "pricedEpisodes": 0,
+        "externalRequests": 0,
+        "providerFailures": 0,
+        "unsupportedMints": 0,
+        "requestLimitReached": false,
+        "candidates": []
+      },
+      "cost": {
+        "externalRequests": 0,
+        "cacheHits": 0,
+        "providerFailures": 0,
+        "unsupportedMints": 0,
+        "requestLimitReached": false,
+        "positionsAvailable": 0,
+        "positionsConsidered": 0
+      },
+      "outbound": {
+        "helius": 22,
+        "coingecko": 0,
+        "coinbase": 0,
+        "other": 0
+      }
+    },
+    {
+      "label": "W21",
+      "address": "8SLBD1u56pxL9pXq1R95ZzYREaVMXkW3CqP4VV4psAEv",
+      "source": "jup",
+      "elapsedMs": 59721,
+      "historyComplete": false,
+      "transactionsAnalyzed": 1000,
+      "qualifyingSwaps": 0,
+      "tradedTokenCount": 0,
+      "completedPositions": 0,
+      "openPositions": 0,
+      "reentries": 0,
+      "observedVolumeUsd": null,
+      "volumeCoverage": 0,
+      "realizedPnlUsd": null,
+      "pnlCoverage": 0,
+      "historicalPriceCoverage": 0,
+      "currentPriceCoverage": 0,
+      "personas": {
+        "sisyphus": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "newton": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "caesar": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "croesus": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "midas": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "don_quixote": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "napoleon": {
+          "match": null,
+          "confidence": 50,
+          "eligible": false
+        },
+        "icarus": {
+          "match": null,
+          "confidence": 0,
+          "eligible": false
+        }
+      },
+      "winner": null,
+      "runnerUp": null,
+      "winnerMargin": null,
+      "icarus": {
+        "eligibleEpisodes": 0,
+        "pricedEpisodes": 0,
+        "externalRequests": 0,
+        "providerFailures": 0,
+        "unsupportedMints": 0,
+        "requestLimitReached": false,
+        "candidates": []
+      },
+      "cost": {
+        "externalRequests": 0,
+        "cacheHits": 0,
+        "providerFailures": 0,
+        "unsupportedMints": 0,
+        "requestLimitReached": false,
+        "positionsAvailable": 0,
+        "positionsConsidered": 0
+      },
+      "outbound": {
+        "helius": 21,
+        "coingecko": 0,
+        "coinbase": 1,
+        "other": 0
+      }
+    },
+    {
+      "label": "W22",
+      "address": "4rzLuHNx2wg1GR4kSHuJLwhpFrDcJawRVVxFsQKNGSFK",
+      "source": "pump-major",
+      "elapsedMs": 34252,
+      "historyComplete": true,
+      "transactionsAnalyzed": 554,
+      "qualifyingSwaps": 113,
+      "tradedTokenCount": 34,
+      "completedPositions": 15,
+      "openPositions": 14,
+      "reentries": 4,
+      "observedVolumeUsd": 7625.117692479335,
+      "volumeCoverage": 1,
+      "realizedPnlUsd": 19.75538859981401,
+      "pnlCoverage": 0.5454545454545454,
+      "historicalPriceCoverage": 0,
+      "currentPriceCoverage": 0,
+      "personas": {
+        "sisyphus": {
+          "match": 62,
+          "confidence": 86,
+          "eligible": true
+        },
+        "newton": {
+          "match": 39,
+          "confidence": 100,
+          "eligible": true
+        },
+        "caesar": {
+          "match": 39,
+          "confidence": 96,
+          "eligible": true
+        },
+        "croesus": {
+          "match": 19,
+          "confidence": 100,
+          "eligible": true
+        },
+        "napoleon": {
+          "match": 0,
+          "confidence": 100,
+          "eligible": false
+        },
+        "icarus": {
+          "match": null,
+          "confidence": 0,
+          "eligible": false
+        },
+        "midas": {
+          "match": null,
+          "confidence": 0,
+          "eligible": false
+        },
+        "don_quixote": {
+          "match": null,
+          "confidence": 0,
+          "eligible": false
+        }
+      },
+      "winner": {
+        "personaId": "sisyphus",
+        "match": 62,
+        "confidence": 86
+      },
+      "runnerUp": {
+        "personaId": "newton",
+        "match": 39,
+        "confidence": 100
+      },
+      "winnerMargin": 23,
+      "icarus": {
+        "eligibleEpisodes": 15,
+        "pricedEpisodes": 0,
+        "externalRequests": 10,
+        "providerFailures": 0,
+        "unsupportedMints": 10,
+        "requestLimitReached": false,
+        "candidates": []
+      },
+      "cost": {
+        "externalRequests": 10,
+        "cacheHits": 1,
+        "providerFailures": 0,
+        "unsupportedMints": 10,
+        "requestLimitReached": false,
+        "positionsAvailable": 29,
+        "positionsConsidered": 15
+      },
+      "outbound": {
+        "helius": 13,
+        "coingecko": 10,
+        "coinbase": 1,
+        "other": 0
+      }
+    },
+    {
+      "label": "W23",
+      "address": "9oQ3cpHjGqQYZgibnxr8fGnipwPheYQPZXdBgsDkTzfN",
+      "source": "pump-c",
+      "elapsedMs": 52082,
+      "historyComplete": false,
+      "transactionsAnalyzed": 1000,
+      "qualifyingSwaps": 5,
+      "tradedTokenCount": 6,
+      "completedPositions": 0,
+      "openPositions": 3,
+      "reentries": 0,
+      "observedVolumeUsd": 275.89254396019,
+      "volumeCoverage": 0.6,
+      "realizedPnlUsd": null,
+      "pnlCoverage": 0,
+      "historicalPriceCoverage": 0,
+      "currentPriceCoverage": 0.3333333333333333,
+      "personas": {
+        "caesar": {
+          "match": 44,
+          "confidence": 21,
+          "eligible": false
+        },
+        "newton": {
+          "match": 26,
+          "confidence": 2,
+          "eligible": false
+        },
+        "sisyphus": {
+          "match": 15,
+          "confidence": 26,
+          "eligible": false
+        },
+        "croesus": {
+          "match": 8,
+          "confidence": 54,
+          "eligible": false
+        },
+        "napoleon": {
+          "match": null,
+          "confidence": 50,
+          "eligible": false
+        },
+        "icarus": {
+          "match": null,
+          "confidence": 0,
+          "eligible": false
+        },
+        "midas": {
+          "match": null,
+          "confidence": 0,
+          "eligible": false
+        },
+        "don_quixote": {
+          "match": null,
+          "confidence": 0,
+          "eligible": false
+        }
+      },
+      "winner": null,
+      "runnerUp": null,
+      "winnerMargin": null,
+      "icarus": {
+        "eligibleEpisodes": 0,
+        "pricedEpisodes": 0,
+        "externalRequests": 0,
+        "providerFailures": 0,
+        "unsupportedMints": 0,
+        "requestLimitReached": false,
+        "candidates": []
+      },
+      "cost": {
+        "externalRequests": 0,
+        "cacheHits": 0,
+        "providerFailures": 0,
+        "unsupportedMints": 0,
+        "requestLimitReached": false,
+        "positionsAvailable": 3,
+        "positionsConsidered": 0
+      },
+      "outbound": {
+        "helius": 21,
+        "coingecko": 0,
+        "coinbase": 1,
+        "other": 0
+      }
+    },
+    {
+      "label": "W24",
+      "address": "HyW7X2KTBV76wSYqK5hXsNBKdx7jRYUaDbabqqZF6Yb2",
+      "source": "pump-b",
+      "elapsedMs": 44821,
+      "historyComplete": false,
+      "transactionsAnalyzed": 1000,
+      "qualifyingSwaps": 94,
+      "tradedTokenCount": 21,
+      "completedPositions": 3,
+      "openPositions": 8,
+      "reentries": 1,
+      "observedVolumeUsd": 5413.462959036342,
+      "volumeCoverage": 1,
+      "realizedPnlUsd": 19.932202581669575,
+      "pnlCoverage": 0.39473684210526316,
+      "historicalPriceCoverage": 0.25,
+      "currentPriceCoverage": 0.125,
+      "personas": {
+        "sisyphus": {
+          "match": 65,
+          "confidence": 73,
+          "eligible": false
+        },
+        "caesar": {
+          "match": 50,
+          "confidence": 79,
+          "eligible": true
+        },
+        "midas": {
+          "match": 36,
+          "confidence": 72,
+          "eligible": true
+        },
+        "newton": {
+          "match": 21,
+          "confidence": 89,
+          "eligible": false
+        },
+        "croesus": {
+          "match": 17,
+          "confidence": 90,
+          "eligible": true
+        },
+        "icarus": {
+          "match": 7,
+          "confidence": 100,
+          "eligible": false
+        },
+        "napoleon": {
+          "match": 0,
+          "confidence": 65,
+          "eligible": false
+        },
+        "don_quixote": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        }
+      },
+      "winner": {
+        "personaId": "caesar",
+        "match": 50,
+        "confidence": 79
+      },
+      "runnerUp": {
+        "personaId": "midas",
+        "match": 36,
+        "confidence": 72
+      },
+      "winnerMargin": 14,
+      "icarus": {
+        "eligibleEpisodes": 4,
+        "pricedEpisodes": 1,
+        "externalRequests": 4,
+        "providerFailures": 0,
+        "unsupportedMints": 3,
+        "requestLimitReached": false,
+        "candidates": [
+          {
+            "mint": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
+            "symbol": "PUMP",
+            "entryPriceUsd": 0.005059403809900722,
+            "observedPeakPriceUsd": 0.006383868965045983,
+            "finalPriceUsd": 0.006326464470475912,
+            "peakReturnPct": 0.2617828512824816,
+            "givebackPct": 0.043341641980588964,
+            "historicalPriceCoverage": 1,
+            "sampleCount": 11
+          }
+        ]
+      },
+      "cost": {
+        "externalRequests": 4,
+        "cacheHits": 0,
+        "providerFailures": 0,
+        "unsupportedMints": 3,
+        "requestLimitReached": false,
+        "positionsAvailable": 11,
+        "positionsConsidered": 4
+      },
+      "outbound": {
+        "helius": 21,
+        "coingecko": 4,
+        "coinbase": 1,
+        "other": 0
+      }
+    },
+    {
+      "label": "W25",
+      "address": "D9Ew95W9qBLu6Ku8GupFQCawqhmDUqTgysR7aKja6nW",
+      "source": "meta-d",
+      "elapsedMs": 48101,
+      "historyComplete": false,
+      "transactionsAnalyzed": 1000,
+      "qualifyingSwaps": 0,
+      "tradedTokenCount": 0,
+      "completedPositions": 0,
+      "openPositions": 0,
+      "reentries": 0,
+      "observedVolumeUsd": null,
+      "volumeCoverage": 0,
+      "realizedPnlUsd": null,
+      "pnlCoverage": 0,
+      "historicalPriceCoverage": 0,
+      "currentPriceCoverage": 0,
+      "personas": {
+        "sisyphus": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "newton": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "caesar": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "croesus": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "midas": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "don_quixote": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "napoleon": {
+          "match": null,
+          "confidence": 50,
+          "eligible": false
+        },
+        "icarus": {
+          "match": null,
+          "confidence": 0,
+          "eligible": false
+        }
+      },
+      "winner": null,
+      "runnerUp": null,
+      "winnerMargin": null,
+      "icarus": {
+        "eligibleEpisodes": 0,
+        "pricedEpisodes": 0,
+        "externalRequests": 0,
+        "providerFailures": 0,
+        "unsupportedMints": 0,
+        "requestLimitReached": false,
+        "candidates": []
+      },
+      "cost": {
+        "externalRequests": 0,
+        "cacheHits": 0,
+        "providerFailures": 0,
+        "unsupportedMints": 0,
+        "requestLimitReached": false,
+        "positionsAvailable": 0,
+        "positionsConsidered": 0
+      },
+      "outbound": {
+        "helius": 21,
+        "coingecko": 0,
+        "coinbase": 0,
+        "other": 0
+      }
+    },
+    {
+      "label": "W26",
+      "address": "CvLuELbgr6a4oNttEka9oUN7GbcxtDqyqQLKUThZUBfH",
+      "source": "jup",
+      "elapsedMs": 12551,
+      "historyComplete": true,
+      "transactionsAnalyzed": 267,
+      "qualifyingSwaps": 12,
+      "tradedTokenCount": 1,
+      "completedPositions": 0,
+      "openPositions": 0,
+      "reentries": 0,
+      "observedVolumeUsd": 4.12344655952,
+      "volumeCoverage": 1,
+      "realizedPnlUsd": null,
+      "pnlCoverage": 0,
+      "historicalPriceCoverage": 0,
+      "currentPriceCoverage": 0,
+      "personas": {
+        "caesar": {
+          "match": 84,
+          "confidence": 25,
+          "eligible": false
+        },
+        "sisyphus": {
+          "match": 60,
+          "confidence": 39,
+          "eligible": false
+        },
+        "newton": {
+          "match": 37,
+          "confidence": 4,
+          "eligible": false
+        },
+        "croesus": {
+          "match": 0,
+          "confidence": 100,
+          "eligible": true
+        },
+        "midas": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "don_quixote": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "napoleon": {
+          "match": null,
+          "confidence": 50,
+          "eligible": false
+        },
+        "icarus": {
+          "match": null,
+          "confidence": 0,
+          "eligible": false
+        }
+      },
+      "winner": {
+        "personaId": "croesus",
+        "match": 0,
+        "confidence": 100
+      },
+      "runnerUp": null,
+      "winnerMargin": null,
+      "icarus": {
+        "eligibleEpisodes": 0,
+        "pricedEpisodes": 0,
+        "externalRequests": 0,
+        "providerFailures": 0,
+        "unsupportedMints": 0,
+        "requestLimitReached": false,
+        "candidates": []
+      },
+      "cost": {
+        "externalRequests": 0,
+        "cacheHits": 0,
+        "providerFailures": 0,
+        "unsupportedMints": 0,
+        "requestLimitReached": false,
+        "positionsAvailable": 0,
+        "positionsConsidered": 0
+      },
+      "outbound": {
+        "helius": 7,
+        "coingecko": 0,
+        "coinbase": 3,
+        "other": 0
+      }
+    },
+    {
+      "label": "W27",
+      "address": "5yAy94tPyYYTEJdar9kD4Etbt62cc8jBiNGcUNamARim",
+      "source": "pump-major",
+      "elapsedMs": 2368,
+      "historyComplete": true,
+      "transactionsAnalyzed": 59,
+      "qualifyingSwaps": 0,
+      "tradedTokenCount": 0,
+      "completedPositions": 0,
+      "openPositions": 0,
+      "reentries": 0,
+      "observedVolumeUsd": null,
+      "volumeCoverage": 0,
+      "realizedPnlUsd": null,
+      "pnlCoverage": 0,
+      "historicalPriceCoverage": 0,
+      "currentPriceCoverage": 0,
+      "personas": {
+        "sisyphus": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "newton": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "caesar": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "croesus": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "midas": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "don_quixote": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "napoleon": {
+          "match": null,
+          "confidence": 50,
+          "eligible": false
+        },
+        "icarus": {
+          "match": null,
+          "confidence": 0,
+          "eligible": false
+        }
+      },
+      "winner": null,
+      "runnerUp": null,
+      "winnerMargin": null,
+      "icarus": {
+        "eligibleEpisodes": 0,
+        "pricedEpisodes": 0,
+        "externalRequests": 0,
+        "providerFailures": 0,
+        "unsupportedMints": 0,
+        "requestLimitReached": false,
+        "candidates": []
+      },
+      "cost": {
+        "externalRequests": 0,
+        "cacheHits": 0,
+        "providerFailures": 0,
+        "unsupportedMints": 0,
+        "requestLimitReached": false,
+        "positionsAvailable": 0,
+        "positionsConsidered": 0
+      },
+      "outbound": {
+        "helius": 3,
+        "coingecko": 0,
+        "coinbase": 0,
+        "other": 0
+      }
+    },
+    {
+      "label": "W28",
+      "address": "gasZLYmyuZMUj3ruMMPhBvQ2nXSRiVEquL57Lsa18Pr",
+      "source": "pump-c",
+      "elapsedMs": 38996,
+      "historyComplete": false,
+      "transactionsAnalyzed": 1000,
+      "qualifyingSwaps": 0,
+      "tradedTokenCount": 0,
+      "completedPositions": 0,
+      "openPositions": 0,
+      "reentries": 0,
+      "observedVolumeUsd": null,
+      "volumeCoverage": 0,
+      "realizedPnlUsd": null,
+      "pnlCoverage": 0,
+      "historicalPriceCoverage": 0,
+      "currentPriceCoverage": 0,
+      "personas": {
+        "sisyphus": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "newton": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "caesar": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "croesus": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "midas": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "don_quixote": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "napoleon": {
+          "match": null,
+          "confidence": 50,
+          "eligible": false
+        },
+        "icarus": {
+          "match": null,
+          "confidence": 0,
+          "eligible": false
+        }
+      },
+      "winner": null,
+      "runnerUp": null,
+      "winnerMargin": null,
+      "icarus": {
+        "eligibleEpisodes": 0,
+        "pricedEpisodes": 0,
+        "externalRequests": 0,
+        "providerFailures": 0,
+        "unsupportedMints": 0,
+        "requestLimitReached": false,
+        "candidates": []
+      },
+      "cost": {
+        "externalRequests": 0,
+        "cacheHits": 0,
+        "providerFailures": 0,
+        "unsupportedMints": 0,
+        "requestLimitReached": false,
+        "positionsAvailable": 0,
+        "positionsConsidered": 0
+      },
+      "outbound": {
+        "helius": 21,
+        "coingecko": 0,
+        "coinbase": 0,
+        "other": 0
+      }
+    },
+    {
+      "label": "W29",
+      "address": "FHpcNSe6tb2n15bAdq4BkeYWGyZKFD7yLYrH92ng7wCT",
+      "source": "pump-b",
+      "elapsedMs": 62532,
+      "historyComplete": false,
+      "transactionsAnalyzed": 1000,
+      "qualifyingSwaps": 0,
+      "tradedTokenCount": 0,
+      "completedPositions": 0,
+      "openPositions": 0,
+      "reentries": 0,
+      "observedVolumeUsd": null,
+      "volumeCoverage": 0,
+      "realizedPnlUsd": null,
+      "pnlCoverage": 0,
+      "historicalPriceCoverage": 0,
+      "currentPriceCoverage": 0,
+      "personas": {
+        "sisyphus": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "newton": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "caesar": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "croesus": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "midas": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "don_quixote": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "napoleon": {
+          "match": null,
+          "confidence": 50,
+          "eligible": false
+        },
+        "icarus": {
+          "match": null,
+          "confidence": 0,
+          "eligible": false
+        }
+      },
+      "winner": null,
+      "runnerUp": null,
+      "winnerMargin": null,
+      "icarus": {
+        "eligibleEpisodes": 0,
+        "pricedEpisodes": 0,
+        "externalRequests": 0,
+        "providerFailures": 0,
+        "unsupportedMints": 0,
+        "requestLimitReached": false,
+        "candidates": []
+      },
+      "cost": {
+        "externalRequests": 0,
+        "cacheHits": 0,
+        "providerFailures": 0,
+        "unsupportedMints": 0,
+        "requestLimitReached": false,
+        "positionsAvailable": 0,
+        "positionsConsidered": 0
+      },
+      "outbound": {
+        "helius": 21,
+        "coingecko": 0,
+        "coinbase": 0,
+        "other": 0
+      }
+    },
+    {
+      "label": "W30",
+      "address": "HksvPBwLoEprgB5YthLKatZabKgCeox62shhGAq3pPmQ",
+      "source": "meta-d",
+      "elapsedMs": 57493,
+      "historyComplete": false,
+      "transactionsAnalyzed": 1000,
+      "qualifyingSwaps": 5,
+      "tradedTokenCount": 6,
+      "completedPositions": 0,
+      "openPositions": 4,
+      "reentries": 0,
+      "observedVolumeUsd": 28632.91165845616,
+      "volumeCoverage": 0.8,
+      "realizedPnlUsd": null,
+      "pnlCoverage": 0,
+      "historicalPriceCoverage": 1,
+      "currentPriceCoverage": 0.25,
+      "personas": {
+        "icarus": {
+          "match": 47,
+          "confidence": 100,
+          "eligible": false
+        },
+        "croesus": {
+          "match": 45,
+          "confidence": 72,
+          "eligible": false
+        },
+        "caesar": {
+          "match": 38,
+          "confidence": 26,
+          "eligible": false
+        },
+        "newton": {
+          "match": 26,
+          "confidence": 2,
+          "eligible": false
+        },
+        "sisyphus": {
+          "match": 14,
+          "confidence": 26,
+          "eligible": false
+        },
+        "midas": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "don_quixote": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "napoleon": {
+          "match": null,
+          "confidence": 50,
+          "eligible": false
+        }
+      },
+      "winner": null,
+      "runnerUp": null,
+      "winnerMargin": null,
+      "icarus": {
+        "eligibleEpisodes": 1,
+        "pricedEpisodes": 1,
+        "externalRequests": 1,
+        "providerFailures": 0,
+        "unsupportedMints": 0,
+        "requestLimitReached": false,
+        "candidates": [
+          {
+            "mint": "USDvUSpnhCr9yBgj3UyVrD239HRUv4RsHwH2FxsWuMk",
+            "symbol": "USDv",
+            "entryPriceUsd": 1.0000158092367948,
+            "observedPeakPriceUsd": 1.0790811705007188,
+            "finalPriceUsd": 0.9998413920402528,
+            "peakReturnPct": 0.07906411132066626,
+            "givebackPct": 1.002205987473576,
+            "historicalPriceCoverage": 1,
+            "sampleCount": 19
+          }
+        ]
+      },
+      "cost": {
+        "externalRequests": 1,
+        "cacheHits": 0,
+        "providerFailures": 0,
+        "unsupportedMints": 0,
+        "requestLimitReached": false,
+        "positionsAvailable": 4,
+        "positionsConsidered": 1
+      },
+      "outbound": {
+        "helius": 21,
+        "coingecko": 1,
+        "coinbase": 1,
+        "other": 0
+      }
+    },
+    {
+      "label": "W31",
+      "address": "DBzMBi9a1An9CRYNKn2BvgBRd465ZLT5SykjummgGye9",
+      "source": "jup",
+      "elapsedMs": 53674,
+      "historyComplete": false,
+      "transactionsAnalyzed": 1000,
+      "qualifyingSwaps": 0,
+      "tradedTokenCount": 0,
+      "completedPositions": 0,
+      "openPositions": 0,
+      "reentries": 0,
+      "observedVolumeUsd": null,
+      "volumeCoverage": 0,
+      "realizedPnlUsd": null,
+      "pnlCoverage": 0,
+      "historicalPriceCoverage": 0,
+      "currentPriceCoverage": 0,
+      "personas": {
+        "sisyphus": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "newton": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "caesar": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "croesus": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "midas": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "don_quixote": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "napoleon": {
+          "match": null,
+          "confidence": 50,
+          "eligible": false
+        },
+        "icarus": {
+          "match": null,
+          "confidence": 0,
+          "eligible": false
+        }
+      },
+      "winner": null,
+      "runnerUp": null,
+      "winnerMargin": null,
+      "icarus": {
+        "eligibleEpisodes": 0,
+        "pricedEpisodes": 0,
+        "externalRequests": 0,
+        "providerFailures": 0,
+        "unsupportedMints": 0,
+        "requestLimitReached": false,
+        "candidates": []
+      },
+      "cost": {
+        "externalRequests": 0,
+        "cacheHits": 0,
+        "providerFailures": 0,
+        "unsupportedMints": 0,
+        "requestLimitReached": false,
+        "positionsAvailable": 0,
+        "positionsConsidered": 0
+      },
+      "outbound": {
+        "helius": 21,
+        "coingecko": 0,
+        "coinbase": 0,
+        "other": 0
+      }
+    },
+    {
+      "label": "W32",
+      "address": "7DL93uToLjvhzWuuoBfF8tCkQNTnzwe9GAc69txStS8d",
+      "source": "pump-major",
+      "elapsedMs": 6838,
+      "historyComplete": true,
+      "transactionsAnalyzed": 56,
+      "qualifyingSwaps": 0,
+      "tradedTokenCount": 0,
+      "completedPositions": 0,
+      "openPositions": 0,
+      "reentries": 0,
+      "observedVolumeUsd": null,
+      "volumeCoverage": 0,
+      "realizedPnlUsd": null,
+      "pnlCoverage": 0,
+      "historicalPriceCoverage": 0,
+      "currentPriceCoverage": 0,
+      "personas": {
+        "sisyphus": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "newton": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "caesar": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "croesus": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "midas": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "don_quixote": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "napoleon": {
+          "match": null,
+          "confidence": 50,
+          "eligible": false
+        },
+        "icarus": {
+          "match": null,
+          "confidence": 0,
+          "eligible": false
+        }
+      },
+      "winner": null,
+      "runnerUp": null,
+      "winnerMargin": null,
+      "icarus": {
+        "eligibleEpisodes": 0,
+        "pricedEpisodes": 0,
+        "externalRequests": 0,
+        "providerFailures": 0,
+        "unsupportedMints": 0,
+        "requestLimitReached": false,
+        "candidates": []
+      },
+      "cost": {
+        "externalRequests": 0,
+        "cacheHits": 0,
+        "providerFailures": 0,
+        "unsupportedMints": 0,
+        "requestLimitReached": false,
+        "positionsAvailable": 0,
+        "positionsConsidered": 0
+      },
+      "outbound": {
+        "helius": 3,
+        "coingecko": 0,
+        "coinbase": 0,
+        "other": 0
+      }
+    },
+    {
+      "label": "W33",
+      "address": "GDKokUfLWdX7chJqwPqwtVnMbAPhbwKGbwjLwEYtXVeG",
+      "source": "pump-c",
+      "elapsedMs": 3416,
+      "historyComplete": true,
+      "transactionsAnalyzed": 58,
+      "qualifyingSwaps": 8,
+      "tradedTokenCount": 8,
+      "completedPositions": 0,
+      "openPositions": 0,
+      "reentries": 0,
+      "observedVolumeUsd": 9.217158893767802,
+      "volumeCoverage": 1,
+      "realizedPnlUsd": null,
+      "pnlCoverage": 0,
+      "historicalPriceCoverage": 0,
+      "currentPriceCoverage": 0,
+      "personas": {
+        "newton": {
+          "match": 32,
+          "confidence": 3,
+          "eligible": false
+        },
+        "caesar": {
+          "match": 26,
+          "confidence": 18,
+          "eligible": false
+        },
+        "sisyphus": {
+          "match": 16,
+          "confidence": 34,
+          "eligible": false
+        },
+        "croesus": {
+          "match": 0,
+          "confidence": 100,
+          "eligible": false
+        },
+        "midas": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "don_quixote": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "napoleon": {
+          "match": null,
+          "confidence": 50,
+          "eligible": false
+        },
+        "icarus": {
+          "match": null,
+          "confidence": 0,
+          "eligible": false
+        }
+      },
+      "winner": null,
+      "runnerUp": null,
+      "winnerMargin": null,
+      "icarus": {
+        "eligibleEpisodes": 0,
+        "pricedEpisodes": 0,
+        "externalRequests": 0,
+        "providerFailures": 0,
+        "unsupportedMints": 0,
+        "requestLimitReached": false,
+        "candidates": []
+      },
+      "cost": {
+        "externalRequests": 0,
+        "cacheHits": 0,
+        "providerFailures": 0,
+        "unsupportedMints": 0,
+        "requestLimitReached": false,
+        "positionsAvailable": 0,
+        "positionsConsidered": 0
+      },
+      "outbound": {
+        "helius": 3,
+        "coingecko": 0,
+        "coinbase": 0,
+        "other": 0
+      }
+    },
+    {
+      "label": "W34",
+      "address": "BzmU5eP27S3CXbKefaoigEAMhz55XocnBEL4AoawwtiH",
+      "source": "pump-b",
+      "elapsedMs": 45891,
+      "historyComplete": false,
+      "transactionsAnalyzed": 1000,
+      "qualifyingSwaps": 396,
+      "tradedTokenCount": 87,
+      "completedPositions": 81,
+      "openPositions": 14,
+      "reentries": 23,
+      "observedVolumeUsd": 56011.73850037851,
+      "volumeCoverage": 1,
+      "realizedPnlUsd": -1249.1845048228831,
+      "pnlCoverage": 0.7631578947368421,
+      "historicalPriceCoverage": 0.05,
+      "currentPriceCoverage": 0.14285714285714285,
+      "personas": {
+        "sisyphus": {
+          "match": 66,
+          "confidence": 84,
+          "eligible": true
+        },
+        "icarus": {
+          "match": 57,
+          "confidence": 100,
+          "eligible": true
+        },
+        "newton": {
+          "match": 53,
+          "confidence": 90,
+          "eligible": true
+        },
+        "caesar": {
+          "match": 37,
+          "confidence": 89,
+          "eligible": true
+        },
+        "croesus": {
+          "match": 35,
+          "confidence": 90,
+          "eligible": true
+        },
+        "napoleon": {
+          "match": 0,
+          "confidence": 100,
+          "eligible": false
+        },
+        "midas": {
+          "match": null,
+          "confidence": 0,
+          "eligible": false
+        },
+        "don_quixote": {
+          "match": null,
+          "confidence": 0,
+          "eligible": false
+        }
+      },
+      "winner": {
+        "personaId": "sisyphus",
+        "match": 66,
+        "confidence": 84
+      },
+      "runnerUp": {
+        "personaId": "icarus",
+        "match": 57,
+        "confidence": 100
+      },
+      "winnerMargin": 9,
+      "icarus": {
+        "eligibleEpisodes": 80,
+        "pricedEpisodes": 4,
+        "externalRequests": 20,
+        "providerFailures": 0,
+        "unsupportedMints": 14,
+        "requestLimitReached": true,
+        "candidates": [
+          {
+            "mint": "JCsKWhELRJ8MhEZjUDdCL49mntw8fx27bKAgCMgSGhcQ",
+            "entryPriceUsd": 0.00018716300266152886,
+            "observedPeakPriceUsd": 0.0006841706269347015,
+            "finalPriceUsd": 0.0002554709015985273,
+            "peakReturnPct": 2.6554800746169693,
+            "givebackPct": 0.8625616678679882,
+            "historicalPriceCoverage": 1,
+            "sampleCount": 8
+          },
+          {
+            "mint": "8dBnKHwNYH3hz2fFTJczVwzBTpJFAMtc53k3uA4zpump",
+            "entryPriceUsd": 0.0006399884328408285,
+            "observedPeakPriceUsd": 0.0010537409001408658,
+            "finalPriceUsd": 0.0005130101122924507,
+            "peakReturnPct": 0.6464999147929,
+            "givebackPct": 1.3068944129251512,
+            "historicalPriceCoverage": 1,
+            "sampleCount": 3
+          },
+          {
+            "mint": "H7TuvDxEKygh27zGfGcjKG8JGWgrbyKpPtvJEpGosfas",
+            "entryPriceUsd": 0.0009505666128506466,
+            "observedPeakPriceUsd": 0.0014770812751721684,
+            "finalPriceUsd": 0.0012510933893918781,
+            "peakReturnPct": 0.5538955978503823,
+            "givebackPct": 0.42921480056008077,
+            "historicalPriceCoverage": 1,
+            "sampleCount": 5
+          }
+        ]
+      },
+      "cost": {
+        "externalRequests": 20,
+        "cacheHits": 2,
+        "providerFailures": 0,
+        "unsupportedMints": 14,
+        "requestLimitReached": true,
+        "positionsAvailable": 95,
+        "positionsConsidered": 24
+      },
+      "outbound": {
+        "helius": 21,
+        "coingecko": 20,
+        "coinbase": 2,
+        "other": 0
+      }
+    },
+    {
+      "label": "W35",
+      "address": "AghktXaSQSuJFSPF4Dsp8usjeiqWZzZRFySZQRqgZ1uK",
+      "source": "meta-d",
+      "elapsedMs": 53546,
+      "historyComplete": false,
+      "transactionsAnalyzed": 1000,
+      "qualifyingSwaps": 136,
+      "tradedTokenCount": 12,
+      "completedPositions": 0,
+      "openPositions": 3,
+      "reentries": 0,
+      "observedVolumeUsd": 61231.827184011985,
+      "volumeCoverage": 1,
+      "realizedPnlUsd": -1.1170380000000004,
+      "pnlCoverage": 0.03333333333333333,
+      "historicalPriceCoverage": 0,
+      "currentPriceCoverage": 0,
+      "personas": {
+        "sisyphus": {
+          "match": 81,
+          "confidence": 64,
+          "eligible": false
+        },
+        "caesar": {
+          "match": 75,
+          "confidence": 90,
+          "eligible": true
+        },
+        "newton": {
+          "match": 71,
+          "confidence": 9,
+          "eligible": false
+        },
+        "croesus": {
+          "match": 42,
+          "confidence": 90,
+          "eligible": true
+        },
+        "napoleon": {
+          "match": null,
+          "confidence": 50,
+          "eligible": false
+        },
+        "icarus": {
+          "match": null,
+          "confidence": 0,
+          "eligible": false
+        },
+        "midas": {
+          "match": null,
+          "confidence": 0,
+          "eligible": false
+        },
+        "don_quixote": {
+          "match": null,
+          "confidence": 0,
+          "eligible": false
+        }
+      },
+      "winner": {
+        "personaId": "caesar",
+        "match": 75,
+        "confidence": 90
+      },
+      "runnerUp": {
+        "personaId": "croesus",
+        "match": 42,
+        "confidence": 90
+      },
+      "winnerMargin": 33,
+      "icarus": {
+        "eligibleEpisodes": 0,
+        "pricedEpisodes": 0,
+        "externalRequests": 0,
+        "providerFailures": 0,
+        "unsupportedMints": 0,
+        "requestLimitReached": false,
+        "candidates": []
+      },
+      "cost": {
+        "externalRequests": 0,
+        "cacheHits": 0,
+        "providerFailures": 0,
+        "unsupportedMints": 0,
+        "requestLimitReached": false,
+        "positionsAvailable": 3,
+        "positionsConsidered": 0
+      },
+      "outbound": {
+        "helius": 21,
+        "coingecko": 0,
+        "coinbase": 3,
+        "other": 0
+      }
+    },
+    {
+      "label": "W36",
+      "address": "Dn4EspAgfPybydvrXhBKeqHaVPiJPDrTiGW2yB5aqryM",
+      "source": "jup",
+      "elapsedMs": 34371,
+      "historyComplete": false,
+      "transactionsAnalyzed": 1000,
+      "qualifyingSwaps": 0,
+      "tradedTokenCount": 0,
+      "completedPositions": 0,
+      "openPositions": 0,
+      "reentries": 0,
+      "observedVolumeUsd": null,
+      "volumeCoverage": 0,
+      "realizedPnlUsd": null,
+      "pnlCoverage": 0,
+      "historicalPriceCoverage": 0,
+      "currentPriceCoverage": 0,
+      "personas": {
+        "sisyphus": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "newton": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "caesar": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "croesus": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "midas": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "don_quixote": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "napoleon": {
+          "match": null,
+          "confidence": 50,
+          "eligible": false
+        },
+        "icarus": {
+          "match": null,
+          "confidence": 0,
+          "eligible": false
+        }
+      },
+      "winner": null,
+      "runnerUp": null,
+      "winnerMargin": null,
+      "icarus": {
+        "eligibleEpisodes": 0,
+        "pricedEpisodes": 0,
+        "externalRequests": 0,
+        "providerFailures": 0,
+        "unsupportedMints": 0,
+        "requestLimitReached": false,
+        "candidates": []
+      },
+      "cost": {
+        "externalRequests": 0,
+        "cacheHits": 0,
+        "providerFailures": 0,
+        "unsupportedMints": 0,
+        "requestLimitReached": false,
+        "positionsAvailable": 0,
+        "positionsConsidered": 0
+      },
+      "outbound": {
+        "helius": 21,
+        "coingecko": 0,
+        "coinbase": 0,
+        "other": 0
+      }
+    },
+    {
+      "label": "W37",
+      "address": "2BqWx8AmdF2rMZq8zDBwMh677c2NyW94j8BNpPGnw69b",
+      "source": "pump-major",
+      "elapsedMs": 76124,
+      "historyComplete": false,
+      "transactionsAnalyzed": 1000,
+      "qualifyingSwaps": 0,
+      "tradedTokenCount": 0,
+      "completedPositions": 0,
+      "openPositions": 0,
+      "reentries": 0,
+      "observedVolumeUsd": null,
+      "volumeCoverage": 0,
+      "realizedPnlUsd": null,
+      "pnlCoverage": 0,
+      "historicalPriceCoverage": 0,
+      "currentPriceCoverage": 0,
+      "personas": {
+        "sisyphus": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "newton": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "caesar": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "croesus": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "midas": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "don_quixote": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "napoleon": {
+          "match": null,
+          "confidence": 50,
+          "eligible": false
+        },
+        "icarus": {
+          "match": null,
+          "confidence": 0,
+          "eligible": false
+        }
+      },
+      "winner": null,
+      "runnerUp": null,
+      "winnerMargin": null,
+      "icarus": {
+        "eligibleEpisodes": 0,
+        "pricedEpisodes": 0,
+        "externalRequests": 0,
+        "providerFailures": 0,
+        "unsupportedMints": 0,
+        "requestLimitReached": false,
+        "candidates": []
+      },
+      "cost": {
+        "externalRequests": 0,
+        "cacheHits": 0,
+        "providerFailures": 0,
+        "unsupportedMints": 0,
+        "requestLimitReached": false,
+        "positionsAvailable": 0,
+        "positionsConsidered": 0
+      },
+      "outbound": {
+        "helius": 21,
+        "coingecko": 0,
+        "coinbase": 1,
+        "other": 0
+      }
+    },
+    {
+      "label": "W38",
+      "address": "H6EtpNNizCppByyt5Jj5bmpm1GN9MMpBoycBzDhiWrQS",
+      "source": "pump-c",
+      "elapsedMs": 40192,
+      "historyComplete": false,
+      "transactionsAnalyzed": 1000,
+      "qualifyingSwaps": 0,
+      "tradedTokenCount": 0,
+      "completedPositions": 0,
+      "openPositions": 0,
+      "reentries": 0,
+      "observedVolumeUsd": null,
+      "volumeCoverage": 0,
+      "realizedPnlUsd": null,
+      "pnlCoverage": 0,
+      "historicalPriceCoverage": 0,
+      "currentPriceCoverage": 0,
+      "personas": {
+        "sisyphus": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "newton": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "caesar": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "croesus": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "midas": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "don_quixote": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "napoleon": {
+          "match": null,
+          "confidence": 50,
+          "eligible": false
+        },
+        "icarus": {
+          "match": null,
+          "confidence": 0,
+          "eligible": false
+        }
+      },
+      "winner": null,
+      "runnerUp": null,
+      "winnerMargin": null,
+      "icarus": {
+        "eligibleEpisodes": 0,
+        "pricedEpisodes": 0,
+        "externalRequests": 0,
+        "providerFailures": 0,
+        "unsupportedMints": 0,
+        "requestLimitReached": false,
+        "candidates": []
+      },
+      "cost": {
+        "externalRequests": 0,
+        "cacheHits": 0,
+        "providerFailures": 0,
+        "unsupportedMints": 0,
+        "requestLimitReached": false,
+        "positionsAvailable": 0,
+        "positionsConsidered": 0
+      },
+      "outbound": {
+        "helius": 23,
+        "coingecko": 0,
+        "coinbase": 0,
+        "other": 0
+      }
+    },
+    {
+      "label": "W39",
+      "address": "4gUvFnzu4GUrTw2w3NdUjfmpmjxE1t4U3ZzhWX8tnaza",
+      "source": "pump-b",
+      "elapsedMs": 49523,
+      "historyComplete": false,
+      "transactionsAnalyzed": 1000,
+      "qualifyingSwaps": 65,
+      "tradedTokenCount": 35,
+      "completedPositions": 0,
+      "openPositions": 8,
+      "reentries": 0,
+      "observedVolumeUsd": 3952.8304093400393,
+      "volumeCoverage": 1,
+      "realizedPnlUsd": null,
+      "pnlCoverage": 0,
+      "historicalPriceCoverage": 1,
+      "currentPriceCoverage": 0.375,
+      "personas": {
+        "newton": {
+          "match": 61,
+          "confidence": 8,
+          "eligible": false
+        },
+        "caesar": {
+          "match": 46,
+          "confidence": 62,
+          "eligible": false
+        },
+        "sisyphus": {
+          "match": 40,
+          "confidence": 60,
+          "eligible": false
+        },
+        "icarus": {
+          "match": 23,
+          "confidence": 100,
+          "eligible": false
+        },
+        "croesus": {
+          "match": 14,
+          "confidence": 90,
+          "eligible": true
+        },
+        "midas": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "don_quixote": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "napoleon": {
+          "match": null,
+          "confidence": 50,
+          "eligible": false
+        }
+      },
+      "winner": {
+        "personaId": "croesus",
+        "match": 14,
+        "confidence": 90
+      },
+      "runnerUp": null,
+      "winnerMargin": null,
+      "icarus": {
+        "eligibleEpisodes": 2,
+        "pricedEpisodes": 2,
+        "externalRequests": 2,
+        "providerFailures": 0,
+        "unsupportedMints": 0,
+        "requestLimitReached": false,
+        "candidates": [
+          {
+            "mint": "Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump",
+            "symbol": "baton",
+            "entryPriceUsd": 0.004135785541039238,
+            "observedPeakPriceUsd": 0.012205215072469706,
+            "finalPriceUsd": 0.008306670002639295,
+            "peakReturnPct": 1.95112378322276,
+            "givebackPct": 0.4831252388592722,
+            "historicalPriceCoverage": 1,
+            "sampleCount": 21
+          },
+          {
+            "mint": "CB1YQfUzgsnaCd93cZLdiX1uASW7utWBaYMUsvcwNUBV",
+            "symbol": "LOOM",
+            "entryPriceUsd": 0.000244074995307841,
+            "observedPeakPriceUsd": 0.00023586076307764866,
+            "finalPriceUsd": 0.00015795446233823893,
+            "peakReturnPct": -0.03365454220262132,
+            "givebackPct": null,
+            "historicalPriceCoverage": 1,
+            "sampleCount": 29
+          }
+        ]
+      },
+      "cost": {
+        "externalRequests": 2,
+        "cacheHits": 3,
+        "providerFailures": 0,
+        "unsupportedMints": 0,
+        "requestLimitReached": false,
+        "positionsAvailable": 8,
+        "positionsConsidered": 2
+      },
+      "outbound": {
+        "helius": 21,
+        "coingecko": 2,
+        "coinbase": 1,
+        "other": 0
+      }
+    },
+    {
+      "label": "W40",
+      "address": "AW4jYyLFbstpitrYET5o5KMfvHcXGAJG5ZrEkUaUtyyK",
+      "source": "meta-d",
+      "elapsedMs": 48079,
+      "historyComplete": false,
+      "transactionsAnalyzed": 1000,
+      "qualifyingSwaps": 0,
+      "tradedTokenCount": 0,
+      "completedPositions": 0,
+      "openPositions": 0,
+      "reentries": 0,
+      "observedVolumeUsd": null,
+      "volumeCoverage": 0,
+      "realizedPnlUsd": null,
+      "pnlCoverage": 0,
+      "historicalPriceCoverage": 0,
+      "currentPriceCoverage": 0,
+      "personas": {
+        "sisyphus": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "newton": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "caesar": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "croesus": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "midas": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "don_quixote": {
+          "match": 0,
+          "confidence": 0,
+          "eligible": false
+        },
+        "napoleon": {
+          "match": null,
+          "confidence": 50,
+          "eligible": false
+        },
+        "icarus": {
+          "match": null,
+          "confidence": 0,
+          "eligible": false
+        }
+      },
+      "winner": null,
+      "runnerUp": null,
+      "winnerMargin": null,
+      "icarus": {
+        "eligibleEpisodes": 0,
+        "pricedEpisodes": 0,
+        "externalRequests": 0,
+        "providerFailures": 0,
+        "unsupportedMints": 0,
+        "requestLimitReached": false,
+        "candidates": []
+      },
+      "cost": {
+        "externalRequests": 0,
+        "cacheHits": 0,
+        "providerFailures": 0,
+        "unsupportedMints": 0,
+        "requestLimitReached": false,
+        "positionsAvailable": 0,
+        "positionsConsidered": 0
+      },
+      "outbound": {
+        "helius": 23,
+        "coingecko": 0,
+        "coinbase": 0,
+        "other": 0
+      }
+    }
+  ]
+}

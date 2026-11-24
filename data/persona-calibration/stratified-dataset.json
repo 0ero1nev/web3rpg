@@ -1,0 +1,413 @@
+{
+  "selectedAt": "2026-10-06T06:12:55.849Z",
+  "filled": {
+    "TRADE_COUNT": 10,
+    "PNL_HIGH": 10,
+    "PNL_LOW": 10,
+    "MID_ACTIVITY": 10
+  },
+  "analyzedCount": 149,
+  "failuresCount": 1,
+  "entries": [
+    {
+      "label": "T1",
+      "address": "uSs8RGUbj94AeB8Ro8C7WMShF4TFJn8LkaVxY19GYv1",
+      "source": "pump-a",
+      "stratum": "T",
+      "discoveryBucket": "HIGH",
+      "qualifyingSwaps": 574,
+      "realizedPnlUsd": 296.0495207345693,
+      "pnlCoverage": 0.1
+    },
+    {
+      "label": "T2",
+      "address": "2hfmUnqy77e8wjQqi8oNhxtbnTjTs2bALoamLS6jjX3x",
+      "source": "jup",
+      "stratum": "T",
+      "discoveryBucket": "HIGH",
+      "qualifyingSwaps": 550,
+      "realizedPnlUsd": -0.020029332835199476,
+      "pnlCoverage": 0.005714285714285714
+    },
+    {
+      "label": "T3",
+      "address": "2zYkPrN78GhCDLrPPTwFCmWm5tjzBXzzHM6mhBKVMXBF",
+      "source": "jup",
+      "stratum": "T",
+      "discoveryBucket": "HIGH",
+      "qualifyingSwaps": 525,
+      "realizedPnlUsd": 297.71013704779153,
+      "pnlCoverage": 0.6936936936936937
+    },
+    {
+      "label": "T4",
+      "address": "Hwc2qjuzCvUEwfyrfVPuATS2sfXoHfyKdSsGEixXiZvp",
+      "source": "jup",
+      "stratum": "T",
+      "discoveryBucket": "HIGH",
+      "qualifyingSwaps": 524,
+      "realizedPnlUsd": -27.864875008669973,
+      "pnlCoverage": 1
+    },
+    {
+      "label": "T5",
+      "address": "4RGcq9jaiDVJc55ANCfBC8JSDJiYW8SH961iVsGzDtBe",
+      "source": "meta-d",
+      "stratum": "T",
+      "discoveryBucket": "HIGH",
+      "qualifyingSwaps": 426,
+      "realizedPnlUsd": -131.3338173600663,
+      "pnlCoverage": 0.2379182156133829
+    },
+    {
+      "label": "T6",
+      "address": "5n6Q4bYDFe3CZ2aj4wj8jU1j6yx57DeHxY1xVs4cQXQD",
+      "source": "pump-major",
+      "stratum": "T",
+      "discoveryBucket": "HIGH",
+      "qualifyingSwaps": 350,
+      "realizedPnlUsd": 248.92200174939336,
+      "pnlCoverage": 0.8344827586206897
+    },
+    {
+      "label": "T7",
+      "address": "GukuT1VvzcjvSRy5VX69vw51kpUEf69xSpJXBF34wGG6",
+      "source": "pump-a",
+      "stratum": "T",
+      "discoveryBucket": "HIGH",
+      "qualifyingSwaps": 346,
+      "realizedPnlUsd": 0.8827853904889833,
+      "pnlCoverage": 0.05194805194805195
+    },
+    {
+      "label": "T8",
+      "address": "6XiZeo2DXWwxfCueuCBDruc5Tm1tvnvmgQgASxBzcSQt",
+      "source": "jup",
+      "stratum": "T",
+      "discoveryBucket": "HIGH",
+      "qualifyingSwaps": 346,
+      "realizedPnlUsd": 1.9560071330785387,
+      "pnlCoverage": 0.4539877300613497
+    },
+    {
+      "label": "T9",
+      "address": "3C7dHgR53bF3P2YSzaDaW57EZfh8CHu7uTen6eEEiuqe",
+      "source": "meta-d",
+      "stratum": "T",
+      "discoveryBucket": "HIGH",
+      "qualifyingSwaps": 271,
+      "realizedPnlUsd": null,
+      "pnlCoverage": 0
+    },
+    {
+      "label": "T10",
+      "address": "6Hj8mu6WSmhAdWTPEuvPKYAXGf1rNJYfSXUYLs1EZXoU",
+      "source": "jup",
+      "stratum": "T",
+      "discoveryBucket": "HIGH",
+      "qualifyingSwaps": 226,
+      "realizedPnlUsd": -176.66955203174666,
+      "pnlCoverage": 0.3333333333333333
+    },
+    {
+      "label": "P1",
+      "address": "Bba7tK436tJ7vqreaJMeKyXh2jeGyMk2BgnQtFKhyQfs",
+      "source": "jup",
+      "stratum": "P",
+      "discoveryBucket": "HIGH",
+      "qualifyingSwaps": 210,
+      "realizedPnlUsd": 1871.052148633006,
+      "pnlCoverage": 0.7899159663865546
+    },
+    {
+      "label": "P2",
+      "address": "98s58Yjbeu1xC2ziTXtaN6FJDnBTGwvXfECfbW7VJ5nK",
+      "source": "pump-c",
+      "stratum": "P",
+      "discoveryBucket": "MED",
+      "qualifyingSwaps": 50,
+      "realizedPnlUsd": 91.19153112008898,
+      "pnlCoverage": 1
+    },
+    {
+      "label": "P3",
+      "address": "BtnqqoGt4g4BQc8dKqXM1UqvpnAhZuHpdJ3cx2yM9hW",
+      "source": "pump-c",
+      "stratum": "P",
+      "discoveryBucket": "MED",
+      "qualifyingSwaps": 41,
+      "realizedPnlUsd": 89.40508452045745,
+      "pnlCoverage": 0.11538461538461539
+    },
+    {
+      "label": "P4",
+      "address": "F2nbJ2Lx8WeMPdasLEwQrvZFBSnt6TwG7FQdu9q8PvTw",
+      "source": "pump-a",
+      "stratum": "P",
+      "discoveryBucket": "HIGH",
+      "qualifyingSwaps": 118,
+      "realizedPnlUsd": 88.40665162823998,
+      "pnlCoverage": 0.008771929824561403
+    },
+    {
+      "label": "P5",
+      "address": "GD7tsSQqyZ67nieEiPjV32dmYVUUUE4ENyYDBAVWaT9v",
+      "source": "pump-major",
+      "stratum": "P",
+      "discoveryBucket": "HIGH",
+      "qualifyingSwaps": 51,
+      "realizedPnlUsd": 31.63825862088551,
+      "pnlCoverage": 0.14285714285714285
+    },
+    {
+      "label": "P6",
+      "address": "dog7Rh9N4ngYSuihPwmmegduj3V6qB5MgFeo7LADdkp",
+      "source": "pump-c",
+      "stratum": "P",
+      "discoveryBucket": "MED",
+      "qualifyingSwaps": 19,
+      "realizedPnlUsd": 14.804723501879982,
+      "pnlCoverage": 0.3
+    },
+    {
+      "label": "P7",
+      "address": "31xqegsMbuqAgfVsAFyhSZ7CiAahcF2FBECf2yNXc5Px",
+      "source": "pump-c",
+      "stratum": "P",
+      "discoveryBucket": "HIGH",
+      "qualifyingSwaps": 52,
+      "realizedPnlUsd": 1.112798455358634,
+      "pnlCoverage": 0.0967741935483871
+    },
+    {
+      "label": "P8",
+      "address": "EYBpcW3cNxsQ3nHf1wadJUqT2S8m9MpgzJHcDdtEc6Vr",
+      "source": "jup",
+      "stratum": "P",
+      "discoveryBucket": "HIGH",
+      "qualifyingSwaps": 151,
+      "realizedPnlUsd": 0.875722420869423,
+      "pnlCoverage": 0.035398230088495575
+    },
+    {
+      "label": "P9",
+      "address": "G5fE1LMUWrb6AiBtUGLCUnmhseSVY8pTpSeyWERU8Qvg",
+      "source": "pump-c",
+      "stratum": "P",
+      "discoveryBucket": "HIGH",
+      "qualifyingSwaps": 39,
+      "realizedPnlUsd": 0.7173228710684252,
+      "pnlCoverage": 0.08333333333333333
+    },
+    {
+      "label": "P10",
+      "address": "EqghiUnpGFC88j67zbinSWYZvh8hk1mJQA5xuwtoYusz",
+      "source": "jup",
+      "stratum": "P",
+      "discoveryBucket": "HIGH",
+      "qualifyingSwaps": 182,
+      "realizedPnlUsd": 0.48103554422082695,
+      "pnlCoverage": 0.5520833333333334
+    },
+    {
+      "label": "L1",
+      "address": "51ZDY8GL4n4iptN7ZskwhAoMAP4pMiP6Z6xYFzv8Usoe",
+      "source": "meta-d",
+      "stratum": "L",
+      "discoveryBucket": "MED",
+      "qualifyingSwaps": 14,
+      "realizedPnlUsd": -890.0035012781722,
+      "pnlCoverage": 0.5714285714285714
+    },
+    {
+      "label": "L2",
+      "address": "9WhnkfjJyLfnEfxRCXQmA4QxY7nvPyoGc7yxz3B5n1HF",
+      "source": "pump-c",
+      "stratum": "L",
+      "discoveryBucket": "MED",
+      "qualifyingSwaps": 176,
+      "realizedPnlUsd": -359.20869792880103,
+      "pnlCoverage": 0.6491228070175439
+    },
+    {
+      "label": "L3",
+      "address": "HdU5H5knG8eQYyv7FDVXv2vw7FJgtuCq8q9o9dKmiuhC",
+      "source": "pump-c",
+      "stratum": "L",
+      "discoveryBucket": "MED",
+      "qualifyingSwaps": 82,
+      "realizedPnlUsd": -181.3044574552914,
+      "pnlCoverage": 0.5128205128205128
+    },
+    {
+      "label": "L4",
+      "address": "5kgqBoMLnb3ySKvf34kgX8BNywBVJFJ8qJRG4NxAAYch",
+      "source": "pump-major",
+      "stratum": "L",
+      "discoveryBucket": "MED",
+      "qualifyingSwaps": 126,
+      "realizedPnlUsd": -177.42965470167533,
+      "pnlCoverage": 0.46511627906976744
+    },
+    {
+      "label": "L5",
+      "address": "CDHc94mvJzsW5EkfPRpgs1YZkqFSU3LgBGyKLCffLi67",
+      "source": "pump-a",
+      "stratum": "L",
+      "discoveryBucket": "HIGH",
+      "qualifyingSwaps": 109,
+      "realizedPnlUsd": -161.94400224145448,
+      "pnlCoverage": 0.012987012987012988
+    },
+    {
+      "label": "L6",
+      "address": "GsTGBMgjeacdBsYqrrKaCd697Exnae2PiDYSeM6nGbum",
+      "source": "pump-c",
+      "stratum": "L",
+      "discoveryBucket": "MED",
+      "qualifyingSwaps": 126,
+      "realizedPnlUsd": -141.11215746970936,
+      "pnlCoverage": 0.038834951456310676
+    },
+    {
+      "label": "L7",
+      "address": "CKrqnWuinwFpG3V4NkbQZepsZz7f83UPkB3iN8ha1BZX",
+      "source": "pump-b",
+      "stratum": "L",
+      "discoveryBucket": "MED",
+      "qualifyingSwaps": 24,
+      "realizedPnlUsd": -40.835899503219935,
+      "pnlCoverage": 0.09090909090909091
+    },
+    {
+      "label": "L8",
+      "address": "FkaLnX17cXZGyeu3kZGdHCNdFMJJzBrPPYVvd18B3MZp",
+      "source": "pump-major",
+      "stratum": "L",
+      "discoveryBucket": "HIGH",
+      "qualifyingSwaps": 65,
+      "realizedPnlUsd": -25.51042962994454,
+      "pnlCoverage": 0.1276595744680851
+    },
+    {
+      "label": "L9",
+      "address": "8yZWBmF2NPZTDXYJvxntQNBQfHTUbtsskYkPAp8AkFrB",
+      "source": "pump-a",
+      "stratum": "L",
+      "discoveryBucket": "HIGH",
+      "qualifyingSwaps": 19,
+      "realizedPnlUsd": -22.008535,
+      "pnlCoverage": 0.2222222222222222
+    },
+    {
+      "label": "L10",
+      "address": "GN8QvtajRPHfavqc3uw1iuAysEGgpDwnK9s8NLAZBM7x",
+      "source": "jup",
+      "stratum": "L",
+      "discoveryBucket": "HIGH",
+      "qualifyingSwaps": 84,
+      "realizedPnlUsd": -18.04485601319287,
+      "pnlCoverage": 0.30303030303030304
+    },
+    {
+      "label": "M1",
+      "address": "62cPxEqeWaZWr9ytJ1YUHZY7ufTmt4iBCpk9EfaUhgA2",
+      "source": "pump-c",
+      "stratum": "M",
+      "discoveryBucket": "MED",
+      "qualifyingSwaps": 33,
+      "realizedPnlUsd": -1.706298237739703,
+      "pnlCoverage": 0.3333333333333333
+    },
+    {
+      "label": "M2",
+      "address": "5KvQ77oBd5EY8GfrjKkq9qsxWp8UuSdw2RMvP2kEPsUC",
+      "source": "pump-major",
+      "stratum": "M",
+      "discoveryBucket": "HIGH",
+      "qualifyingSwaps": 48,
+      "realizedPnlUsd": -0.0022084916342616874,
+      "pnlCoverage": 0.5
+    },
+    {
+      "label": "M3",
+      "address": "6Qt8a3Y6B4nekSRQ1p2e5yqP5bSCbE6HzUTdWwdfYXmR",
+      "source": "pump-major",
+      "stratum": "M",
+      "discoveryBucket": "HIGH",
+      "qualifyingSwaps": 51,
+      "realizedPnlUsd": 0.029505590602378173,
+      "pnlCoverage": 0.1875
+    },
+    {
+      "label": "M4",
+      "address": "26ooGGTHJwqr56cNg68oQge98LHw7Gq6HQw4grycFtEb",
+      "source": "pump-c",
+      "stratum": "M",
+      "discoveryBucket": "MED",
+      "qualifyingSwaps": 56,
+      "realizedPnlUsd": null,
+      "pnlCoverage": 0
+    },
+    {
+      "label": "M5",
+      "address": "B29bt833VMU9ZrFXBSAUtW5aAeEAzP3V6nSWbDqbA4B5",
+      "source": "pump-a",
+      "stratum": "M",
+      "discoveryBucket": "HIGH",
+      "qualifyingSwaps": 60,
+      "realizedPnlUsd": null,
+      "pnlCoverage": 0
+    },
+    {
+      "label": "M6",
+      "address": "REDBUtdAjot2V6abs2pojT9BiRUdC1NuUpi8QSfrMVt",
+      "source": "pump-major",
+      "stratum": "M",
+      "discoveryBucket": "HIGH",
+      "qualifyingSwaps": 67,
+      "realizedPnlUsd": null,
+      "pnlCoverage": 0
+    },
+    {
+      "label": "M7",
+      "address": "Hm5fB2iVtbx8rs5twpFGKeyH2XP9q7sCr84zfrpt49Dz",
+      "source": "pump-c",
+      "stratum": "M",
+      "discoveryBucket": "HIGH",
+      "qualifyingSwaps": 74,
+      "realizedPnlUsd": null,
+      "pnlCoverage": 0
+    },
+    {
+      "label": "M8",
+      "address": "2kZ8pfX5u1KBMTr27K84DWF6v4A5EdyoYqEKpjTGMA2x",
+      "source": "meta-d",
+      "stratum": "M",
+      "discoveryBucket": "HIGH",
+      "qualifyingSwaps": 74,
+      "realizedPnlUsd": 0.0008370850030332088,
+      "pnlCoverage": 0.07894736842105263
+    },
+    {
+      "label": "M9",
+      "address": "BTvquKFGA8yUP69sSA4CCgPGEjGcRrbyKr7oxvBFpY5H",
+      "source": "jup",
+      "stratum": "M",
+      "discoveryBucket": "MED",
+      "qualifyingSwaps": 74,
+      "realizedPnlUsd": -0.007612369563295918,
+      "pnlCoverage": 0.5769230769230769
+    },
+    {
+      "label": "M10",
+      "address": "DAqCpTpQN1JNCDYLXWir28q1J2eXSufiNNADsSnUQTBZ",
+      "source": "pump-c",
+      "stratum": "M",
+      "discoveryBucket": "HIGH",
+      "qualifyingSwaps": 80,
+      "realizedPnlUsd": null,
+      "pnlCoverage": 0
+    }
+  ]
+}

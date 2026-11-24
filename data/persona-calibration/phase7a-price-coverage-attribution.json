@@ -1,0 +1,607 @@
+{
+  "generatedAt": "2026-10-06T13:21:13.003Z",
+  "status": "DIAGNOSTIC ONLY — no production changes",
+  "coverageDefinitionAudit": {
+    "denominator": "sellCount — EVERY disposal leg (PARTIAL_SELL + EXIT), including legs on ledgers whose inventory predates the window",
+    "numerator": "pricedSellCount — legs with computed realized PnL",
+    "formula": "realizedPnlUsd.coverage = pricedSellCount / sellCount",
+    "semanticFlags": [
+      "LEG-COUNT based, not economically weighted: 100 dust legs unvalued + 1 huge valued exit reads as ~1% coverage even when most observed dollars are priced",
+      "the denominator includes structurally unpriceable legs (pre-window inventory first-sells), so coverage has a hard ceiling below 1 for any wallet distributing pre-window inventory",
+      "it measures leg observability, not 'how much of the wallet's realized economic outcome is observable'"
+    ],
+    "verdict": "MISMATCH FLAGGED (definition unchanged): for the target wallets the metric understates achievable observability and mixes structural (partial-history) with economic (pricing) loss"
+  },
+  "valuationPathFact": "valueSwaps never sets EXTERNAL_TOKEN_PRICE — realized-PnL legs depend only on execution anchors (stablecoin, historical SOL, propagated side). The CoinGecko token-price budget (D/E) affects only Icarus peak sampling, not realized PnL.",
+  "wallets": [
+    {
+      "label": "P8",
+      "qualifyingSwaps": 151,
+      "distinctTokens": 13,
+      "waterfall": {
+        "disposalLegs": 113,
+        "withUsdProceeds": 64,
+        "withCostBasis": 4,
+        "withRealizedPnl": 4,
+        "pnlCoverageNow": 0.035,
+        "lostAtProceeds": 49,
+        "lostAtBasis": 60
+      },
+      "reasonCounts": {
+        "F_OVERDRAW_AMBIGUITY": 53,
+        "A_DISPOSAL_VALUE_UNKNOWN": 49,
+        "B_COST_BASIS_UNKNOWN": 7,
+        "VALUED": 4
+      },
+      "recoverability": {
+        "maxCoverageExecutionOnly": 0.035,
+        "maxCoverageWithExternalTokenPricing": 0.531,
+        "maxCoverageWithExternalPricingAndConservativeBasis": 1,
+        "maxCoverageWithBudgetIncrease": 0.035,
+        "unrecoverableLegs": 53
+      },
+      "topMissingMints": [
+        {
+          "mint": "MEFNBX…",
+          "legs": 31,
+          "missing": 31
+        },
+        {
+          "mint": "Dz9mQ9…",
+          "legs": 25,
+          "missing": 25
+        },
+        {
+          "mint": "JUPyiw…",
+          "legs": 12,
+          "missing": 12
+        },
+        {
+          "mint": "Df6yfr…",
+          "legs": 10,
+          "missing": 10
+        },
+        {
+          "mint": "KENJSU…",
+          "legs": 10,
+          "missing": 10
+        }
+      ],
+      "bySource": {
+        "JUPITER": {
+          "legs": 113,
+          "missing": 109
+        }
+      },
+      "byCounter": {
+        "SOL": {
+          "legs": 51,
+          "missing": 47
+        },
+        "TOKEN": {
+          "legs": 49,
+          "missing": 49
+        },
+        "STABLE": {
+          "legs": 13,
+          "missing": 13
+        }
+      },
+      "sisyphus": {
+        "match": 86,
+        "eligible": false,
+        "storedPnlCoverage": 0.035398230088495575,
+        "crossesThresholdWithExternalPricing": true,
+        "crossesThresholdWithFullProgram": true,
+        "crossesThresholdWithExecutionOnly": false,
+        "dominantBlocker": "PRICING"
+      }
+    },
+    {
+      "label": "L10",
+      "qualifyingSwaps": 87,
+      "distinctTokens": 24,
+      "waterfall": {
+        "disposalLegs": 36,
+        "withUsdProceeds": 36,
+        "withCostBasis": 13,
+        "withRealizedPnl": 13,
+        "pnlCoverageNow": 0.361,
+        "lostAtProceeds": 0,
+        "lostAtBasis": 23
+      },
+      "reasonCounts": {
+        "F_OVERDRAW_AMBIGUITY": 18,
+        "VALUED": 13,
+        "C_PARTIAL_HISTORY_INVENTORY": 5
+      },
+      "recoverability": {
+        "maxCoverageExecutionOnly": 0.361,
+        "maxCoverageWithExternalTokenPricing": 0.361,
+        "maxCoverageWithExternalPricingAndConservativeBasis": 0.861,
+        "maxCoverageWithBudgetIncrease": 0.361,
+        "unrecoverableLegs": 23
+      },
+      "topMissingMints": [
+        {
+          "mint": "PFER6E…",
+          "legs": 8,
+          "missing": 8
+        },
+        {
+          "mint": "pumpCm…",
+          "legs": 6,
+          "missing": 6
+        },
+        {
+          "mint": "CARDSc…",
+          "legs": 2,
+          "missing": 2
+        },
+        {
+          "mint": "GcHEn2…",
+          "legs": 2,
+          "missing": 2
+        },
+        {
+          "mint": "CscZaq…",
+          "legs": 2,
+          "missing": 1
+        }
+      ],
+      "bySource": {
+        "JUPITER": {
+          "legs": 36,
+          "missing": 23
+        }
+      },
+      "byCounter": {
+        "SOL": {
+          "legs": 36,
+          "missing": 23
+        }
+      },
+      "sisyphus": {
+        "match": 61,
+        "eligible": false,
+        "storedPnlCoverage": 0.3235294117647059,
+        "crossesThresholdWithExternalPricing": false,
+        "crossesThresholdWithFullProgram": true,
+        "crossesThresholdWithExecutionOnly": false,
+        "dominantBlocker": "PARTIAL_HISTORY"
+      }
+    },
+    {
+      "label": "M8",
+      "qualifyingSwaps": 74,
+      "distinctTokens": 35,
+      "waterfall": {
+        "disposalLegs": 38,
+        "withUsdProceeds": 8,
+        "withCostBasis": 3,
+        "withRealizedPnl": 3,
+        "pnlCoverageNow": 0.079,
+        "lostAtProceeds": 30,
+        "lostAtBasis": 5
+      },
+      "reasonCounts": {
+        "VALUED": 3,
+        "A_DISPOSAL_VALUE_UNKNOWN": 30,
+        "B_COST_BASIS_UNKNOWN": 1,
+        "C_PARTIAL_HISTORY_INVENTORY": 4
+      },
+      "recoverability": {
+        "maxCoverageExecutionOnly": 0.079,
+        "maxCoverageWithExternalTokenPricing": 0.895,
+        "maxCoverageWithExternalPricingAndConservativeBasis": 0.895,
+        "maxCoverageWithBudgetIncrease": 0.079,
+        "unrecoverableLegs": 4
+      },
+      "topMissingMints": [
+        {
+          "mint": "4k3Dyj…",
+          "legs": 2,
+          "missing": 2
+        },
+        {
+          "mint": "AvZZF1…",
+          "legs": 2,
+          "missing": 2
+        },
+        {
+          "mint": "AavE1k…",
+          "legs": 2,
+          "missing": 2
+        },
+        {
+          "mint": "DLGRpm…",
+          "legs": 2,
+          "missing": 2
+        },
+        {
+          "mint": "orcaEK…",
+          "legs": 2,
+          "missing": 2
+        }
+      ],
+      "bySource": {
+        "JUPITER": {
+          "legs": 38,
+          "missing": 35
+        }
+      },
+      "byCounter": {
+        "SOL": {
+          "legs": 7,
+          "missing": 4
+        },
+        "TOKEN": {
+          "legs": 30,
+          "missing": 30
+        },
+        "STABLE": {
+          "legs": 1,
+          "missing": 1
+        }
+      },
+      "sisyphus": {
+        "match": 59,
+        "eligible": false,
+        "storedPnlCoverage": 0.07894736842105263,
+        "crossesThresholdWithExternalPricing": true,
+        "crossesThresholdWithFullProgram": true,
+        "crossesThresholdWithExecutionOnly": false,
+        "dominantBlocker": "PRICING"
+      }
+    },
+    {
+      "label": "P5",
+      "qualifyingSwaps": 46,
+      "distinctTokens": 15,
+      "waterfall": {
+        "disposalLegs": 18,
+        "withUsdProceeds": 18,
+        "withCostBasis": 2,
+        "withRealizedPnl": 2,
+        "pnlCoverageNow": 0.111,
+        "lostAtProceeds": 0,
+        "lostAtBasis": 16
+      },
+      "reasonCounts": {
+        "F_OVERDRAW_AMBIGUITY": 2,
+        "VALUED": 2,
+        "C_PARTIAL_HISTORY_INVENTORY": 14
+      },
+      "recoverability": {
+        "maxCoverageExecutionOnly": 0.111,
+        "maxCoverageWithExternalTokenPricing": 0.111,
+        "maxCoverageWithExternalPricingAndConservativeBasis": 0.222,
+        "maxCoverageWithBudgetIncrease": 0.111,
+        "unrecoverableLegs": 16
+      },
+      "topMissingMints": [
+        {
+          "mint": "PEPEqn…",
+          "legs": 5,
+          "missing": 5
+        },
+        {
+          "mint": "pumpCm…",
+          "legs": 4,
+          "missing": 4
+        },
+        {
+          "mint": "5tCju6…",
+          "legs": 3,
+          "missing": 3
+        },
+        {
+          "mint": "9fJAWK…",
+          "legs": 2,
+          "missing": 2
+        },
+        {
+          "mint": "46doJP…",
+          "legs": 1,
+          "missing": 1
+        }
+      ],
+      "bySource": {
+        "METEORA": {
+          "legs": 14,
+          "missing": 12
+        },
+        "RAYDIUM": {
+          "legs": 4,
+          "missing": 4
+        }
+      },
+      "byCounter": {
+        "SOL": {
+          "legs": 18,
+          "missing": 16
+        }
+      },
+      "sisyphus": {
+        "match": 54,
+        "eligible": false,
+        "storedPnlCoverage": 0.047619047619047616,
+        "crossesThresholdWithExternalPricing": false,
+        "crossesThresholdWithFullProgram": false,
+        "crossesThresholdWithExecutionOnly": false,
+        "dominantBlocker": "PARTIAL_HISTORY"
+      }
+    },
+    {
+      "label": "P9",
+      "qualifyingSwaps": 39,
+      "distinctTokens": 19,
+      "waterfall": {
+        "disposalLegs": 12,
+        "withUsdProceeds": 9,
+        "withCostBasis": 1,
+        "withRealizedPnl": 1,
+        "pnlCoverageNow": 0.083,
+        "lostAtProceeds": 3,
+        "lostAtBasis": 8
+      },
+      "reasonCounts": {
+        "A_DISPOSAL_VALUE_UNKNOWN": 3,
+        "VALUED": 1,
+        "F_OVERDRAW_AMBIGUITY": 1,
+        "C_PARTIAL_HISTORY_INVENTORY": 7
+      },
+      "recoverability": {
+        "maxCoverageExecutionOnly": 0.083,
+        "maxCoverageWithExternalTokenPricing": 0.333,
+        "maxCoverageWithExternalPricingAndConservativeBasis": 0.417,
+        "maxCoverageWithBudgetIncrease": 0.083,
+        "unrecoverableLegs": 8
+      },
+      "topMissingMints": [
+        {
+          "mint": "J3NKxx…",
+          "legs": 4,
+          "missing": 4
+        },
+        {
+          "mint": "2JcXac…",
+          "legs": 2,
+          "missing": 1
+        },
+        {
+          "mint": "BYZ9Cc…",
+          "legs": 1,
+          "missing": 1
+        },
+        {
+          "mint": "5LJMJy…",
+          "legs": 1,
+          "missing": 1
+        },
+        {
+          "mint": "4nrFB5…",
+          "legs": 1,
+          "missing": 1
+        }
+      ],
+      "bySource": {
+        "JUPITER": {
+          "legs": 11,
+          "missing": 10
+        },
+        "RAYDIUM": {
+          "legs": 1,
+          "missing": 1
+        }
+      },
+      "byCounter": {
+        "TOKEN": {
+          "legs": 3,
+          "missing": 3
+        },
+        "SOL": {
+          "legs": 9,
+          "missing": 8
+        }
+      },
+      "sisyphus": {
+        "match": 54,
+        "eligible": false,
+        "storedPnlCoverage": 0.08333333333333333,
+        "crossesThresholdWithExternalPricing": false,
+        "crossesThresholdWithFullProgram": false,
+        "crossesThresholdWithExecutionOnly": false,
+        "dominantBlocker": "PARTIAL_HISTORY"
+      }
+    },
+    {
+      "label": "P7",
+      "qualifyingSwaps": 52,
+      "distinctTokens": 37,
+      "waterfall": {
+        "disposalLegs": 31,
+        "withUsdProceeds": 24,
+        "withCostBasis": 3,
+        "withRealizedPnl": 3,
+        "pnlCoverageNow": 0.097,
+        "lostAtProceeds": 7,
+        "lostAtBasis": 21
+      },
+      "reasonCounts": {
+        "A_DISPOSAL_VALUE_UNKNOWN": 7,
+        "F_OVERDRAW_AMBIGUITY": 21,
+        "VALUED": 3
+      },
+      "recoverability": {
+        "maxCoverageExecutionOnly": 0.097,
+        "maxCoverageWithExternalTokenPricing": 0.323,
+        "maxCoverageWithExternalPricingAndConservativeBasis": 1,
+        "maxCoverageWithBudgetIncrease": 0.097,
+        "unrecoverableLegs": 21
+      },
+      "topMissingMints": [
+        {
+          "mint": "8doS8n…",
+          "legs": 5,
+          "missing": 5
+        },
+        {
+          "mint": "FDaJxB…",
+          "legs": 2,
+          "missing": 2
+        },
+        {
+          "mint": "Hon2rH…",
+          "legs": 2,
+          "missing": 2
+        },
+        {
+          "mint": "3uLUj3…",
+          "legs": 2,
+          "missing": 2
+        },
+        {
+          "mint": "CmgJ1P…",
+          "legs": 2,
+          "missing": 2
+        }
+      ],
+      "bySource": {
+        "JUPITER": {
+          "legs": 31,
+          "missing": 28
+        }
+      },
+      "byCounter": {
+        "TOKEN": {
+          "legs": 7,
+          "missing": 7
+        },
+        "SOL": {
+          "legs": 23,
+          "missing": 20
+        },
+        "STABLE": {
+          "legs": 1,
+          "missing": 1
+        }
+      },
+      "sisyphus": {
+        "match": 52,
+        "eligible": false,
+        "storedPnlCoverage": 0.0967741935483871,
+        "crossesThresholdWithExternalPricing": false,
+        "crossesThresholdWithFullProgram": true,
+        "crossesThresholdWithExecutionOnly": false,
+        "dominantBlocker": "PARTIAL_HISTORY"
+      }
+    },
+    {
+      "label": "L7",
+      "qualifyingSwaps": 24,
+      "distinctTokens": 6,
+      "waterfall": {
+        "disposalLegs": 11,
+        "withUsdProceeds": 11,
+        "withCostBasis": 1,
+        "withRealizedPnl": 1,
+        "pnlCoverageNow": 0.091,
+        "lostAtProceeds": 0,
+        "lostAtBasis": 10
+      },
+      "reasonCounts": {
+        "F_OVERDRAW_AMBIGUITY": 2,
+        "C_PARTIAL_HISTORY_INVENTORY": 8,
+        "VALUED": 1
+      },
+      "recoverability": {
+        "maxCoverageExecutionOnly": 0.091,
+        "maxCoverageWithExternalTokenPricing": 0.091,
+        "maxCoverageWithExternalPricingAndConservativeBasis": 0.273,
+        "maxCoverageWithBudgetIncrease": 0.091,
+        "unrecoverableLegs": 10
+      },
+      "topMissingMints": [
+        {
+          "mint": "8BtoTh…",
+          "legs": 3,
+          "missing": 3
+        },
+        {
+          "mint": "89q6aH…",
+          "legs": 3,
+          "missing": 3
+        },
+        {
+          "mint": "8HxW9Z…",
+          "legs": 2,
+          "missing": 2
+        },
+        {
+          "mint": "63bpnC…",
+          "legs": 1,
+          "missing": 1
+        },
+        {
+          "mint": "FVdo7C…",
+          "legs": 1,
+          "missing": 1
+        }
+      ],
+      "bySource": {
+        "JUPITER": {
+          "legs": 7,
+          "missing": 6
+        },
+        "RAYDIUM": {
+          "legs": 4,
+          "missing": 4
+        }
+      },
+      "byCounter": {
+        "SOL": {
+          "legs": 11,
+          "missing": 10
+        }
+      },
+      "sisyphus": {
+        "match": 57,
+        "eligible": false,
+        "storedPnlCoverage": 0.3,
+        "crossesThresholdWithExternalPricing": false,
+        "crossesThresholdWithFullProgram": false,
+        "crossesThresholdWithExecutionOnly": false,
+        "dominantBlocker": "PARTIAL_HISTORY"
+      }
+    }
+  ],
+  "aggregate": {
+    "totalDisposalLegs": 259,
+    "reasonTotals": {
+      "F_OVERDRAW_AMBIGUITY": 97,
+      "A_DISPOSAL_VALUE_UNKNOWN": 89,
+      "B_COST_BASIS_UNKNOWN": 8,
+      "VALUED": 27,
+      "C_PARTIAL_HISTORY_INVENTORY": 38
+    },
+    "primaryFailureRanking": [
+      [
+        "F_OVERDRAW_AMBIGUITY",
+        97
+      ],
+      [
+        "A_DISPOSAL_VALUE_UNKNOWN",
+        89
+      ],
+      [
+        "C_PARTIAL_HISTORY_INVENTORY",
+        38
+      ],
+      [
+        "B_COST_BASIS_UNKNOWN",
+        8
+      ]
+    ]
+  }
+}

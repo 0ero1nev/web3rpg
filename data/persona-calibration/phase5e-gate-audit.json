@@ -1,0 +1,729 @@
+{
+  "generatedAt": "2026-10-06T07:04:32.341Z",
+  "scope": "14 NO_STRONG_MATCH wallets with highestMatch >= 50 on an ineligible persona",
+  "codeFacts": [
+    "re-entry price comparison already uses execution valuations: reconstructPositions.ts sets reentryPriceUsd = leg.unitPriceUsd and exitPriceUsd = ledger.lastExitPriceUsd; reenteredHigher is computed from those two executions only, never from external market price",
+    "pricedReentries gate fails only when the executions themselves lack USD valuation or the pairs do not exist"
+  ],
+  "cases": [
+    {
+      "label": "T7",
+      "stratum": "T",
+      "persona": "sisyphus",
+      "match": 78,
+      "confidence": 64,
+      "gates": [
+        {
+          "gate": "qualifyingSwaps >= 25",
+          "observed": "346",
+          "required": "25",
+          "distance": "pass",
+          "category": "D",
+          "note": "pass"
+        },
+        {
+          "gate": "EFFICIENCY.value !== null (priced economic progress)",
+          "observed": "computable (realizedPnlUsd = 0.88)",
+          "required": "non-null",
+          "distance": "pass",
+          "category": "D",
+          "note": "stagnation signal exists"
+        },
+        {
+          "gate": "realizedPnlUsd.coverage >= 0.5",
+          "observed": "0.05",
+          "required": "0.5",
+          "distance": "-0.45",
+          "category": "B",
+          "note": "completed exits exist but most lack USD valuation — evidence/coverage gap, not behavior gap"
+        }
+      ],
+      "verdict": "realizedPnlUsd.coverage >= 0.5 [B]"
+    },
+    {
+      "label": "T9",
+      "stratum": "T",
+      "persona": "newton",
+      "match": 81,
+      "confidence": 9,
+      "gates": [
+        {
+          "gate": "qualifyingSwaps >= 10",
+          "observed": "271",
+          "required": "10",
+          "distance": "pass",
+          "category": "D",
+          "note": "general history minimum (Phase 5B, unchanged)"
+        },
+        {
+          "gate": "completedPositionCount > 0",
+          "observed": "0",
+          "required": ">= 1",
+          "distance": "no completed position",
+          "category": "A",
+          "note": "wallet never fully exits any token — exit/re-entry cycles cannot exist"
+        },
+        {
+          "gate": "reentryCount >= 2",
+          "observed": "0",
+          "required": "2",
+          "distance": "-2",
+          "category": "A",
+          "note": "too few exit->re-entry events observed"
+        },
+        {
+          "gate": "pricedReentries >= 2 (both legs execution-valued)",
+          "observed": "<= 0 (bounded by reentryCount)",
+          "required": "2",
+          "distance": "at most 0",
+          "category": "A",
+          "note": "execution-price comparison is ALREADY the mechanism (reconstructPositions.ts uses leg.unitPriceUsd vs lastExitPriceUsd); with fewer than 2 pairs no pricing method can satisfy this gate"
+        }
+      ],
+      "verdict": "completedPositionCount > 0 [A]; reentryCount >= 2 [A]; pricedReentries >= 2 (both legs execution-valued) [A]"
+    },
+    {
+      "label": "P4",
+      "stratum": "P",
+      "persona": "newton",
+      "match": 69,
+      "confidence": 9,
+      "gates": [
+        {
+          "gate": "qualifyingSwaps >= 10",
+          "observed": "118",
+          "required": "10",
+          "distance": "pass",
+          "category": "D",
+          "note": "general history minimum (Phase 5B, unchanged)"
+        },
+        {
+          "gate": "completedPositionCount > 0",
+          "observed": "0",
+          "required": ">= 1",
+          "distance": "no completed position",
+          "category": "A",
+          "note": "wallet never fully exits any token — exit/re-entry cycles cannot exist"
+        },
+        {
+          "gate": "reentryCount >= 2",
+          "observed": "0",
+          "required": "2",
+          "distance": "-2",
+          "category": "A",
+          "note": "too few exit->re-entry events observed"
+        },
+        {
+          "gate": "pricedReentries >= 2 (both legs execution-valued)",
+          "observed": "<= 0 (bounded by reentryCount)",
+          "required": "2",
+          "distance": "at most 0",
+          "category": "A",
+          "note": "execution-price comparison is ALREADY the mechanism (reconstructPositions.ts uses leg.unitPriceUsd vs lastExitPriceUsd); with fewer than 2 pairs no pricing method can satisfy this gate"
+        }
+      ],
+      "verdict": "completedPositionCount > 0 [A]; reentryCount >= 2 [A]; pricedReentries >= 2 (both legs execution-valued) [A]"
+    },
+    {
+      "label": "P5",
+      "stratum": "P",
+      "persona": "newton",
+      "match": 57,
+      "confidence": 8,
+      "gates": [
+        {
+          "gate": "qualifyingSwaps >= 10",
+          "observed": "51",
+          "required": "10",
+          "distance": "pass",
+          "category": "D",
+          "note": "general history minimum (Phase 5B, unchanged)"
+        },
+        {
+          "gate": "completedPositionCount > 0",
+          "observed": "0",
+          "required": ">= 1",
+          "distance": "no completed position",
+          "category": "A",
+          "note": "wallet never fully exits any token — exit/re-entry cycles cannot exist"
+        },
+        {
+          "gate": "reentryCount >= 2",
+          "observed": "0",
+          "required": "2",
+          "distance": "-2",
+          "category": "A",
+          "note": "too few exit->re-entry events observed"
+        },
+        {
+          "gate": "pricedReentries >= 2 (both legs execution-valued)",
+          "observed": "<= 0 (bounded by reentryCount)",
+          "required": "2",
+          "distance": "at most 0",
+          "category": "A",
+          "note": "execution-price comparison is ALREADY the mechanism (reconstructPositions.ts uses leg.unitPriceUsd vs lastExitPriceUsd); with fewer than 2 pairs no pricing method can satisfy this gate"
+        }
+      ],
+      "verdict": "completedPositionCount > 0 [A]; reentryCount >= 2 [A]; pricedReentries >= 2 (both legs execution-valued) [A]"
+    },
+    {
+      "label": "P7",
+      "stratum": "P",
+      "persona": "sisyphus",
+      "match": 52,
+      "confidence": 67,
+      "gates": [
+        {
+          "gate": "qualifyingSwaps >= 25",
+          "observed": "52",
+          "required": "25",
+          "distance": "pass",
+          "category": "D",
+          "note": "pass"
+        },
+        {
+          "gate": "EFFICIENCY.value !== null (priced economic progress)",
+          "observed": "computable (realizedPnlUsd = 1.11)",
+          "required": "non-null",
+          "distance": "pass",
+          "category": "D",
+          "note": "stagnation signal exists"
+        },
+        {
+          "gate": "realizedPnlUsd.coverage >= 0.5",
+          "observed": "0.10",
+          "required": "0.5",
+          "distance": "-0.40",
+          "category": "B",
+          "note": "completed exits exist but most lack USD valuation — evidence/coverage gap, not behavior gap"
+        }
+      ],
+      "verdict": "realizedPnlUsd.coverage >= 0.5 [B]"
+    },
+    {
+      "label": "P8",
+      "stratum": "P",
+      "persona": "sisyphus",
+      "match": 86,
+      "confidence": 71,
+      "gates": [
+        {
+          "gate": "qualifyingSwaps >= 25",
+          "observed": "151",
+          "required": "25",
+          "distance": "pass",
+          "category": "D",
+          "note": "pass"
+        },
+        {
+          "gate": "EFFICIENCY.value !== null (priced economic progress)",
+          "observed": "computable (realizedPnlUsd = 0.88)",
+          "required": "non-null",
+          "distance": "pass",
+          "category": "D",
+          "note": "stagnation signal exists"
+        },
+        {
+          "gate": "realizedPnlUsd.coverage >= 0.5",
+          "observed": "0.04",
+          "required": "0.5",
+          "distance": "-0.46",
+          "category": "B",
+          "note": "completed exits exist but most lack USD valuation — evidence/coverage gap, not behavior gap"
+        }
+      ],
+      "verdict": "realizedPnlUsd.coverage >= 0.5 [B]"
+    },
+    {
+      "label": "P9",
+      "stratum": "P",
+      "persona": "sisyphus",
+      "match": 54,
+      "confidence": 56,
+      "gates": [
+        {
+          "gate": "qualifyingSwaps >= 25",
+          "observed": "39",
+          "required": "25",
+          "distance": "pass",
+          "category": "D",
+          "note": "pass"
+        },
+        {
+          "gate": "EFFICIENCY.value !== null (priced economic progress)",
+          "observed": "computable (realizedPnlUsd = 0.72)",
+          "required": "non-null",
+          "distance": "pass",
+          "category": "D",
+          "note": "stagnation signal exists"
+        },
+        {
+          "gate": "realizedPnlUsd.coverage >= 0.5",
+          "observed": "0.08",
+          "required": "0.5",
+          "distance": "-0.42",
+          "category": "B",
+          "note": "thin signal: realized PnL 0.72 comes from partial sells only (0 completed episodes) — coverage gap, not behavior gap"
+        }
+      ],
+      "verdict": "realizedPnlUsd.coverage >= 0.5 [B]"
+    },
+    {
+      "label": "L1",
+      "stratum": "L",
+      "persona": "newton",
+      "match": 60,
+      "confidence": 67,
+      "gates": [
+        {
+          "gate": "qualifyingSwaps >= 10",
+          "observed": "14",
+          "required": "10",
+          "distance": "pass",
+          "category": "D",
+          "note": "general history minimum (Phase 5B, unchanged)"
+        },
+        {
+          "gate": "completedPositionCount > 0",
+          "observed": "3",
+          "required": ">= 1",
+          "distance": "pass",
+          "category": "D",
+          "note": "exits exist"
+        },
+        {
+          "gate": "reentryCount >= 2",
+          "observed": "1",
+          "required": "2",
+          "distance": "-1",
+          "category": "A",
+          "note": "too few exit->re-entry events observed"
+        },
+        {
+          "gate": "pricedReentries >= 2 (both legs execution-valued)",
+          "observed": "<= 1 (bounded by reentryCount)",
+          "required": "2",
+          "distance": "at most 1",
+          "category": "A",
+          "note": "execution-price comparison is ALREADY the mechanism (reconstructPositions.ts uses leg.unitPriceUsd vs lastExitPriceUsd); with fewer than 2 pairs no pricing method can satisfy this gate"
+        }
+      ],
+      "verdict": "reentryCount >= 2 [A]; pricedReentries >= 2 (both legs execution-valued) [A]"
+    },
+    {
+      "label": "L7",
+      "stratum": "L",
+      "persona": "sisyphus",
+      "match": 57,
+      "confidence": 48,
+      "gates": [
+        {
+          "gate": "qualifyingSwaps >= 25",
+          "observed": "24",
+          "required": "25",
+          "distance": "-1",
+          "category": "C",
+          "note": "Sisyphus-specific activity minimum"
+        },
+        {
+          "gate": "EFFICIENCY.value !== null (priced economic progress)",
+          "observed": "computable (realizedPnlUsd = -40.84)",
+          "required": "non-null",
+          "distance": "pass",
+          "category": "D",
+          "note": "stagnation signal exists"
+        },
+        {
+          "gate": "realizedPnlUsd.coverage >= 0.5",
+          "observed": "0.09",
+          "required": "0.5",
+          "distance": "-0.41",
+          "category": "B",
+          "note": "completed exits exist but most lack USD valuation — evidence/coverage gap, not behavior gap"
+        }
+      ],
+      "verdict": "qualifyingSwaps >= 25 [C]; realizedPnlUsd.coverage >= 0.5 [B]"
+    },
+    {
+      "label": "L10",
+      "stratum": "L",
+      "persona": "sisyphus",
+      "match": 61,
+      "confidence": 70,
+      "gates": [
+        {
+          "gate": "qualifyingSwaps >= 25",
+          "observed": "84",
+          "required": "25",
+          "distance": "pass",
+          "category": "D",
+          "note": "pass"
+        },
+        {
+          "gate": "EFFICIENCY.value !== null (priced economic progress)",
+          "observed": "computable (realizedPnlUsd = -18.04)",
+          "required": "non-null",
+          "distance": "pass",
+          "category": "D",
+          "note": "stagnation signal exists"
+        },
+        {
+          "gate": "realizedPnlUsd.coverage >= 0.5",
+          "observed": "0.30",
+          "required": "0.5",
+          "distance": "-0.20",
+          "category": "B",
+          "note": "completed exits exist but most lack USD valuation — evidence/coverage gap, not behavior gap"
+        }
+      ],
+      "verdict": "realizedPnlUsd.coverage >= 0.5 [B]"
+    },
+    {
+      "label": "M4",
+      "stratum": "M",
+      "persona": "newton",
+      "match": 59,
+      "confidence": 8,
+      "gates": [
+        {
+          "gate": "qualifyingSwaps >= 10",
+          "observed": "56",
+          "required": "10",
+          "distance": "pass",
+          "category": "D",
+          "note": "general history minimum (Phase 5B, unchanged)"
+        },
+        {
+          "gate": "completedPositionCount > 0",
+          "observed": "0",
+          "required": ">= 1",
+          "distance": "no completed position",
+          "category": "A",
+          "note": "wallet never fully exits any token — exit/re-entry cycles cannot exist"
+        },
+        {
+          "gate": "reentryCount >= 2",
+          "observed": "0",
+          "required": "2",
+          "distance": "-2",
+          "category": "A",
+          "note": "too few exit->re-entry events observed"
+        },
+        {
+          "gate": "pricedReentries >= 2 (both legs execution-valued)",
+          "observed": "<= 0 (bounded by reentryCount)",
+          "required": "2",
+          "distance": "at most 0",
+          "category": "A",
+          "note": "execution-price comparison is ALREADY the mechanism (reconstructPositions.ts uses leg.unitPriceUsd vs lastExitPriceUsd); with fewer than 2 pairs no pricing method can satisfy this gate"
+        }
+      ],
+      "verdict": "completedPositionCount > 0 [A]; reentryCount >= 2 [A]; pricedReentries >= 2 (both legs execution-valued) [A]"
+    },
+    {
+      "label": "M5",
+      "stratum": "M",
+      "persona": "newton",
+      "match": 60,
+      "confidence": 8,
+      "gates": [
+        {
+          "gate": "qualifyingSwaps >= 10",
+          "observed": "60",
+          "required": "10",
+          "distance": "pass",
+          "category": "D",
+          "note": "general history minimum (Phase 5B, unchanged)"
+        },
+        {
+          "gate": "completedPositionCount > 0",
+          "observed": "0",
+          "required": ">= 1",
+          "distance": "no completed position",
+          "category": "A",
+          "note": "wallet never fully exits any token — exit/re-entry cycles cannot exist"
+        },
+        {
+          "gate": "reentryCount >= 2",
+          "observed": "0",
+          "required": "2",
+          "distance": "-2",
+          "category": "A",
+          "note": "too few exit->re-entry events observed"
+        },
+        {
+          "gate": "pricedReentries >= 2 (both legs execution-valued)",
+          "observed": "<= 0 (bounded by reentryCount)",
+          "required": "2",
+          "distance": "at most 0",
+          "category": "A",
+          "note": "execution-price comparison is ALREADY the mechanism (reconstructPositions.ts uses leg.unitPriceUsd vs lastExitPriceUsd); with fewer than 2 pairs no pricing method can satisfy this gate"
+        }
+      ],
+      "verdict": "completedPositionCount > 0 [A]; reentryCount >= 2 [A]; pricedReentries >= 2 (both legs execution-valued) [A]"
+    },
+    {
+      "label": "M6",
+      "stratum": "M",
+      "persona": "newton",
+      "match": 61,
+      "confidence": 8,
+      "gates": [
+        {
+          "gate": "qualifyingSwaps >= 10",
+          "observed": "67",
+          "required": "10",
+          "distance": "pass",
+          "category": "D",
+          "note": "general history minimum (Phase 5B, unchanged)"
+        },
+        {
+          "gate": "completedPositionCount > 0",
+          "observed": "0",
+          "required": ">= 1",
+          "distance": "no completed position",
+          "category": "A",
+          "note": "wallet never fully exits any token — exit/re-entry cycles cannot exist"
+        },
+        {
+          "gate": "reentryCount >= 2",
+          "observed": "0",
+          "required": "2",
+          "distance": "-2",
+          "category": "A",
+          "note": "too few exit->re-entry events observed"
+        },
+        {
+          "gate": "pricedReentries >= 2 (both legs execution-valued)",
+          "observed": "<= 0 (bounded by reentryCount)",
+          "required": "2",
+          "distance": "at most 0",
+          "category": "A",
+          "note": "execution-price comparison is ALREADY the mechanism (reconstructPositions.ts uses leg.unitPriceUsd vs lastExitPriceUsd); with fewer than 2 pairs no pricing method can satisfy this gate"
+        }
+      ],
+      "verdict": "completedPositionCount > 0 [A]; reentryCount >= 2 [A]; pricedReentries >= 2 (both legs execution-valued) [A]"
+    },
+    {
+      "label": "M8",
+      "stratum": "M",
+      "persona": "sisyphus",
+      "match": 59,
+      "confidence": 63,
+      "gates": [
+        {
+          "gate": "qualifyingSwaps >= 25",
+          "observed": "74",
+          "required": "25",
+          "distance": "pass",
+          "category": "D",
+          "note": "pass"
+        },
+        {
+          "gate": "EFFICIENCY.value !== null (priced economic progress)",
+          "observed": "computable (realizedPnlUsd = 0.00)",
+          "required": "non-null",
+          "distance": "pass",
+          "category": "D",
+          "note": "stagnation signal exists"
+        },
+        {
+          "gate": "realizedPnlUsd.coverage >= 0.5",
+          "observed": "0.08",
+          "required": "0.5",
+          "distance": "-0.42",
+          "category": "B",
+          "note": "completed exits exist but most lack USD valuation — evidence/coverage gap, not behavior gap"
+        }
+      ],
+      "verdict": "realizedPnlUsd.coverage >= 0.5 [B]"
+    }
+  ],
+  "simulations": {
+    "simA": {
+      "name": "A: Newton execution-price re-entry evidence (drop pricing gate only)",
+      "assigned": 22,
+      "coverage": "22/40 (55.0%)",
+      "changes": [],
+      "distribution": {
+        "caesar": 9,
+        "sisyphus": 6,
+        "newton": 4,
+        "icarus": 1,
+        "napoleon": 1,
+        "don_quixote": 1
+      }
+    },
+    "simB": {
+      "name": "B: Sisyphus binary PnL-coverage gate -> confidence degradation",
+      "assigned": 29,
+      "coverage": "29/40 (72.5%)",
+      "changes": [
+        {
+          "label": "T1",
+          "from": "caesar",
+          "to": "sisyphus"
+        },
+        {
+          "label": "T2",
+          "from": "caesar",
+          "to": "sisyphus"
+        },
+        {
+          "label": "T5",
+          "from": "newton",
+          "to": "sisyphus"
+        },
+        {
+          "label": "T7",
+          "from": null,
+          "to": "sisyphus"
+        },
+        {
+          "label": "T8",
+          "from": "newton",
+          "to": "sisyphus"
+        },
+        {
+          "label": "P5",
+          "from": null,
+          "to": "sisyphus"
+        },
+        {
+          "label": "P7",
+          "from": null,
+          "to": "sisyphus"
+        },
+        {
+          "label": "P8",
+          "from": null,
+          "to": "sisyphus"
+        },
+        {
+          "label": "P9",
+          "from": null,
+          "to": "sisyphus"
+        },
+        {
+          "label": "L8",
+          "from": "caesar",
+          "to": "sisyphus"
+        },
+        {
+          "label": "L10",
+          "from": null,
+          "to": "sisyphus"
+        },
+        {
+          "label": "M1",
+          "from": "caesar",
+          "to": "sisyphus"
+        },
+        {
+          "label": "M3",
+          "from": "caesar",
+          "to": "sisyphus"
+        },
+        {
+          "label": "M8",
+          "from": null,
+          "to": "sisyphus"
+        }
+      ],
+      "distribution": {
+        "sisyphus": 20,
+        "newton": 2,
+        "caesar": 4,
+        "icarus": 1,
+        "napoleon": 1,
+        "don_quixote": 1
+      }
+    },
+    "simC": {
+      "name": "C: A + B",
+      "assigned": 29,
+      "coverage": "29/40 (72.5%)",
+      "changes": [
+        {
+          "label": "T1",
+          "from": "caesar",
+          "to": "sisyphus"
+        },
+        {
+          "label": "T2",
+          "from": "caesar",
+          "to": "sisyphus"
+        },
+        {
+          "label": "T5",
+          "from": "newton",
+          "to": "sisyphus"
+        },
+        {
+          "label": "T7",
+          "from": null,
+          "to": "sisyphus"
+        },
+        {
+          "label": "T8",
+          "from": "newton",
+          "to": "sisyphus"
+        },
+        {
+          "label": "P5",
+          "from": null,
+          "to": "sisyphus"
+        },
+        {
+          "label": "P7",
+          "from": null,
+          "to": "sisyphus"
+        },
+        {
+          "label": "P8",
+          "from": null,
+          "to": "sisyphus"
+        },
+        {
+          "label": "P9",
+          "from": null,
+          "to": "sisyphus"
+        },
+        {
+          "label": "L8",
+          "from": "caesar",
+          "to": "sisyphus"
+        },
+        {
+          "label": "L10",
+          "from": null,
+          "to": "sisyphus"
+        },
+        {
+          "label": "M1",
+          "from": "caesar",
+          "to": "sisyphus"
+        },
+        {
+          "label": "M3",
+          "from": "caesar",
+          "to": "sisyphus"
+        },
+        {
+          "label": "M8",
+          "from": null,
+          "to": "sisyphus"
+        }
+      ],
+      "distribution": {
+        "sisyphus": 20,
+        "newton": 2,
+        "caesar": 4,
+        "icarus": 1,
+        "napoleon": 1,
+        "don_quixote": 1
+      }
+    }
+  },
+  "conclusion": null
+}

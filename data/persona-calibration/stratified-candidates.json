@@ -1,0 +1,1061 @@
+{
+  "discoveredAt": "2026-10-06T04:20:47.196Z",
+  "counts": {
+    "HIGH": 87,
+    "MED": 55,
+    "LOW": 8
+  },
+  "kept": [
+    {
+      "address": "GHWnDX6MhEHLz11ovZCssGe1gDS7aiwjjM5d9ieMWUPz",
+      "source": "pump-c",
+      "screenedSwapLike": 25,
+      "screenedTxs": 31,
+      "bucket": "MED"
+    },
+    {
+      "address": "9aWx5upaFwftTv4upoRWo3MP2opaCYiwS1M6y1kyNJ6a",
+      "source": "pump-c",
+      "screenedSwapLike": 21,
+      "screenedTxs": 100,
+      "bucket": "MED"
+    },
+    {
+      "address": "62cPxEqeWaZWr9ytJ1YUHZY7ufTmt4iBCpk9EfaUhgA2",
+      "source": "pump-c",
+      "screenedSwapLike": 12,
+      "screenedTxs": 100,
+      "bucket": "MED"
+    },
+    {
+      "address": "C3MXv2N96kSD8bzbkDmaS8CB4BFfZFwu3DS2qEjkpiMj",
+      "source": "pump-c",
+      "screenedSwapLike": 50,
+      "screenedTxs": 100,
+      "bucket": "HIGH"
+    },
+    {
+      "address": "dog7Rh9N4ngYSuihPwmmegduj3V6qB5MgFeo7LADdkp",
+      "source": "pump-c",
+      "screenedSwapLike": 34,
+      "screenedTxs": 100,
+      "bucket": "MED"
+    },
+    {
+      "address": "Em8J3gBWapfVBGVhVipwQnLrqCvnWBnLajw6XFsFECPF",
+      "source": "pump-c",
+      "screenedSwapLike": 79,
+      "screenedTxs": 100,
+      "bucket": "HIGH"
+    },
+    {
+      "address": "3L576MnmEzwdUWdfX36htBQSdsvXsMspmCoVJYFMBK2u",
+      "source": "pump-c",
+      "screenedSwapLike": 9,
+      "screenedTxs": 100,
+      "bucket": "LOW"
+    },
+    {
+      "address": "DAqCpTpQN1JNCDYLXWir28q1J2eXSufiNNADsSnUQTBZ",
+      "source": "pump-c",
+      "screenedSwapLike": 72,
+      "screenedTxs": 100,
+      "bucket": "HIGH"
+    },
+    {
+      "address": "EKmwH1ihw6ENL2a4C5d5tAPZd5bzdjU9w6bmyy832Kk7",
+      "source": "pump-c",
+      "screenedSwapLike": 98,
+      "screenedTxs": 100,
+      "bucket": "HIGH"
+    },
+    {
+      "address": "98s58Yjbeu1xC2ziTXtaN6FJDnBTGwvXfECfbW7VJ5nK",
+      "source": "pump-c",
+      "screenedSwapLike": 43,
+      "screenedTxs": 100,
+      "bucket": "MED"
+    },
+    {
+      "address": "C7Eim1MqSoJ1HLbvJi8uZpDBy6JdeQ12DB9MHEPyECf",
+      "source": "pump-c",
+      "screenedSwapLike": 4,
+      "screenedTxs": 8,
+      "bucket": "LOW"
+    },
+    {
+      "address": "CWGQPqtYdECUH7Hip8nvwex5ps3abrQt8q1Nj6M5piY2",
+      "source": "pump-c",
+      "screenedSwapLike": 77,
+      "screenedTxs": 100,
+      "bucket": "HIGH"
+    },
+    {
+      "address": "8egmGS7gbMCs3hpHKNqZMi6KChG2H3Xe4ndNXr53YJCy",
+      "source": "pump-c",
+      "screenedSwapLike": 15,
+      "screenedTxs": 100,
+      "bucket": "MED"
+    },
+    {
+      "address": "G5fE1LMUWrb6AiBtUGLCUnmhseSVY8pTpSeyWERU8Qvg",
+      "source": "pump-c",
+      "screenedSwapLike": 82,
+      "screenedTxs": 100,
+      "bucket": "HIGH"
+    },
+    {
+      "address": "GsTGBMgjeacdBsYqrrKaCd697Exnae2PiDYSeM6nGbum",
+      "source": "pump-c",
+      "screenedSwapLike": 40,
+      "screenedTxs": 100,
+      "bucket": "MED"
+    },
+    {
+      "address": "31xqegsMbuqAgfVsAFyhSZ7CiAahcF2FBECf2yNXc5Px",
+      "source": "pump-c",
+      "screenedSwapLike": 62,
+      "screenedTxs": 100,
+      "bucket": "HIGH"
+    },
+    {
+      "address": "7rbZSeHbtLM2wLa5LtrG1pqnexvXfZkBDhqsKVq2vuF5",
+      "source": "pump-c",
+      "screenedSwapLike": 54,
+      "screenedTxs": 73,
+      "bucket": "HIGH"
+    },
+    {
+      "address": "Hm5fB2iVtbx8rs5twpFGKeyH2XP9q7sCr84zfrpt49Dz",
+      "source": "pump-c",
+      "screenedSwapLike": 59,
+      "screenedTxs": 100,
+      "bucket": "HIGH"
+    },
+    {
+      "address": "CmohzfqDu6KhESScy3zPiK8q3d6U8KXFugu1rUWdm8vb",
+      "source": "pump-c",
+      "screenedSwapLike": 26,
+      "screenedTxs": 50,
+      "bucket": "MED"
+    },
+    {
+      "address": "nDaxAfufLe1ov7wpE34tasXuWhxtecDDwWTf6CZsBnN",
+      "source": "pump-c",
+      "screenedSwapLike": 21,
+      "screenedTxs": 40,
+      "bucket": "MED"
+    },
+    {
+      "address": "9WhnkfjJyLfnEfxRCXQmA4QxY7nvPyoGc7yxz3B5n1HF",
+      "source": "pump-c",
+      "screenedSwapLike": 33,
+      "screenedTxs": 100,
+      "bucket": "MED"
+    },
+    {
+      "address": "7eXJkYeBUbrDRMCGypQeuwMiLN8B3edtGAeZmcdH58az",
+      "source": "pump-c",
+      "screenedSwapLike": 20,
+      "screenedTxs": 29,
+      "bucket": "MED"
+    },
+    {
+      "address": "FWYhzNgosPF9jPrpKWWpR1nEhgcaymMJbzUr3daPTEZR",
+      "source": "pump-c",
+      "screenedSwapLike": 43,
+      "screenedTxs": 73,
+      "bucket": "MED"
+    },
+    {
+      "address": "GUCgJxTgz9ueGw7HhCxfNX2iXBHLfnx1tKA6e6zNFRTr",
+      "source": "pump-c",
+      "screenedSwapLike": 16,
+      "screenedTxs": 24,
+      "bucket": "MED"
+    },
+    {
+      "address": "98ifp62L4DL1odL2qCk5XFReGHteFWVBkT9TabrDfAZe",
+      "source": "pump-c",
+      "screenedSwapLike": 53,
+      "screenedTxs": 59,
+      "bucket": "HIGH"
+    },
+    {
+      "address": "4zx5U2QjK1FEBcv5XrbmLsuuqLfBMaqfLrTSCJE42Yr1",
+      "source": "pump-c",
+      "screenedSwapLike": 52,
+      "screenedTxs": 100,
+      "bucket": "HIGH"
+    },
+    {
+      "address": "4Qq4zktMPyjBkGUR3Co5DRsTBn3WJjXGTQWsPRr3wRK7",
+      "source": "pump-c",
+      "screenedSwapLike": 46,
+      "screenedTxs": 100,
+      "bucket": "MED"
+    },
+    {
+      "address": "3BeTYScDgXwew1o8bhzz7fhJ9iwNJFmDzNWaHduK72t4",
+      "source": "pump-c",
+      "screenedSwapLike": 69,
+      "screenedTxs": 100,
+      "bucket": "HIGH"
+    },
+    {
+      "address": "FVnQxnucNqSQzrSdKjPVScGtjB2aR9ttoKyoiaM8RSCz",
+      "source": "pump-c",
+      "screenedSwapLike": 43,
+      "screenedTxs": 67,
+      "bucket": "MED"
+    },
+    {
+      "address": "HdU5H5knG8eQYyv7FDVXv2vw7FJgtuCq8q9o9dKmiuhC",
+      "source": "pump-c",
+      "screenedSwapLike": 29,
+      "screenedTxs": 100,
+      "bucket": "MED"
+    },
+    {
+      "address": "8GHe4NfDMYjdqaUKaZMSoQHpS9p1roQGDqjJ8CNJC6jc",
+      "source": "pump-c",
+      "screenedSwapLike": 24,
+      "screenedTxs": 100,
+      "bucket": "MED"
+    },
+    {
+      "address": "AZUfn83aMH4DQFMduMrRXShvN23nVmS4DLiLdGePbTfC",
+      "source": "pump-c",
+      "screenedSwapLike": 57,
+      "screenedTxs": 93,
+      "bucket": "HIGH"
+    },
+    {
+      "address": "EFc42WuBRHUcSYjFXDUt8DnUAAA6YzjdyUe8MqLDMQHS",
+      "source": "pump-c",
+      "screenedSwapLike": 33,
+      "screenedTxs": 100,
+      "bucket": "MED"
+    },
+    {
+      "address": "Fd2tJ1AJxCQksuN7mekqq6HCNtUYGy1hLTFDvaNEJQ5M",
+      "source": "pump-c",
+      "screenedSwapLike": 13,
+      "screenedTxs": 100,
+      "bucket": "MED"
+    },
+    {
+      "address": "26ooGGTHJwqr56cNg68oQge98LHw7Gq6HQw4grycFtEb",
+      "source": "pump-c",
+      "screenedSwapLike": 29,
+      "screenedTxs": 100,
+      "bucket": "MED"
+    },
+    {
+      "address": "ACTZqVRc7gU5HdXa6YWx3HyKdyC6YQHALCaR2cSvdvJ9",
+      "source": "pump-c",
+      "screenedSwapLike": 67,
+      "screenedTxs": 100,
+      "bucket": "HIGH"
+    },
+    {
+      "address": "DkaKNXLcu9AC3KDhHXm1JYyKbjrRLMfaUAAfUB32psj7",
+      "source": "pump-c",
+      "screenedSwapLike": 11,
+      "screenedTxs": 100,
+      "bucket": "MED"
+    },
+    {
+      "address": "8DRJdA5PqqydAkkagV2QmYik5e5raNSFEQtC6D8xZQxN",
+      "source": "pump-c",
+      "screenedSwapLike": 38,
+      "screenedTxs": 100,
+      "bucket": "MED"
+    },
+    {
+      "address": "BtnqqoGt4g4BQc8dKqXM1UqvpnAhZuHpdJ3cx2yM9hW",
+      "source": "pump-c",
+      "screenedSwapLike": 16,
+      "screenedTxs": 100,
+      "bucket": "MED"
+    },
+    {
+      "address": "7twBXsiaMS1CjJ8kcwksCAmU5fUYxGSNprCZBPYVfi2U",
+      "source": "pump-c",
+      "screenedSwapLike": 11,
+      "screenedTxs": 100,
+      "bucket": "MED"
+    },
+    {
+      "address": "nEm76gvVA7tYgffWfmxWurPSunC57KH1iggVM1u7QWX",
+      "source": "pump-c",
+      "screenedSwapLike": 41,
+      "screenedTxs": 100,
+      "bucket": "MED"
+    },
+    {
+      "address": "FePyVnttxm1raRUGSAbYJCRwr5BH72MBurt2dRaxvjGb",
+      "source": "pump-c",
+      "screenedSwapLike": 96,
+      "screenedTxs": 100,
+      "bucket": "HIGH"
+    },
+    {
+      "address": "GukuT1VvzcjvSRy5VX69vw51kpUEf69xSpJXBF34wGG6",
+      "source": "pump-a",
+      "screenedSwapLike": 62,
+      "screenedTxs": 100,
+      "bucket": "HIGH"
+    },
+    {
+      "address": "XUrKb2aK4jBm77q75EemchVUNRTJyeFQ5KebTJygPhF",
+      "source": "pump-a",
+      "screenedSwapLike": 4,
+      "screenedTxs": 100,
+      "bucket": "LOW"
+    },
+    {
+      "address": "7rtiKSUDLBm59b1SBmD9oajcP8xE64vAGSMbAN5CXy1q",
+      "source": "pump-a",
+      "screenedSwapLike": 15,
+      "screenedTxs": 100,
+      "bucket": "MED"
+    },
+    {
+      "address": "4ADmhoK57xtmqfzYsYNREBAmwS9cDzD2wpextJ1YvqHM",
+      "source": "pump-a",
+      "screenedSwapLike": 39,
+      "screenedTxs": 100,
+      "bucket": "MED"
+    },
+    {
+      "address": "GiafegiTpy5MYsjzxuxo2YMqp8RPUpYUHjhyFK1hLxiQ",
+      "source": "pump-a",
+      "screenedSwapLike": 37,
+      "screenedTxs": 100,
+      "bucket": "MED"
+    },
+    {
+      "address": "CDHc94mvJzsW5EkfPRpgs1YZkqFSU3LgBGyKLCffLi67",
+      "source": "pump-a",
+      "screenedSwapLike": 97,
+      "screenedTxs": 100,
+      "bucket": "HIGH"
+    },
+    {
+      "address": "FAVRCq2CHPfi5Rystu7TciBzyigrVhUPmH1kHY6hRpsU",
+      "source": "pump-a",
+      "screenedSwapLike": 11,
+      "screenedTxs": 100,
+      "bucket": "MED"
+    },
+    {
+      "address": "B29bt833VMU9ZrFXBSAUtW5aAeEAzP3V6nSWbDqbA4B5",
+      "source": "pump-a",
+      "screenedSwapLike": 99,
+      "screenedTxs": 100,
+      "bucket": "HIGH"
+    },
+    {
+      "address": "9YneiTWqZYhqiXE5u2QzdULvAZihuLN9KbDjW6KMZBWZ",
+      "source": "pump-a",
+      "screenedSwapLike": 12,
+      "screenedTxs": 23,
+      "bucket": "MED"
+    },
+    {
+      "address": "78Bo7xxGWBEvqbh3VMKvkFG4Z63cXKSJ2LCEXAanhN7a",
+      "source": "pump-a",
+      "screenedSwapLike": 100,
+      "screenedTxs": 100,
+      "bucket": "HIGH"
+    },
+    {
+      "address": "F1yJ5Vw7SKgHeEScAiCcv3wq69wHABSDcVdJmq5nZHNy",
+      "source": "pump-a",
+      "screenedSwapLike": 42,
+      "screenedTxs": 100,
+      "bucket": "MED"
+    },
+    {
+      "address": "ALVMJ9bny8tFT7AapoVbbzrgCYzrjy8iHw6EHFaehgZZ",
+      "source": "pump-a",
+      "screenedSwapLike": 94,
+      "screenedTxs": 100,
+      "bucket": "HIGH"
+    },
+    {
+      "address": "keecfffPuYxNWiMTMAkijaLpB1aEnyv1mZbbRvxrHYt",
+      "source": "pump-a",
+      "screenedSwapLike": 38,
+      "screenedTxs": 100,
+      "bucket": "MED"
+    },
+    {
+      "address": "3xnfCP7H4Hm8PVsiMg6zTXdY3q8pwBehjjUFWLPfQ36J",
+      "source": "pump-a",
+      "screenedSwapLike": 66,
+      "screenedTxs": 100,
+      "bucket": "HIGH"
+    },
+    {
+      "address": "uSs8RGUbj94AeB8Ro8C7WMShF4TFJn8LkaVxY19GYv1",
+      "source": "pump-a",
+      "screenedSwapLike": 73,
+      "screenedTxs": 100,
+      "bucket": "HIGH"
+    },
+    {
+      "address": "E38U5hjyoQStDYkNjzPbjpxRw5HXy9uUvm6HTuHnSLiy",
+      "source": "pump-a",
+      "screenedSwapLike": 41,
+      "screenedTxs": 100,
+      "bucket": "MED"
+    },
+    {
+      "address": "EURndS4ksjQf6UVfzGvLovE1gaCkpzQHm7uAyvB5BKXt",
+      "source": "pump-a",
+      "screenedSwapLike": 42,
+      "screenedTxs": 100,
+      "bucket": "MED"
+    },
+    {
+      "address": "3cT3TR2NhVqJK4TAocSz8rRGxrTjX1yWEyL2MHd9qb1B",
+      "source": "pump-a",
+      "screenedSwapLike": 40,
+      "screenedTxs": 100,
+      "bucket": "MED"
+    },
+    {
+      "address": "Fma44LrLts7kB5Bv2EHXeYY9iEhz5b4FN1xiHyuvJvtj",
+      "source": "pump-a",
+      "screenedSwapLike": 73,
+      "screenedTxs": 100,
+      "bucket": "HIGH"
+    },
+    {
+      "address": "6BP7mkhTYcCJVgikE39ptv8YyMeJciUjZSNiDKbxYXFW",
+      "source": "pump-a",
+      "screenedSwapLike": 96,
+      "screenedTxs": 100,
+      "bucket": "HIGH"
+    },
+    {
+      "address": "38bD9RUdwZhTgbaYM7aRHmejrr72jszZwttvRu8HvLwj",
+      "source": "pump-a",
+      "screenedSwapLike": 7,
+      "screenedTxs": 100,
+      "bucket": "LOW"
+    },
+    {
+      "address": "Hb9K9Wxi3d5RgmPuYdUE9nSEVh9mAZWkdQGoUYwaJcYA",
+      "source": "pump-a",
+      "screenedSwapLike": 37,
+      "screenedTxs": 100,
+      "bucket": "MED"
+    },
+    {
+      "address": "5tra33amvzXwnnzgwtaYEofWJifwyRc5WcVGxKqtNkiy",
+      "source": "pump-a",
+      "screenedSwapLike": 27,
+      "screenedTxs": 100,
+      "bucket": "MED"
+    },
+    {
+      "address": "8yZWBmF2NPZTDXYJvxntQNBQfHTUbtsskYkPAp8AkFrB",
+      "source": "pump-a",
+      "screenedSwapLike": 55,
+      "screenedTxs": 100,
+      "bucket": "HIGH"
+    },
+    {
+      "address": "8HhxsefGKt6mK1HZUMcnRWiMyJ49pRAiSe5A8ZwWzzWw",
+      "source": "pump-a",
+      "screenedSwapLike": 16,
+      "screenedTxs": 100,
+      "bucket": "MED"
+    },
+    {
+      "address": "R32xAccFis3YzBzGwZ1C4QkGiehLxSao7gDmErA3kjk",
+      "source": "pump-a",
+      "screenedSwapLike": 19,
+      "screenedTxs": 100,
+      "bucket": "MED"
+    },
+    {
+      "address": "GxDC9e7SP9mzhDo4re5HbpLa2RW7gB9DtmThx4i4pXSq",
+      "source": "pump-a",
+      "screenedSwapLike": 96,
+      "screenedTxs": 100,
+      "bucket": "HIGH"
+    },
+    {
+      "address": "9oYhnACz1bXDveCcY6DXLVfP1h1ray8taFuAbwVbegVj",
+      "source": "pump-a",
+      "screenedSwapLike": 66,
+      "screenedTxs": 100,
+      "bucket": "HIGH"
+    },
+    {
+      "address": "F2nbJ2Lx8WeMPdasLEwQrvZFBSnt6TwG7FQdu9q8PvTw",
+      "source": "pump-a",
+      "screenedSwapLike": 96,
+      "screenedTxs": 100,
+      "bucket": "HIGH"
+    },
+    {
+      "address": "DGNKYRxQGuvLo6oCCH5zB5nr6J7jc66Ndku2jR1ZQXzn",
+      "source": "pump-b",
+      "screenedSwapLike": 72,
+      "screenedTxs": 100,
+      "bucket": "HIGH"
+    },
+    {
+      "address": "CKrqnWuinwFpG3V4NkbQZepsZz7f83UPkB3iN8ha1BZX",
+      "source": "pump-b",
+      "screenedSwapLike": 10,
+      "screenedTxs": 100,
+      "bucket": "MED"
+    },
+    {
+      "address": "DmQSnFzRoENh3weu6EtBBhHTpQBQSsvjpMX8iYKRygQ4",
+      "source": "meta-d",
+      "screenedSwapLike": 95,
+      "screenedTxs": 100,
+      "bucket": "HIGH"
+    },
+    {
+      "address": "3nMNd89AxwHUa1AFvQGqohRkxFEQsTsgiEyEyqXFHyyH",
+      "source": "meta-d",
+      "screenedSwapLike": 99,
+      "screenedTxs": 100,
+      "bucket": "HIGH"
+    },
+    {
+      "address": "8KVTprq7wf5GTRR2u2pgqUdqHy9oHfbDZsDtM354ZRiN",
+      "source": "meta-d",
+      "screenedSwapLike": 22,
+      "screenedTxs": 100,
+      "bucket": "MED"
+    },
+    {
+      "address": "3hwbycJBquJxnrtX9otTVuBGo7cyrB82PPoaMjp3mSkr",
+      "source": "meta-d",
+      "screenedSwapLike": 9,
+      "screenedTxs": 100,
+      "bucket": "LOW"
+    },
+    {
+      "address": "9JwLUKipvM96RYoBwrn6HeYcAYbWCsSNtevNetYqgrc4",
+      "source": "meta-d",
+      "screenedSwapLike": 17,
+      "screenedTxs": 100,
+      "bucket": "MED"
+    },
+    {
+      "address": "5kT271ae9idBxqabA6BpVmjWr3Mqx7VuSBihYxnghPeC",
+      "source": "meta-d",
+      "screenedSwapLike": 57,
+      "screenedTxs": 100,
+      "bucket": "HIGH"
+    },
+    {
+      "address": "B8pPhDfgC3dNGsk1d6hK9ZpL3Z2cmBNcrkjV2d1TWZTc",
+      "source": "meta-d",
+      "screenedSwapLike": 38,
+      "screenedTxs": 100,
+      "bucket": "MED"
+    },
+    {
+      "address": "7nwPXZNhBj88jcC22VNBQUYLohTsQWh5VGxWqnAAcvMf",
+      "source": "meta-d",
+      "screenedSwapLike": 100,
+      "screenedTxs": 100,
+      "bucket": "HIGH"
+    },
+    {
+      "address": "4DbqoWvj1NcRVTrvt5PPARnj85mYu8DfBp9YJPpwsApW",
+      "source": "meta-d",
+      "screenedSwapLike": 10,
+      "screenedTxs": 100,
+      "bucket": "MED"
+    },
+    {
+      "address": "32RV8W5tRL8xSxof7D5NxtdoegtABxYDBryiWv2AA8VP",
+      "source": "meta-d",
+      "screenedSwapLike": 8,
+      "screenedTxs": 21,
+      "bucket": "LOW"
+    },
+    {
+      "address": "4RGcq9jaiDVJc55ANCfBC8JSDJiYW8SH961iVsGzDtBe",
+      "source": "meta-d",
+      "screenedSwapLike": 67,
+      "screenedTxs": 100,
+      "bucket": "HIGH"
+    },
+    {
+      "address": "3T6gxwpMjdT7h4N8i6ucynpe8xXiWj8B1aLKNTS1d3dC",
+      "source": "meta-d",
+      "screenedSwapLike": 100,
+      "screenedTxs": 100,
+      "bucket": "HIGH"
+    },
+    {
+      "address": "81RwTUf7ZvM5GpeG5q5aGemnxPQLzKAXEF6qPDzNQKDn",
+      "source": "meta-d",
+      "screenedSwapLike": 57,
+      "screenedTxs": 100,
+      "bucket": "HIGH"
+    },
+    {
+      "address": "En3NPq8o9Cynf1Q3eP69AqZmPKmBaDugYnE832o2YuzP",
+      "source": "meta-d",
+      "screenedSwapLike": 100,
+      "screenedTxs": 100,
+      "bucket": "HIGH"
+    },
+    {
+      "address": "AkCyNQ7vxJeQRXx94VkM5xdcDz6KvhyvZSjk7Ztu85qq",
+      "source": "meta-d",
+      "screenedSwapLike": 100,
+      "screenedTxs": 100,
+      "bucket": "HIGH"
+    },
+    {
+      "address": "7HsyYYLEP5nRMcSfkkbe1zYCW5ps951q33kPfvqr3jBL",
+      "source": "meta-d",
+      "screenedSwapLike": 100,
+      "screenedTxs": 100,
+      "bucket": "HIGH"
+    },
+    {
+      "address": "9NgCU4Na5fGWqRC5iYPJy8k1mE64B28Ghp8z3tYAQj7A",
+      "source": "meta-d",
+      "screenedSwapLike": 35,
+      "screenedTxs": 88,
+      "bucket": "MED"
+    },
+    {
+      "address": "7CjpVGTfpTa9Hr97v6xbSeTz58RpA4wVDHSFD7aaTyhq",
+      "source": "meta-d",
+      "screenedSwapLike": 3,
+      "screenedTxs": 18,
+      "bucket": "LOW"
+    },
+    {
+      "address": "51ZDY8GL4n4iptN7ZskwhAoMAP4pMiP6Z6xYFzv8Usoe",
+      "source": "meta-d",
+      "screenedSwapLike": 36,
+      "screenedTxs": 100,
+      "bucket": "MED"
+    },
+    {
+      "address": "2kZ8pfX5u1KBMTr27K84DWF6v4A5EdyoYqEKpjTGMA2x",
+      "source": "meta-d",
+      "screenedSwapLike": 75,
+      "screenedTxs": 100,
+      "bucket": "HIGH"
+    },
+    {
+      "address": "Fgej4SPuW282TdrQRfizRHAeRasNqCtAWZizL3jDqMdS",
+      "source": "meta-d",
+      "screenedSwapLike": 38,
+      "screenedTxs": 100,
+      "bucket": "MED"
+    },
+    {
+      "address": "9Kfzv4gqCnL2mLzCzAdnCg3U4VhPkmtsKEQrSZdVjiCh",
+      "source": "meta-d",
+      "screenedSwapLike": 51,
+      "screenedTxs": 100,
+      "bucket": "HIGH"
+    },
+    {
+      "address": "3C7dHgR53bF3P2YSzaDaW57EZfh8CHu7uTen6eEEiuqe",
+      "source": "meta-d",
+      "screenedSwapLike": 100,
+      "screenedTxs": 100,
+      "bucket": "HIGH"
+    },
+    {
+      "address": "AzgV8r5VJAh7xZgqd1GRQ1rfDqUXzBgVi5RrornJU8Gp",
+      "source": "jup",
+      "screenedSwapLike": 82,
+      "screenedTxs": 100,
+      "bucket": "HIGH"
+    },
+    {
+      "address": "3y5u6tGmYwoFpLgfRYcjxRLj6g4FYHfoG3Z3g4ChGas5",
+      "source": "jup",
+      "screenedSwapLike": 100,
+      "screenedTxs": 100,
+      "bucket": "HIGH"
+    },
+    {
+      "address": "EYBpcW3cNxsQ3nHf1wadJUqT2S8m9MpgzJHcDdtEc6Vr",
+      "source": "jup",
+      "screenedSwapLike": 54,
+      "screenedTxs": 100,
+      "bucket": "HIGH"
+    },
+    {
+      "address": "8fC6P3ZNBYy8N7MFniJanEkZCZWBr2RPzN8ovLhVJWHy",
+      "source": "jup",
+      "screenedSwapLike": 100,
+      "screenedTxs": 100,
+      "bucket": "HIGH"
+    },
+    {
+      "address": "CnzWf9LAenG5DJPey3n6X2VVAGpmJ2vaLLPHABDbZ49G",
+      "source": "jup",
+      "screenedSwapLike": 100,
+      "screenedTxs": 100,
+      "bucket": "HIGH"
+    },
+    {
+      "address": "D3mkk94XmtAV19S4CTUZt9FBUuDhvtjoAW9aAsK8uoUV",
+      "source": "jup",
+      "screenedSwapLike": 100,
+      "screenedTxs": 100,
+      "bucket": "HIGH"
+    },
+    {
+      "address": "6XiZeo2DXWwxfCueuCBDruc5Tm1tvnvmgQgASxBzcSQt",
+      "source": "jup",
+      "screenedSwapLike": 93,
+      "screenedTxs": 100,
+      "bucket": "HIGH"
+    },
+    {
+      "address": "2QfBNK2WDwSLoUQRb1zAnp3KM12N9hQ8q6ApwUMnWW2T",
+      "source": "jup",
+      "screenedSwapLike": 91,
+      "screenedTxs": 100,
+      "bucket": "HIGH"
+    },
+    {
+      "address": "4B8srvotmWddTZuMt4RrBQrnx1sQj2Z7FaXgLbWvpVdd",
+      "source": "jup",
+      "screenedSwapLike": 93,
+      "screenedTxs": 100,
+      "bucket": "HIGH"
+    },
+    {
+      "address": "AypMu4tHqkC7JRnTjPvwfS46A98PiR5Pfd7E8EbDKY2L",
+      "source": "jup",
+      "screenedSwapLike": 99,
+      "screenedTxs": 100,
+      "bucket": "HIGH"
+    },
+    {
+      "address": "F1aeaWYLWG5tn7NxGq7jCUWctTwFgtjuTCVm5WSvesMm",
+      "source": "jup",
+      "screenedSwapLike": 100,
+      "screenedTxs": 100,
+      "bucket": "HIGH"
+    },
+    {
+      "address": "GfdMAWwoiEjSte5V8tCrUxvjmb4EzHdVvbPEqxEEJEP5",
+      "source": "jup",
+      "screenedSwapLike": 59,
+      "screenedTxs": 100,
+      "bucket": "HIGH"
+    },
+    {
+      "address": "GN8QvtajRPHfavqc3uw1iuAysEGgpDwnK9s8NLAZBM7x",
+      "source": "jup",
+      "screenedSwapLike": 56,
+      "screenedTxs": 100,
+      "bucket": "HIGH"
+    },
+    {
+      "address": "9EwQoN74Hzw747EM7wB3WtvgAdRGH1czaPtbqZj1qDj4",
+      "source": "jup",
+      "screenedSwapLike": 81,
+      "screenedTxs": 100,
+      "bucket": "HIGH"
+    },
+    {
+      "address": "GrbgTYahngPmXcvySZF43xixez8WoKGpM7LuftHUv89R",
+      "source": "jup",
+      "screenedSwapLike": 100,
+      "screenedTxs": 100,
+      "bucket": "HIGH"
+    },
+    {
+      "address": "GaaNT4QMYq6j99r3kvw4rdu5DkT3gAobEKkqCYRQ5Lv7",
+      "source": "jup",
+      "screenedSwapLike": 100,
+      "screenedTxs": 100,
+      "bucket": "HIGH"
+    },
+    {
+      "address": "DMikcrkaXY1N6nV3ETxA3CukhdwXZoU17mfZj7DUNpkY",
+      "source": "jup",
+      "screenedSwapLike": 100,
+      "screenedTxs": 100,
+      "bucket": "HIGH"
+    },
+    {
+      "address": "G7y3TGZtSVKENJCG8MYy1Tdo7LYZ6n1NTybMUroYYgTh",
+      "source": "jup",
+      "screenedSwapLike": 100,
+      "screenedTxs": 100,
+      "bucket": "HIGH"
+    },
+    {
+      "address": "BHwD9GDKxCU1m7PN6XAKmLxnvU2FhJ23Cyd7eD2jaUnQ",
+      "source": "jup",
+      "screenedSwapLike": 100,
+      "screenedTxs": 100,
+      "bucket": "HIGH"
+    },
+    {
+      "address": "2hfmUnqy77e8wjQqi8oNhxtbnTjTs2bALoamLS6jjX3x",
+      "source": "jup",
+      "screenedSwapLike": 100,
+      "screenedTxs": 100,
+      "bucket": "HIGH"
+    },
+    {
+      "address": "C3scMwjxoqHnnNrmzpodj11FXpBXudhgoP381b1F6PRB",
+      "source": "jup",
+      "screenedSwapLike": 70,
+      "screenedTxs": 100,
+      "bucket": "HIGH"
+    },
+    {
+      "address": "AhuZkzp4KhaiKPbzWXnRjdXT42K8PPFP7Zma2sgoVVwF",
+      "source": "jup",
+      "screenedSwapLike": 64,
+      "screenedTxs": 100,
+      "bucket": "HIGH"
+    },
+    {
+      "address": "2VuUaLjjeuaVBKTAjWs2SLyuknWbmSmSf3Tv3fiv42is",
+      "source": "jup",
+      "screenedSwapLike": 41,
+      "screenedTxs": 74,
+      "bucket": "MED"
+    },
+    {
+      "address": "7YUt5yGwqkF7WsiwZuGTP1TVxBuCGjwgRmwRucV5yZLm",
+      "source": "jup",
+      "screenedSwapLike": 100,
+      "screenedTxs": 100,
+      "bucket": "HIGH"
+    },
+    {
+      "address": "Bba7tK436tJ7vqreaJMeKyXh2jeGyMk2BgnQtFKhyQfs",
+      "source": "jup",
+      "screenedSwapLike": 66,
+      "screenedTxs": 100,
+      "bucket": "HIGH"
+    },
+    {
+      "address": "1jDWGP8pGBeN84N962vFPR7xiCfPzsL9tU1sLWhEsU3",
+      "source": "jup",
+      "screenedSwapLike": 59,
+      "screenedTxs": 100,
+      "bucket": "HIGH"
+    },
+    {
+      "address": "FdaRLHcn33PNrNfYEDDtXjp5dxxHqRgf1op7mAKvy9o9",
+      "source": "jup",
+      "screenedSwapLike": 35,
+      "screenedTxs": 100,
+      "bucket": "MED"
+    },
+    {
+      "address": "5z1XnXPK7gAJA7x1fhn1P8A5pFJg3w9CS7AJ7yngtjdC",
+      "source": "jup",
+      "screenedSwapLike": 4,
+      "screenedTxs": 50,
+      "bucket": "LOW"
+    },
+    {
+      "address": "EnGqgVhdZ9gxXQPhbW31sYuFekN3hpE6piNx1GKJ1fWx",
+      "source": "jup",
+      "screenedSwapLike": 17,
+      "screenedTxs": 58,
+      "bucket": "MED"
+    },
+    {
+      "address": "2zYkPrN78GhCDLrPPTwFCmWm5tjzBXzzHM6mhBKVMXBF",
+      "source": "jup",
+      "screenedSwapLike": 74,
+      "screenedTxs": 100,
+      "bucket": "HIGH"
+    },
+    {
+      "address": "FCWiDyoekH98zCdT2D3e4yhGCQaQiZTkRN4JVqSkE3NU",
+      "source": "jup",
+      "screenedSwapLike": 100,
+      "screenedTxs": 100,
+      "bucket": "HIGH"
+    },
+    {
+      "address": "6Hj8mu6WSmhAdWTPEuvPKYAXGf1rNJYfSXUYLs1EZXoU",
+      "source": "jup",
+      "screenedSwapLike": 65,
+      "screenedTxs": 100,
+      "bucket": "HIGH"
+    },
+    {
+      "address": "BTvquKFGA8yUP69sSA4CCgPGEjGcRrbyKr7oxvBFpY5H",
+      "source": "jup",
+      "screenedSwapLike": 43,
+      "screenedTxs": 100,
+      "bucket": "MED"
+    },
+    {
+      "address": "J4J7NqWnjDhQzy8pTsoRxpSA2dEQz52VSsiMu5hpfDdv",
+      "source": "jup",
+      "screenedSwapLike": 100,
+      "screenedTxs": 100,
+      "bucket": "HIGH"
+    },
+    {
+      "address": "Hwc2qjuzCvUEwfyrfVPuATS2sfXoHfyKdSsGEixXiZvp",
+      "source": "jup",
+      "screenedSwapLike": 100,
+      "screenedTxs": 100,
+      "bucket": "HIGH"
+    },
+    {
+      "address": "EqghiUnpGFC88j67zbinSWYZvh8hk1mJQA5xuwtoYusz",
+      "source": "jup",
+      "screenedSwapLike": 88,
+      "screenedTxs": 100,
+      "bucket": "HIGH"
+    },
+    {
+      "address": "5kgqBoMLnb3ySKvf34kgX8BNywBVJFJ8qJRG4NxAAYch",
+      "source": "pump-major",
+      "screenedSwapLike": 28,
+      "screenedTxs": 100,
+      "bucket": "MED"
+    },
+    {
+      "address": "7rhxnLV8C77o6d8oz26AgK8x8m5ePsdeRawjqvojbjnQ",
+      "source": "pump-major",
+      "screenedSwapLike": 42,
+      "screenedTxs": 100,
+      "bucket": "MED"
+    },
+    {
+      "address": "3xfyNewQAWZkQhxfqvUwFBnHFbgnL4n7nhqXkaKLta21",
+      "source": "pump-major",
+      "screenedSwapLike": 74,
+      "screenedTxs": 100,
+      "bucket": "HIGH"
+    },
+    {
+      "address": "4kNBxiRtPUpbxru9kdb6vUwHF935YqfoMYEfPnRcsVhv",
+      "source": "pump-major",
+      "screenedSwapLike": 100,
+      "screenedTxs": 100,
+      "bucket": "HIGH"
+    },
+    {
+      "address": "9nXDunV8eNvYSVys7JSBkm2hz9Q79Q3EYeko19srVeMC",
+      "source": "pump-major",
+      "screenedSwapLike": 99,
+      "screenedTxs": 100,
+      "bucket": "HIGH"
+    },
+    {
+      "address": "Dcpncc977FJe6SPJ42wX2Sh5pNtyNNtPTyBrhETnw7KJ",
+      "source": "pump-major",
+      "screenedSwapLike": 15,
+      "screenedTxs": 38,
+      "bucket": "MED"
+    },
+    {
+      "address": "AWFePmbsMHBVaerXJQLUWwvX8XQtZ87voV5Fpo34JJga",
+      "source": "pump-major",
+      "screenedSwapLike": 32,
+      "screenedTxs": 92,
+      "bucket": "MED"
+    },
+    {
+      "address": "GD7tsSQqyZ67nieEiPjV32dmYVUUUE4ENyYDBAVWaT9v",
+      "source": "pump-major",
+      "screenedSwapLike": 73,
+      "screenedTxs": 100,
+      "bucket": "HIGH"
+    },
+    {
+      "address": "5KvQ77oBd5EY8GfrjKkq9qsxWp8UuSdw2RMvP2kEPsUC",
+      "source": "pump-major",
+      "screenedSwapLike": 80,
+      "screenedTxs": 100,
+      "bucket": "HIGH"
+    },
+    {
+      "address": "6Qt8a3Y6B4nekSRQ1p2e5yqP5bSCbE6HzUTdWwdfYXmR",
+      "source": "pump-major",
+      "screenedSwapLike": 88,
+      "screenedTxs": 100,
+      "bucket": "HIGH"
+    },
+    {
+      "address": "7YCo43X1AftRbQoaz1PqEVSLiCS7WcxKGR81E3oHwguU",
+      "source": "pump-major",
+      "screenedSwapLike": 60,
+      "screenedTxs": 100,
+      "bucket": "HIGH"
+    },
+    {
+      "address": "3QxZresXVu3sNYJwjBXm2k5uEXAzYx22joWk6eocMdKh",
+      "source": "pump-major",
+      "screenedSwapLike": 81,
+      "screenedTxs": 100,
+      "bucket": "HIGH"
+    },
+    {
+      "address": "Bva5dSHMcg4sf7LntZyF8SeJqniZNDNpc9gcjcBZnyeP",
+      "source": "pump-major",
+      "screenedSwapLike": 63,
+      "screenedTxs": 100,
+      "bucket": "HIGH"
+    },
+    {
+      "address": "REDBUtdAjot2V6abs2pojT9BiRUdC1NuUpi8QSfrMVt",
+      "source": "pump-major",
+      "screenedSwapLike": 99,
+      "screenedTxs": 100,
+      "bucket": "HIGH"
+    },
+    {
+      "address": "FkaLnX17cXZGyeu3kZGdHCNdFMJJzBrPPYVvd18B3MZp",
+      "source": "pump-major",
+      "screenedSwapLike": 99,
+      "screenedTxs": 100,
+      "bucket": "HIGH"
+    },
+    {
+      "address": "5n6Q4bYDFe3CZ2aj4wj8jU1j6yx57DeHxY1xVs4cQXQD",
+      "source": "pump-major",
+      "screenedSwapLike": 87,
+      "screenedTxs": 100,
+      "bucket": "HIGH"
+    },
+    {
+      "address": "BXEHNbKPGeUHaqpaiHR6hc9mQkTZ2WFCXh6kkHkhFnCY",
+      "source": "pump-major",
+      "screenedSwapLike": 100,
+      "screenedTxs": 100,
+      "bucket": "HIGH"
+    },
+    {
+      "address": "MfDuWeqSHEqTFVYZ7LoexgAK9dxk7cy4DFJWjWMGVWa",
+      "source": "pump-major",
+      "screenedSwapLike": 92,
+      "screenedTxs": 100,
+      "bucket": "HIGH"
+    }
+  ],
+  "droppedCount": 19
+}

@@ -1,0 +1,729 @@
+{
+  "generatedAt": "2026-10-06T08:33:59.437Z",
+  "status": "SPEC ONLY — nothing implemented, no historical figure chosen",
+  "clusterBProfile": [
+    {
+      "label": "P4",
+      "qualifyingSwaps": 121,
+      "distinctTokens": 67,
+      "completedPositions": 0,
+      "openPositions": 2,
+      "reentryCount": 0,
+      "reentryRate": null,
+      "addBuySellExitCounts": "NOT CAPTURED in stored outputs; bounded: disposal legs > 0 iff realizedPnl !== null (true only for P4)",
+      "concentrationHHI": "NOT CAPTURED; proxy = token breadth + swaps/token",
+      "largestPositionShare": "NOT CAPTURED",
+      "swapsPerToken": 1.81,
+      "realizedPnlUsd": 88.40665162823998,
+      "pnlCoverage": 0.01,
+      "partialHistory": "PARTIAL (1,000-tx cap)"
+    },
+    {
+      "label": "M4",
+      "qualifyingSwaps": 56,
+      "distinctTokens": 53,
+      "completedPositions": 0,
+      "openPositions": 0,
+      "reentryCount": 0,
+      "reentryRate": null,
+      "addBuySellExitCounts": "NOT CAPTURED in stored outputs; bounded: disposal legs > 0 iff realizedPnl !== null (true only for P4)",
+      "concentrationHHI": "NOT CAPTURED; proxy = token breadth + swaps/token",
+      "largestPositionShare": "NOT CAPTURED",
+      "swapsPerToken": 1.06,
+      "realizedPnlUsd": null,
+      "pnlCoverage": 0,
+      "partialHistory": "PARTIAL (1,000-tx cap)"
+    },
+    {
+      "label": "M5",
+      "qualifyingSwaps": 64,
+      "distinctTokens": 30,
+      "completedPositions": 0,
+      "openPositions": 1,
+      "reentryCount": 0,
+      "reentryRate": null,
+      "addBuySellExitCounts": "NOT CAPTURED in stored outputs; bounded: disposal legs > 0 iff realizedPnl !== null (true only for P4)",
+      "concentrationHHI": "NOT CAPTURED; proxy = token breadth + swaps/token",
+      "largestPositionShare": "NOT CAPTURED",
+      "swapsPerToken": 2.13,
+      "realizedPnlUsd": null,
+      "pnlCoverage": 0,
+      "partialHistory": "PARTIAL (1,000-tx cap)"
+    },
+    {
+      "label": "M6",
+      "qualifyingSwaps": 107,
+      "distinctTokens": 33,
+      "completedPositions": 0,
+      "openPositions": 0,
+      "reentryCount": 0,
+      "reentryRate": null,
+      "addBuySellExitCounts": "NOT CAPTURED in stored outputs; bounded: disposal legs > 0 iff realizedPnl !== null (true only for P4)",
+      "concentrationHHI": "NOT CAPTURED; proxy = token breadth + swaps/token",
+      "largestPositionShare": "NOT CAPTURED",
+      "swapsPerToken": 3.24,
+      "realizedPnlUsd": null,
+      "pnlCoverage": 0,
+      "partialHistory": "PARTIAL (1,000-tx cap)"
+    },
+    {
+      "label": "T9",
+      "qualifyingSwaps": 269,
+      "distinctTokens": 259,
+      "completedPositions": 0,
+      "openPositions": 258,
+      "reentryCount": 0,
+      "reentryRate": null,
+      "addBuySellExitCounts": "NOT CAPTURED in stored outputs; bounded: disposal legs > 0 iff realizedPnl !== null (true only for P4)",
+      "concentrationHHI": "NOT CAPTURED; proxy = token breadth + swaps/token",
+      "largestPositionShare": "NOT CAPTURED",
+      "swapsPerToken": 1.04,
+      "realizedPnlUsd": 0.20567044574361348,
+      "pnlCoverage": 0.33,
+      "partialHistory": "PARTIAL (1,000-tx cap)"
+    }
+  ],
+  "separability": [
+    {
+      "feature": "TOKEN_BREADTH (distinctTokens)",
+      "clusterMedian": 53,
+      "clusterRange": [
+        30,
+        259
+      ],
+      "otherMedian": 22,
+      "otherRange": [
+        1,
+        177
+      ],
+      "otherWalletsInsideClusterRange": 15,
+      "strictlySeparatedOf35": 30,
+      "useful": true
+    },
+    {
+      "feature": "EXIT_SCARCITY (completedPositions)",
+      "clusterMedian": 0,
+      "clusterRange": [
+        0,
+        0
+      ],
+      "otherMedian": 3,
+      "otherRange": [
+        0,
+        259
+      ],
+      "otherWalletsInsideClusterRange": 11,
+      "strictlySeparatedOf35": 24,
+      "useful": true
+    },
+    {
+      "feature": "REENTRY_SCARCITY (reentryCount)",
+      "clusterMedian": 0,
+      "clusterRange": [
+        0,
+        0
+      ],
+      "otherMedian": 0,
+      "otherRange": [
+        0,
+        257
+      ],
+      "otherWalletsInsideClusterRange": 18,
+      "strictlySeparatedOf35": 17,
+      "useful": false
+    },
+    {
+      "feature": "SWAPS_PER_TOKEN (repetition inverse)",
+      "clusterMedian": 1.81,
+      "clusterRange": [
+        1.0386100386100385,
+        3.242424242424242
+      ],
+      "otherMedian": 3.39,
+      "otherRange": [
+        1.3666666666666667,
+        174.66666666666666
+      ],
+      "otherWalletsInsideClusterRange": 16,
+      "strictlySeparatedOf35": 31,
+      "useful": true
+    },
+    {
+      "feature": "CYCLES (completed + reentries)",
+      "clusterMedian": 0,
+      "clusterRange": [
+        0,
+        0
+      ],
+      "otherMedian": 3,
+      "otherRange": [
+        0,
+        516
+      ],
+      "otherWalletsInsideClusterRange": 11,
+      "strictlySeparatedOf35": 24,
+      "useful": true
+    },
+    {
+      "feature": "OPEN_SHARE (open / (open+completed))",
+      "clusterMedian": 1,
+      "clusterRange": [
+        1,
+        1
+      ],
+      "otherMedian": 0.62,
+      "otherRange": [
+        0,
+        1
+      ],
+      "otherWalletsInsideClusterRange": 11,
+      "strictlySeparatedOf35": 24,
+      "useful": true
+    }
+  ],
+  "winnerGroups": [
+    {
+      "persona": "caesar",
+      "wallets": 8,
+      "medianTokens": 9.5,
+      "medianCompleted": 0,
+      "medianReentries": 0,
+      "medianSwapsPerToken": 9.719696969696969
+    },
+    {
+      "persona": "sisyphus",
+      "wallets": 6,
+      "medianTokens": 20.5,
+      "medianCompleted": 25,
+      "medianReentries": 10,
+      "medianSwapsPerToken": 8.395864661654135
+    },
+    {
+      "persona": "newton",
+      "wallets": 5,
+      "medianTokens": 46,
+      "medianCompleted": 24,
+      "medianReentries": 5,
+      "medianSwapsPerToken": 2.84
+    },
+    {
+      "persona": "icarus",
+      "wallets": 1,
+      "medianTokens": 37,
+      "medianCompleted": 18,
+      "medianReentries": 2,
+      "medianSwapsPerToken": 2.2162162162162162
+    },
+    {
+      "persona": "napoleon",
+      "wallets": 1,
+      "medianTokens": 30,
+      "medianCompleted": 11,
+      "medianReentries": 1,
+      "medianSwapsPerToken": 4.166666666666667
+    },
+    {
+      "persona": "don_quixote",
+      "wallets": 1,
+      "medianTokens": 48,
+      "medianCompleted": 0,
+      "medianReentries": 0,
+      "medianSwapsPerToken": 2.625
+    }
+  ],
+  "featureModel": {
+    "BREADTH": {
+      "source": "distinctTokens (tradedTokenCount)",
+      "normalization": "logCountScore(tokens, 100) — reuses the existing diversificationReferenceTokens anchor",
+      "semantics": "how many distinct assets the wallet trades",
+      "nullBehavior": "never null; 0 tokens -> 0"
+    },
+    "CYCLE_SCARCITY": {
+      "source": "completedPositions + reentryCount",
+      "normalization": "100 / (1 + completed + reentries)",
+      "semantics": "absence of exit/re-entry cycles (100 = none observed in window)",
+      "nullBehavior": "never null; cycles unbounded denominator"
+    },
+    "ACCUMULATION_TILT": {
+      "source": "openPositions vs completedPositions",
+      "normalization": "100 * open / (open + completed)",
+      "semantics": "share of observed positions still held rather than cycled",
+      "nullBehavior": "null when open + completed = 0 (no position evidence) — under declared-weight semantics this contributes zero and its weight stays in the denominator"
+    },
+    "weights": {
+      "BREADTH": 0.35,
+      "CYCLE_SCARCITY": 0.35,
+      "ACCUMULATION_TILT": 0.3
+    }
+  },
+  "eligibility": {
+    "qualifyingSwaps": ">= 25 (activity floor, same anchor as Sisyphus)",
+    "distinctTokens": ">= 20 (breadth floor)",
+    "cycles": "completedPositions + reentryCount <= 2",
+    "pnl": "NOT required — this archetype describes portfolio/trading structure, not investment skill"
+  },
+  "partialHistoryRisk": {
+    "safeWithinWindow": [
+      "distinct-token breadth (undercounted but directionally robust)",
+      "swaps-per-token repetition",
+      "re-entry scarcity (structurally tied to exit absence)",
+      "accumulation tilt for positions opened in-window"
+    ],
+    "notProof": [
+      "'never exits' as a permanent trait (right-edge truncation)",
+      "any profit/skill inference",
+      "M4-style wallets where tracked amounts vanish without EXIT events (disposition unknown: sold before window, transferred, or dusted)"
+    ]
+  },
+  "falsePositiveTests": [
+    {
+      "case": "high-frequency diversified trader who buys AND sells often",
+      "verdict": "does NOT trigger",
+      "reason": "many completed cycles -> CYCLE_SCARCITY -> 100/(1+cycles) collapses (e.g. 29 cycles -> 3), pulling match far below 50 through a 0.35 declared weight"
+    },
+    {
+      "case": "Caesar-style concentrated trader",
+      "verdict": "does NOT trigger",
+      "reason": "breadth is the anti-shape: 1-5 tokens -> BREADTH ~0-20; eligibility floor distinctTokens >= 20 fails outright"
+    },
+    {
+      "case": "Midas-style profitable holder",
+      "verdict": "mostly does NOT trigger; overlap acknowledged",
+      "reason": "Midas evidence requires a >= $100 priced open winner; such wallets usually hold few assets (breadth fails). A wallet holding MANY profitable positions would structurally match the accumulator shape — but that is arguably correct structure-wise; assignment then depends on which persona scores higher, and Midas remains unmeasurable without current prices"
+    },
+    {
+      "case": "wallet with 10 random dust tokens",
+      "verdict": "does NOT trigger",
+      "reason": "breadth 10 < 20 floor; dust also rarely produces >= 25 qualifying swaps"
+    },
+    {
+      "case": "wallet with 200 tokens but only 3 qualifying swaps",
+      "verdict": "does NOT trigger",
+      "reason": "qualifyingSwaps 3 < 25 — token holdings without swap activity are not counted at all (features use tradedTokenCount from swaps, never holdings)"
+    },
+    {
+      "case": "partial-history wallet where exits cannot be observed",
+      "verdict": "may trigger — explicitly bounded",
+      "reason": "breadth and repetition are window-fair ratios, but EXIT_SCARCITY only proves absence WITHIN the window; the >= 25 swap floor reduces (not removes) truncation risk; this is a declared KNOWN LIMITATION"
+    },
+    {
+      "case": "airdrop recipient with many tokens but few actual buys",
+      "verdict": "does NOT trigger",
+      "reason": "airdrops are TRANSFERs, never qualifying swaps; tradedTokenCount counts only swapped assets, and qualifyingSwaps >= 25 gates the rest"
+    }
+  ],
+  "simulation": [
+    {
+      "label": "T9",
+      "inClusterB": true,
+      "breadth": 100,
+      "cycleScarcity": 100,
+      "accumulationTilt": 100,
+      "proposedMatch": 100,
+      "proposedEligible": true,
+      "wouldAssign": true
+    },
+    {
+      "label": "P4",
+      "inClusterB": true,
+      "breadth": 91.4,
+      "cycleScarcity": 100,
+      "accumulationTilt": 100,
+      "proposedMatch": 97,
+      "proposedEligible": true,
+      "wouldAssign": true
+    },
+    {
+      "label": "L5",
+      "inClusterB": false,
+      "breadth": 84.3,
+      "cycleScarcity": 100,
+      "accumulationTilt": 100,
+      "proposedMatch": 94.5,
+      "proposedEligible": true,
+      "wouldAssign": true
+    },
+    {
+      "label": "L6",
+      "inClusterB": false,
+      "breadth": 84.3,
+      "cycleScarcity": 100,
+      "accumulationTilt": 100,
+      "proposedMatch": 94.5,
+      "proposedEligible": true,
+      "wouldAssign": true
+    },
+    {
+      "label": "M5",
+      "inClusterB": true,
+      "breadth": 74.4,
+      "cycleScarcity": 100,
+      "accumulationTilt": 100,
+      "proposedMatch": 91,
+      "proposedEligible": true,
+      "wouldAssign": true
+    },
+    {
+      "label": "P9",
+      "inClusterB": false,
+      "breadth": 64.9,
+      "cycleScarcity": 100,
+      "accumulationTilt": 100,
+      "proposedMatch": 87.7,
+      "proposedEligible": false,
+      "wouldAssign": false
+    },
+    {
+      "label": "P5",
+      "inClusterB": false,
+      "breadth": 62.6,
+      "cycleScarcity": 100,
+      "accumulationTilt": 100,
+      "proposedMatch": 86.9,
+      "proposedEligible": false,
+      "wouldAssign": false
+    },
+    {
+      "label": "M3",
+      "inClusterB": false,
+      "breadth": 60.1,
+      "cycleScarcity": 100,
+      "accumulationTilt": 100,
+      "proposedMatch": 86,
+      "proposedEligible": false,
+      "wouldAssign": false
+    },
+    {
+      "label": "L8",
+      "inClusterB": false,
+      "breadth": 53.8,
+      "cycleScarcity": 100,
+      "accumulationTilt": 100,
+      "proposedMatch": 83.8,
+      "proposedEligible": false,
+      "wouldAssign": false
+    },
+    {
+      "label": "T2",
+      "inClusterB": false,
+      "breadth": 47.6,
+      "cycleScarcity": 100,
+      "accumulationTilt": 100,
+      "proposedMatch": 81.7,
+      "proposedEligible": false,
+      "wouldAssign": false
+    },
+    {
+      "label": "M10",
+      "inClusterB": false,
+      "breadth": 42.2,
+      "cycleScarcity": 100,
+      "accumulationTilt": 100,
+      "proposedMatch": 79.8,
+      "proposedEligible": false,
+      "wouldAssign": false
+    },
+    {
+      "label": "M1",
+      "inClusterB": false,
+      "breadth": 38.8,
+      "cycleScarcity": 100,
+      "accumulationTilt": 100,
+      "proposedMatch": 78.6,
+      "proposedEligible": false,
+      "wouldAssign": false
+    },
+    {
+      "label": "M2",
+      "inClusterB": false,
+      "breadth": 34.9,
+      "cycleScarcity": 100,
+      "accumulationTilt": 100,
+      "proposedMatch": 77.2,
+      "proposedEligible": false,
+      "wouldAssign": false
+    },
+    {
+      "label": "P7",
+      "inClusterB": false,
+      "breadth": 78.8,
+      "cycleScarcity": 50,
+      "accumulationTilt": 95,
+      "proposedMatch": 73.6,
+      "proposedEligible": true,
+      "wouldAssign": true
+    },
+    {
+      "label": "M8",
+      "inClusterB": false,
+      "breadth": 77.6,
+      "cycleScarcity": 50,
+      "accumulationTilt": 95.2,
+      "proposedMatch": 73.2,
+      "proposedEligible": true,
+      "wouldAssign": true
+    },
+    {
+      "label": "P2",
+      "inClusterB": false,
+      "breadth": 15,
+      "cycleScarcity": 100,
+      "accumulationTilt": 100,
+      "proposedMatch": 70.3,
+      "proposedEligible": false,
+      "wouldAssign": false
+    },
+    {
+      "label": "L10",
+      "inClusterB": false,
+      "breadth": 69.7,
+      "cycleScarcity": 50,
+      "accumulationTilt": 93.3,
+      "proposedMatch": 69.9,
+      "proposedEligible": true,
+      "wouldAssign": true
+    },
+    {
+      "label": "M4",
+      "inClusterB": true,
+      "breadth": 86.4,
+      "cycleScarcity": 100,
+      "accumulationTilt": null,
+      "proposedMatch": 65.3,
+      "proposedEligible": true,
+      "wouldAssign": true
+    },
+    {
+      "label": "M6",
+      "inClusterB": true,
+      "breadth": 76.4,
+      "cycleScarcity": 100,
+      "accumulationTilt": null,
+      "proposedMatch": 61.7,
+      "proposedEligible": true,
+      "wouldAssign": true
+    },
+    {
+      "label": "P3",
+      "inClusterB": false,
+      "breadth": 74.4,
+      "cycleScarcity": 25,
+      "accumulationTilt": 80,
+      "proposedMatch": 58.8,
+      "proposedEligible": false,
+      "wouldAssign": false
+    },
+    {
+      "label": "T1",
+      "inClusterB": false,
+      "breadth": 57.2,
+      "cycleScarcity": 33.3,
+      "accumulationTilt": 80,
+      "proposedMatch": 55.7,
+      "proposedEligible": false,
+      "wouldAssign": false
+    },
+    {
+      "label": "T5",
+      "inClusterB": false,
+      "breadth": 100,
+      "cycleScarcity": 3.3,
+      "accumulationTilt": 61.9,
+      "proposedMatch": 54.7,
+      "proposedEligible": false,
+      "wouldAssign": false
+    },
+    {
+      "label": "P1",
+      "inClusterB": false,
+      "breadth": 98.4,
+      "cycleScarcity": 2.5,
+      "accumulationTilt": 55,
+      "proposedMatch": 51.8,
+      "proposedEligible": false,
+      "wouldAssign": false
+    },
+    {
+      "label": "P8",
+      "inClusterB": false,
+      "breadth": 57.2,
+      "cycleScarcity": 33.3,
+      "accumulationTilt": 60,
+      "proposedMatch": 49.7,
+      "proposedEligible": false,
+      "wouldAssign": false
+    },
+    {
+      "label": "M7",
+      "inClusterB": false,
+      "breadth": 80.5,
+      "cycleScarcity": 12.5,
+      "accumulationTilt": 56.3,
+      "proposedMatch": 49.4,
+      "proposedEligible": false,
+      "wouldAssign": false
+    },
+    {
+      "label": "L9",
+      "inClusterB": false,
+      "breadth": 49.9,
+      "cycleScarcity": 25,
+      "accumulationTilt": 71.4,
+      "proposedMatch": 47.6,
+      "proposedEligible": false,
+      "wouldAssign": false
+    },
+    {
+      "label": "T6",
+      "inClusterB": false,
+      "breadth": 100,
+      "cycleScarcity": 0.9,
+      "accumulationTilt": 40,
+      "proposedMatch": 47.3,
+      "proposedEligible": false,
+      "wouldAssign": false
+    },
+    {
+      "label": "T10",
+      "inClusterB": false,
+      "breadth": 74.4,
+      "cycleScarcity": 11.1,
+      "accumulationTilt": 57.9,
+      "proposedMatch": 47.3,
+      "proposedEligible": false,
+      "wouldAssign": false
+    },
+    {
+      "label": "T7",
+      "inClusterB": false,
+      "breadth": 83.4,
+      "cycleScarcity": 7.1,
+      "accumulationTilt": 42.9,
+      "proposedMatch": 44.6,
+      "proposedEligible": false,
+      "wouldAssign": false
+    },
+    {
+      "label": "M9",
+      "inClusterB": false,
+      "breadth": 67.9,
+      "cycleScarcity": 7.7,
+      "accumulationTilt": 55.6,
+      "proposedMatch": 43.1,
+      "proposedEligible": false,
+      "wouldAssign": false
+    },
+    {
+      "label": "P6",
+      "inClusterB": false,
+      "breadth": 57.2,
+      "cycleScarcity": 16.7,
+      "accumulationTilt": 57.1,
+      "proposedMatch": 43,
+      "proposedEligible": false,
+      "wouldAssign": false
+    },
+    {
+      "label": "L4",
+      "inClusterB": false,
+      "breadth": 74.4,
+      "cycleScarcity": 7.7,
+      "accumulationTilt": 45,
+      "proposedMatch": 42.2,
+      "proposedEligible": false,
+      "wouldAssign": false
+    },
+    {
+      "label": "P10",
+      "inClusterB": false,
+      "breadth": 86.8,
+      "cycleScarcity": 2.2,
+      "accumulationTilt": 29.8,
+      "proposedMatch": 40.1,
+      "proposedEligible": false,
+      "wouldAssign": false
+    },
+    {
+      "label": "L1",
+      "inClusterB": false,
+      "breadth": 47.6,
+      "cycleScarcity": 20,
+      "accumulationTilt": 50,
+      "proposedMatch": 38.7,
+      "proposedEligible": false,
+      "wouldAssign": false
+    },
+    {
+      "label": "T3",
+      "inClusterB": false,
+      "breadth": 92.4,
+      "cycleScarcity": 0.6,
+      "accumulationTilt": 17.6,
+      "proposedMatch": 37.8,
+      "proposedEligible": false,
+      "wouldAssign": false
+    },
+    {
+      "label": "L3",
+      "inClusterB": false,
+      "breadth": 78.8,
+      "cycleScarcity": 4.8,
+      "accumulationTilt": 18.2,
+      "proposedMatch": 34.7,
+      "proposedEligible": false,
+      "wouldAssign": false
+    },
+    {
+      "label": "L2",
+      "inClusterB": false,
+      "breadth": 64.9,
+      "cycleScarcity": 3.7,
+      "accumulationTilt": 34.6,
+      "proposedMatch": 34.4,
+      "proposedEligible": false,
+      "wouldAssign": false
+    },
+    {
+      "label": "T8",
+      "inClusterB": false,
+      "breadth": 70.6,
+      "cycleScarcity": 1.4,
+      "accumulationTilt": 18.8,
+      "proposedMatch": 30.8,
+      "proposedEligible": false,
+      "wouldAssign": false
+    },
+    {
+      "label": "L7",
+      "inClusterB": false,
+      "breadth": 42.2,
+      "cycleScarcity": 20,
+      "accumulationTilt": 0,
+      "proposedMatch": 21.8,
+      "proposedEligible": false,
+      "wouldAssign": false
+    },
+    {
+      "label": "T4",
+      "inClusterB": false,
+      "breadth": 30,
+      "cycleScarcity": 0.2,
+      "accumulationTilt": 0.4,
+      "proposedMatch": 10.7,
+      "proposedEligible": false,
+      "wouldAssign": false
+    }
+  ],
+  "wouldAssign": [
+    "T9",
+    "P4",
+    "L5",
+    "L6",
+    "M5",
+    "P7",
+    "M8",
+    "L10",
+    "M4",
+    "M6"
+  ]
+}

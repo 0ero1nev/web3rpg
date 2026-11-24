@@ -1,0 +1,86 @@
+{
+  "generatedAt": "2026-10-07T21:22:05.968397",
+  "selectedParsedConcurrency": 3,
+  "experiment": {
+    "2": {
+      "totalMs": 19403,
+      "requests": 21,
+      "http429": 0
+    },
+    "3": {
+      "totalMs": 18198,
+      "requests": 21,
+      "http429": 0
+    },
+    "4": {
+      "totalMs": 16719,
+      "requests": 22,
+      "http429": 1
+    }
+  },
+  "rows": [
+    {
+      "label": "diogenes-low",
+      "beforeColdMs": 46048,
+      "afterColdMs": 38009,
+      "beforeReqs": 62,
+      "afterReqs": 58,
+      "before429": 22,
+      "after429": 18,
+      "beforeQ": 2,
+      "afterQ": 2,
+      "beforeKind": "SPECIAL_PERSONA",
+      "afterKind": "SPECIAL_PERSONA",
+      "afterWarmMs": 0,
+      "afterWinner": null
+    },
+    {
+      "label": "medium-B",
+      "beforeColdMs": 25685,
+      "afterColdMs": 18198,
+      "beforeReqs": 21,
+      "afterReqs": 21,
+      "before429": 0,
+      "after429": 0,
+      "beforeQ": 400,
+      "afterQ": 400,
+      "beforeKind": "NORMAL_PERSONA",
+      "afterKind": "NORMAL_PERSONA",
+      "afterWarmMs": 0,
+      "afterWinner": "caesar"
+    },
+    {
+      "label": "high-C",
+      "beforeColdMs": 37757,
+      "afterColdMs": 29987,
+      "beforeReqs": 50,
+      "afterReqs": 50,
+      "before429": 0,
+      "after429": 0,
+      "beforeQ": 845,
+      "afterQ": 845,
+      "beforeKind": "NORMAL_PERSONA",
+      "afterKind": "NORMAL_PERSONA",
+      "afterWarmMs": 0,
+      "afterWinner": "sisyphus"
+    },
+    {
+      "label": "token-A",
+      "beforeColdMs": 30759,
+      "afterColdMs": 24200,
+      "beforeReqs": 42,
+      "afterReqs": 42,
+      "before429": 0,
+      "after429": 0,
+      "beforeQ": 560,
+      "afterQ": 564,
+      "beforeKind": "NORMAL_PERSONA",
+      "afterKind": "NORMAL_PERSONA",
+      "afterWarmMs": 0,
+      "afterWinner": "napoleon"
+    }
+  ],
+  "avgBeforeColdMs": 35062.25,
+  "avgAfterColdMs": 27598.5,
+  "reductionPct": 21.28713930224101
+}

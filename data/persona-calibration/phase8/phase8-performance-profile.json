@@ -1,0 +1,1526 @@
+{
+  "generatedAt": "2026-10-07T11:52:27.007Z",
+  "totals": [
+    {
+      "label": "diogenes-low",
+      "coldMs": 46048,
+      "warmMs": 0,
+      "requests": 62,
+      "qSwaps": 2,
+      "txs": 1000,
+      "resultKind": "SPECIAL_PERSONA"
+    },
+    {
+      "label": "medium-B",
+      "coldMs": 25685,
+      "warmMs": 0,
+      "requests": 21,
+      "qSwaps": 400,
+      "txs": 1000,
+      "resultKind": "NORMAL_PERSONA"
+    },
+    {
+      "label": "high-C",
+      "coldMs": 37757,
+      "warmMs": 0,
+      "requests": 50,
+      "qSwaps": 845,
+      "txs": 1000,
+      "resultKind": "NORMAL_PERSONA"
+    },
+    {
+      "label": "token-A",
+      "coldMs": 30759,
+      "warmMs": 0,
+      "requests": 42,
+      "qSwaps": 560,
+      "txs": 1000,
+      "resultKind": "NORMAL_PERSONA"
+    }
+  ],
+  "profiles": [
+    {
+      "label": "diogenes-low",
+      "mode": "cold",
+      "address": "2heJbC32Tpfcb3nbUb5ER61K11FGZVfVGtVnDm6LDogF",
+      "timings": {
+        "TRANSACTION_FETCH": 46029,
+        "TRANSACTION_NORMALIZATION": 3,
+        "EXECUTION_VALUATION": 1,
+        "HISTORICAL_SOL_PRICING": 0,
+        "POSITION_RECONSTRUCTION": 8,
+        "BEHAVIOR_FEATURES": 0,
+        "HISTORICAL_TOKEN_PRICING": 0,
+        "PERSONA_SCORING": 6,
+        "RESULT_BUILDING": 0,
+        "POSITION_EPISODE_MATH": 1,
+        "TOTAL_ANALYSIS": 46048
+      },
+      "counters": {
+        "transactionCount": 1000,
+        "qualifyingSwapCount": 2,
+        "externalRequestCount": 62,
+        "solPriceRequestCount": 0,
+        "tokenPriceRequestCount": 0,
+        "heliusRequestCount": 62,
+        "tokenCacheHits": 0,
+        "solBucketRequests": 0
+      },
+      "resultKind": "SPECIAL_PERSONA",
+      "warm": {
+        "totalMs": 0,
+        "requestCount": 58,
+        "resultKind": "SPECIAL_PERSONA"
+      },
+      "requests": [
+        {
+          "provider": "helius",
+          "purpose": "balances",
+          "durationMs": 826,
+          "status": 200,
+          "success": true
+        },
+        {
+          "provider": "helius",
+          "purpose": "balances",
+          "durationMs": 332,
+          "status": 200,
+          "success": true
+        },
+        {
+          "provider": "helius",
+          "purpose": "balances",
+          "durationMs": 297,
+          "status": 200,
+          "success": true
+        },
+        {
+          "provider": "helius",
+          "purpose": "balances",
+          "durationMs": 267,
+          "status": 200,
+          "success": true
+        },
+        {
+          "provider": "helius",
+          "purpose": "balances",
+          "durationMs": 281,
+          "status": 200,
+          "success": true
+        },
+        {
+          "provider": "helius",
+          "purpose": "history-page",
+          "durationMs": 2436,
+          "status": 200,
+          "success": true
+        },
+        {
+          "provider": "helius",
+          "purpose": "balances",
+          "durationMs": 294,
+          "status": 200,
+          "success": true
+        },
+        {
+          "provider": "helius",
+          "purpose": "balances",
+          "durationMs": 265,
+          "status": 200,
+          "success": true
+        },
+        {
+          "provider": "helius",
+          "purpose": "balances",
+          "durationMs": 93,
+          "status": 429,
+          "success": false
+        },
+        {
+          "provider": "helius",
+          "purpose": "history-page",
+          "durationMs": 1264,
+          "status": 200,
+          "success": true
+        },
+        {
+          "provider": "helius",
+          "purpose": "balances",
+          "durationMs": 141,
+          "status": 429,
+          "success": false
+        },
+        {
+          "provider": "helius",
+          "purpose": "balances",
+          "durationMs": 322,
+          "status": 200,
+          "success": true
+        },
+        {
+          "provider": "helius",
+          "purpose": "balances",
+          "durationMs": 279,
+          "status": 200,
+          "success": true
+        },
+        {
+          "provider": "helius",
+          "purpose": "balances",
+          "durationMs": 96,
+          "status": 429,
+          "success": false
+        },
+        {
+          "provider": "helius",
+          "purpose": "balances",
+          "durationMs": 280,
+          "status": 200,
+          "success": true
+        },
+        {
+          "provider": "helius",
+          "purpose": "balances",
+          "durationMs": 151,
+          "status": 429,
+          "success": false
+        },
+        {
+          "provider": "helius",
+          "purpose": "history-page",
+          "durationMs": 3391,
+          "status": 200,
+          "success": true
+        },
+        {
+          "provider": "helius",
+          "purpose": "history-page",
+          "durationMs": 91,
+          "status": 429,
+          "success": false
+        },
+        {
+          "provider": "helius",
+          "purpose": "balances",
+          "durationMs": 334,
+          "status": 200,
+          "success": true
+        },
+        {
+          "provider": "helius",
+          "purpose": "balances",
+          "durationMs": 110,
+          "status": 429,
+          "success": false
+        },
+        {
+          "provider": "helius",
+          "purpose": "history-page",
+          "durationMs": 1416,
+          "status": 200,
+          "success": true
+        },
+        {
+          "provider": "helius",
+          "purpose": "history-page",
+          "durationMs": 111,
+          "status": 429,
+          "success": false
+        },
+        {
+          "provider": "helius",
+          "purpose": "balances",
+          "durationMs": 305,
+          "status": 200,
+          "success": true
+        },
+        {
+          "provider": "helius",
+          "purpose": "balances",
+          "durationMs": 93,
+          "status": 429,
+          "success": false
+        },
+        {
+          "provider": "helius",
+          "purpose": "balances",
+          "durationMs": 98,
+          "status": 429,
+          "success": false
+        },
+        {
+          "provider": "helius",
+          "purpose": "history-page",
+          "durationMs": 1438,
+          "status": 200,
+          "success": true
+        },
+        {
+          "provider": "helius",
+          "purpose": "balances",
+          "durationMs": 298,
+          "status": 200,
+          "success": true
+        },
+        {
+          "provider": "helius",
+          "purpose": "balances",
+          "durationMs": 92,
+          "status": 429,
+          "success": false
+        },
+        {
+          "provider": "helius",
+          "purpose": "history-page",
+          "durationMs": 1462,
+          "status": 200,
+          "success": true
+        },
+        {
+          "provider": "helius",
+          "purpose": "balances",
+          "durationMs": 289,
+          "status": 200,
+          "success": true
+        },
+        {
+          "provider": "helius",
+          "purpose": "history-page",
+          "durationMs": 89,
+          "status": 429,
+          "success": false
+        },
+        {
+          "provider": "helius",
+          "purpose": "balances",
+          "durationMs": 97,
+          "status": 429,
+          "success": false
+        },
+        {
+          "provider": "helius",
+          "purpose": "balances",
+          "durationMs": 139,
+          "status": 429,
+          "success": false
+        },
+        {
+          "provider": "helius",
+          "purpose": "history-page",
+          "durationMs": 1386,
+          "status": 200,
+          "success": true
+        },
+        {
+          "provider": "helius",
+          "purpose": "history-page",
+          "durationMs": 93,
+          "status": 429,
+          "success": false
+        },
+        {
+          "provider": "helius",
+          "purpose": "balances",
+          "durationMs": 318,
+          "status": 200,
+          "success": true
+        },
+        {
+          "provider": "helius",
+          "purpose": "balances",
+          "durationMs": 289,
+          "status": 200,
+          "success": true
+        },
+        {
+          "provider": "helius",
+          "purpose": "balances",
+          "durationMs": 93,
+          "status": 429,
+          "success": false
+        },
+        {
+          "provider": "helius",
+          "purpose": "balances",
+          "durationMs": 95,
+          "status": 429,
+          "success": false
+        },
+        {
+          "provider": "helius",
+          "purpose": "history-page",
+          "durationMs": 1425,
+          "status": 200,
+          "success": true
+        },
+        {
+          "provider": "helius",
+          "purpose": "balances",
+          "durationMs": 101,
+          "status": 429,
+          "success": false
+        },
+        {
+          "provider": "helius",
+          "purpose": "history-page",
+          "durationMs": 1370,
+          "status": 200,
+          "success": true
+        },
+        {
+          "provider": "helius",
+          "purpose": "history-page",
+          "durationMs": 97,
+          "status": 429,
+          "success": false
+        },
+        {
+          "provider": "helius",
+          "purpose": "balances",
+          "durationMs": 325,
+          "status": 200,
+          "success": true
+        },
+        {
+          "provider": "helius",
+          "purpose": "balances",
+          "durationMs": 286,
+          "status": 200,
+          "success": true
+        },
+        {
+          "provider": "helius",
+          "purpose": "balances",
+          "durationMs": 94,
+          "status": 429,
+          "success": false
+        },
+        {
+          "provider": "helius",
+          "purpose": "history-page",
+          "durationMs": 151,
+          "status": 429,
+          "success": false
+        },
+        {
+          "provider": "helius",
+          "purpose": "balances",
+          "durationMs": 248,
+          "status": 200,
+          "success": true
+        },
+        {
+          "provider": "helius",
+          "purpose": "balances",
+          "durationMs": 93,
+          "status": 429,
+          "success": false
+        },
+        {
+          "provider": "helius",
+          "purpose": "balances",
+          "durationMs": 125,
+          "status": 429,
+          "success": false
+        },
+        {
+          "provider": "helius",
+          "purpose": "history-page",
+          "durationMs": 1429,
+          "status": 200,
+          "success": true
+        },
+        {
+          "provider": "helius",
+          "purpose": "balances",
+          "durationMs": 235,
+          "status": 200,
+          "success": true
+        },
+        {
+          "provider": "helius",
+          "purpose": "parsed-transactions",
+          "durationMs": 1840,
+          "status": 200,
+          "success": true
+        },
+        {
+          "provider": "helius",
+          "purpose": "parsed-transactions",
+          "durationMs": 1779,
+          "status": 200,
+          "success": true
+        },
+        {
+          "provider": "helius",
+          "purpose": "parsed-transactions",
+          "durationMs": 1856,
+          "status": 200,
+          "success": true
+        },
+        {
+          "provider": "helius",
+          "purpose": "parsed-transactions",
+          "durationMs": 2505,
+          "status": 200,
+          "success": true
+        },
+        {
+          "provider": "helius",
+          "purpose": "parsed-transactions",
+          "durationMs": 1998,
+          "status": 200,
+          "success": true
+        },
+        {
+          "provider": "helius",
+          "purpose": "parsed-transactions",
+          "durationMs": 2080,
+          "status": 200,
+          "success": true
+        },
+        {
+          "provider": "helius",
+          "purpose": "parsed-transactions",
+          "durationMs": 1912,
+          "status": 200,
+          "success": true
+        },
+        {
+          "provider": "helius",
+          "purpose": "parsed-transactions",
+          "durationMs": 1855,
+          "status": 200,
+          "success": true
+        },
+        {
+          "provider": "helius",
+          "purpose": "parsed-transactions",
+          "durationMs": 1821,
+          "status": 200,
+          "success": true
+        },
+        {
+          "provider": "helius",
+          "purpose": "parsed-transactions",
+          "durationMs": 1914,
+          "status": 200,
+          "success": true
+        }
+      ]
+    },
+    {
+      "label": "medium-B",
+      "mode": "cold",
+      "address": "5V676H2Th83MycbJQ1JuL3f8GCCf6WDDVY2qY8Tj9zFb",
+      "timings": {
+        "TRANSACTION_FETCH": 25655,
+        "TRANSACTION_NORMALIZATION": 4,
+        "EXECUTION_VALUATION": 3,
+        "HISTORICAL_SOL_PRICING": 0,
+        "POSITION_RECONSTRUCTION": 11,
+        "BEHAVIOR_FEATURES": 0,
+        "HISTORICAL_TOKEN_PRICING": 0,
+        "PERSONA_SCORING": 9,
+        "RESULT_BUILDING": 0,
+        "POSITION_EPISODE_MATH": 1,
+        "TOTAL_ANALYSIS": 25685
+      },
+      "counters": {
+        "transactionCount": 1000,
+        "qualifyingSwapCount": 400,
+        "externalRequestCount": 21,
+        "solPriceRequestCount": 0,
+        "tokenPriceRequestCount": 0,
+        "heliusRequestCount": 21,
+        "tokenCacheHits": 0,
+        "solBucketRequests": 0
+      },
+      "resultKind": "NORMAL_PERSONA",
+      "warm": {
+        "totalMs": 0,
+        "requestCount": 0,
+        "resultKind": "NORMAL_PERSONA"
+      },
+      "requests": [
+        {
+          "provider": "helius",
+          "purpose": "balances",
+          "durationMs": 885,
+          "status": 200,
+          "success": true
+        },
+        {
+          "provider": "helius",
+          "purpose": "history-page",
+          "durationMs": 1296,
+          "status": 200,
+          "success": true
+        },
+        {
+          "provider": "helius",
+          "purpose": "history-page",
+          "durationMs": 955,
+          "status": 200,
+          "success": true
+        },
+        {
+          "provider": "helius",
+          "purpose": "history-page",
+          "durationMs": 966,
+          "status": 200,
+          "success": true
+        },
+        {
+          "provider": "helius",
+          "purpose": "history-page",
+          "durationMs": 796,
+          "status": 200,
+          "success": true
+        },
+        {
+          "provider": "helius",
+          "purpose": "history-page",
+          "durationMs": 814,
+          "status": 200,
+          "success": true
+        },
+        {
+          "provider": "helius",
+          "purpose": "history-page",
+          "durationMs": 1004,
+          "status": 200,
+          "success": true
+        },
+        {
+          "provider": "helius",
+          "purpose": "history-page",
+          "durationMs": 741,
+          "status": 200,
+          "success": true
+        },
+        {
+          "provider": "helius",
+          "purpose": "history-page",
+          "durationMs": 2532,
+          "status": 200,
+          "success": true
+        },
+        {
+          "provider": "helius",
+          "purpose": "history-page",
+          "durationMs": 875,
+          "status": 200,
+          "success": true
+        },
+        {
+          "provider": "helius",
+          "purpose": "history-page",
+          "durationMs": 784,
+          "status": 200,
+          "success": true
+        },
+        {
+          "provider": "helius",
+          "purpose": "parsed-transactions",
+          "durationMs": 1468,
+          "status": 200,
+          "success": true
+        },
+        {
+          "provider": "helius",
+          "purpose": "parsed-transactions",
+          "durationMs": 1431,
+          "status": 200,
+          "success": true
+        },
+        {
+          "provider": "helius",
+          "purpose": "parsed-transactions",
+          "durationMs": 1414,
+          "status": 200,
+          "success": true
+        },
+        {
+          "provider": "helius",
+          "purpose": "parsed-transactions",
+          "durationMs": 1460,
+          "status": 200,
+          "success": true
+        },
+        {
+          "provider": "helius",
+          "purpose": "parsed-transactions",
+          "durationMs": 1252,
+          "status": 200,
+          "success": true
+        },
+        {
+          "provider": "helius",
+          "purpose": "parsed-transactions",
+          "durationMs": 1357,
+          "status": 200,
+          "success": true
+        },
+        {
+          "provider": "helius",
+          "purpose": "parsed-transactions",
+          "durationMs": 1347,
+          "status": 200,
+          "success": true
+        },
+        {
+          "provider": "helius",
+          "purpose": "parsed-transactions",
+          "durationMs": 1461,
+          "status": 200,
+          "success": true
+        },
+        {
+          "provider": "helius",
+          "purpose": "parsed-transactions",
+          "durationMs": 1412,
+          "status": 200,
+          "success": true
+        },
+        {
+          "provider": "helius",
+          "purpose": "parsed-transactions",
+          "durationMs": 1779,
+          "status": 200,
+          "success": true
+        }
+      ]
+    },
+    {
+      "label": "high-C",
+      "mode": "cold",
+      "address": "9yuZqpCqtbyr2RkYYzKVooPy1DWUqakumeFQncE9mJh1",
+      "timings": {
+        "TRANSACTION_FETCH": 28036,
+        "TRANSACTION_NORMALIZATION": 7,
+        "EXECUTION_VALUATION": 4,
+        "HISTORICAL_SOL_PRICING": 804,
+        "POSITION_RECONSTRUCTION": 17,
+        "BEHAVIOR_FEATURES": 0,
+        "HISTORICAL_TOKEN_PRICING": 8868,
+        "PERSONA_SCORING": 12,
+        "RESULT_BUILDING": 0,
+        "POSITION_EPISODE_MATH": 5,
+        "TOTAL_ANALYSIS": 37757
+      },
+      "counters": {
+        "transactionCount": 1000,
+        "qualifyingSwapCount": 845,
+        "externalRequestCount": 50,
+        "solPriceRequestCount": 9,
+        "tokenPriceRequestCount": 20,
+        "heliusRequestCount": 21,
+        "tokenCacheHits": 0,
+        "solBucketRequests": 845
+      },
+      "resultKind": "NORMAL_PERSONA",
+      "warm": {
+        "totalMs": 0,
+        "requestCount": 0,
+        "resultKind": "NORMAL_PERSONA"
+      },
+      "requests": [
+        {
+          "provider": "helius",
+          "purpose": "balances",
+          "durationMs": 820,
+          "status": 200,
+          "success": true
+        },
+        {
+          "provider": "helius",
+          "purpose": "history-page",
+          "durationMs": 1431,
+          "status": 200,
+          "success": true
+        },
+        {
+          "provider": "helius",
+          "purpose": "history-page",
+          "durationMs": 931,
+          "status": 200,
+          "success": true
+        },
+        {
+          "provider": "helius",
+          "purpose": "history-page",
+          "durationMs": 1160,
+          "status": 200,
+          "success": true
+        },
+        {
+          "provider": "helius",
+          "purpose": "history-page",
+          "durationMs": 851,
+          "status": 200,
+          "success": true
+        },
+        {
+          "provider": "helius",
+          "purpose": "history-page",
+          "durationMs": 893,
+          "status": 200,
+          "success": true
+        },
+        {
+          "provider": "helius",
+          "purpose": "history-page",
+          "durationMs": 872,
+          "status": 200,
+          "success": true
+        },
+        {
+          "provider": "helius",
+          "purpose": "history-page",
+          "durationMs": 1026,
+          "status": 200,
+          "success": true
+        },
+        {
+          "provider": "helius",
+          "purpose": "history-page",
+          "durationMs": 907,
+          "status": 200,
+          "success": true
+        },
+        {
+          "provider": "helius",
+          "purpose": "history-page",
+          "durationMs": 867,
+          "status": 200,
+          "success": true
+        },
+        {
+          "provider": "helius",
+          "purpose": "history-page",
+          "durationMs": 843,
+          "status": 200,
+          "success": true
+        },
+        {
+          "provider": "helius",
+          "purpose": "parsed-transactions",
+          "durationMs": 1701,
+          "status": 200,
+          "success": true
+        },
+        {
+          "provider": "helius",
+          "purpose": "parsed-transactions",
+          "durationMs": 2733,
+          "status": 200,
+          "success": true
+        },
+        {
+          "provider": "helius",
+          "purpose": "parsed-transactions",
+          "durationMs": 1567,
+          "status": 200,
+          "success": true
+        },
+        {
+          "provider": "helius",
+          "purpose": "parsed-transactions",
+          "durationMs": 1681,
+          "status": 200,
+          "success": true
+        },
+        {
+          "provider": "helius",
+          "purpose": "parsed-transactions",
+          "durationMs": 1729,
+          "status": 200,
+          "success": true
+        },
+        {
+          "provider": "helius",
+          "purpose": "parsed-transactions",
+          "durationMs": 1569,
+          "status": 200,
+          "success": true
+        },
+        {
+          "provider": "helius",
+          "purpose": "parsed-transactions",
+          "durationMs": 1480,
+          "status": 200,
+          "success": true
+        },
+        {
+          "provider": "helius",
+          "purpose": "parsed-transactions",
+          "durationMs": 1558,
+          "status": 200,
+          "success": true
+        },
+        {
+          "provider": "helius",
+          "purpose": "parsed-transactions",
+          "durationMs": 1638,
+          "status": 200,
+          "success": true
+        },
+        {
+          "provider": "helius",
+          "purpose": "parsed-transactions",
+          "durationMs": 1756,
+          "status": 200,
+          "success": true
+        },
+        {
+          "provider": "coinbase",
+          "purpose": "sol-range",
+          "durationMs": 681,
+          "status": 200,
+          "success": true
+        },
+        {
+          "provider": "coinbase",
+          "purpose": "sol-range",
+          "durationMs": 695,
+          "status": 200,
+          "success": true
+        },
+        {
+          "provider": "coinbase",
+          "purpose": "sol-range",
+          "durationMs": 698,
+          "status": 200,
+          "success": true
+        },
+        {
+          "provider": "coinbase",
+          "purpose": "sol-range",
+          "durationMs": 708,
+          "status": 200,
+          "success": true
+        },
+        {
+          "provider": "coinbase",
+          "purpose": "sol-range",
+          "durationMs": 708,
+          "status": 200,
+          "success": true
+        },
+        {
+          "provider": "coinbase",
+          "purpose": "sol-range",
+          "durationMs": 709,
+          "status": 200,
+          "success": true
+        },
+        {
+          "provider": "coinbase",
+          "purpose": "sol-range",
+          "durationMs": 721,
+          "status": 200,
+          "success": true
+        },
+        {
+          "provider": "coinbase",
+          "purpose": "sol-range",
+          "durationMs": 771,
+          "status": 200,
+          "success": true
+        },
+        {
+          "provider": "coinbase",
+          "purpose": "sol-range",
+          "durationMs": 798,
+          "status": 200,
+          "success": true
+        },
+        {
+          "provider": "coingecko",
+          "purpose": "token-range",
+          "durationMs": 635,
+          "status": 404,
+          "success": false
+        },
+        {
+          "provider": "coingecko",
+          "purpose": "token-range",
+          "durationMs": 1971,
+          "status": 404,
+          "success": false
+        },
+        {
+          "provider": "coingecko",
+          "purpose": "token-range",
+          "durationMs": 566,
+          "status": 200,
+          "success": true
+        },
+        {
+          "provider": "coingecko",
+          "purpose": "token-range",
+          "durationMs": 363,
+          "status": 404,
+          "success": false
+        },
+        {
+          "provider": "coingecko",
+          "purpose": "token-range",
+          "durationMs": 787,
+          "status": 200,
+          "success": true
+        },
+        {
+          "provider": "coingecko",
+          "purpose": "token-range",
+          "durationMs": 268,
+          "status": 404,
+          "success": false
+        },
+        {
+          "provider": "coingecko",
+          "purpose": "token-range",
+          "durationMs": 303,
+          "status": 404,
+          "success": false
+        },
+        {
+          "provider": "coingecko",
+          "purpose": "token-range",
+          "durationMs": 558,
+          "status": 200,
+          "success": true
+        },
+        {
+          "provider": "coingecko",
+          "purpose": "token-range",
+          "durationMs": 271,
+          "status": 404,
+          "success": false
+        },
+        {
+          "provider": "coingecko",
+          "purpose": "token-range",
+          "durationMs": 278,
+          "status": 404,
+          "success": false
+        },
+        {
+          "provider": "coingecko",
+          "purpose": "token-range",
+          "durationMs": 273,
+          "status": 404,
+          "success": false
+        },
+        {
+          "provider": "coingecko",
+          "purpose": "token-range",
+          "durationMs": 356,
+          "status": 200,
+          "success": true
+        },
+        {
+          "provider": "coingecko",
+          "purpose": "token-range",
+          "durationMs": 271,
+          "status": 404,
+          "success": false
+        },
+        {
+          "provider": "coingecko",
+          "purpose": "token-range",
+          "durationMs": 274,
+          "status": 404,
+          "success": false
+        },
+        {
+          "provider": "coingecko",
+          "purpose": "token-range",
+          "durationMs": 263,
+          "status": 404,
+          "success": false
+        },
+        {
+          "provider": "coingecko",
+          "purpose": "token-range",
+          "durationMs": 311,
+          "status": 200,
+          "success": true
+        },
+        {
+          "provider": "coingecko",
+          "purpose": "token-range",
+          "durationMs": 261,
+          "status": 404,
+          "success": false
+        },
+        {
+          "provider": "coingecko",
+          "purpose": "token-range",
+          "durationMs": 290,
+          "status": 404,
+          "success": false
+        },
+        {
+          "provider": "coingecko",
+          "purpose": "token-range",
+          "durationMs": 286,
+          "status": 404,
+          "success": false
+        },
+        {
+          "provider": "coingecko",
+          "purpose": "token-range",
+          "durationMs": 270,
+          "status": 404,
+          "success": false
+        }
+      ]
+    },
+    {
+      "label": "token-A",
+      "mode": "cold",
+      "address": "686C4R7PgGipaCYXkngNRpZKEDVPRjGpFTaafucYeUyL",
+      "timings": {
+        "TRANSACTION_FETCH": 24006,
+        "TRANSACTION_NORMALIZATION": 5,
+        "EXECUTION_VALUATION": 5,
+        "HISTORICAL_SOL_PRICING": 600,
+        "POSITION_RECONSTRUCTION": 16,
+        "BEHAVIOR_FEATURES": 0,
+        "HISTORICAL_TOKEN_PRICING": 6105,
+        "PERSONA_SCORING": 15,
+        "RESULT_BUILDING": 0,
+        "POSITION_EPISODE_MATH": 4,
+        "TOTAL_ANALYSIS": 30759
+      },
+      "counters": {
+        "transactionCount": 1000,
+        "qualifyingSwapCount": 560,
+        "externalRequestCount": 42,
+        "solPriceRequestCount": 2,
+        "tokenPriceRequestCount": 19,
+        "heliusRequestCount": 21,
+        "tokenCacheHits": 0,
+        "solBucketRequests": 563
+      },
+      "resultKind": "NORMAL_PERSONA",
+      "warm": {
+        "totalMs": 0,
+        "requestCount": 0,
+        "resultKind": "NORMAL_PERSONA"
+      },
+      "requests": [
+        {
+          "provider": "helius",
+          "purpose": "balances",
+          "durationMs": 641,
+          "status": 200,
+          "success": true
+        },
+        {
+          "provider": "helius",
+          "purpose": "history-page",
+          "durationMs": 1014,
+          "status": 200,
+          "success": true
+        },
+        {
+          "provider": "helius",
+          "purpose": "history-page",
+          "durationMs": 853,
+          "status": 200,
+          "success": true
+        },
+        {
+          "provider": "helius",
+          "purpose": "history-page",
+          "durationMs": 522,
+          "status": 200,
+          "success": true
+        },
+        {
+          "provider": "helius",
+          "purpose": "history-page",
+          "durationMs": 1269,
+          "status": 200,
+          "success": true
+        },
+        {
+          "provider": "helius",
+          "purpose": "history-page",
+          "durationMs": 1234,
+          "status": 200,
+          "success": true
+        },
+        {
+          "provider": "helius",
+          "purpose": "history-page",
+          "durationMs": 754,
+          "status": 200,
+          "success": true
+        },
+        {
+          "provider": "helius",
+          "purpose": "history-page",
+          "durationMs": 570,
+          "status": 200,
+          "success": true
+        },
+        {
+          "provider": "helius",
+          "purpose": "history-page",
+          "durationMs": 1005,
+          "status": 200,
+          "success": true
+        },
+        {
+          "provider": "helius",
+          "purpose": "history-page",
+          "durationMs": 652,
+          "status": 200,
+          "success": true
+        },
+        {
+          "provider": "helius",
+          "purpose": "history-page",
+          "durationMs": 660,
+          "status": 200,
+          "success": true
+        },
+        {
+          "provider": "helius",
+          "purpose": "parsed-transactions",
+          "durationMs": 1259,
+          "status": 200,
+          "success": true
+        },
+        {
+          "provider": "helius",
+          "purpose": "parsed-transactions",
+          "durationMs": 1943,
+          "status": 200,
+          "success": true
+        },
+        {
+          "provider": "helius",
+          "purpose": "parsed-transactions",
+          "durationMs": 1106,
+          "status": 200,
+          "success": true
+        },
+        {
+          "provider": "helius",
+          "purpose": "parsed-transactions",
+          "durationMs": 1770,
+          "status": 200,
+          "success": true
+        },
+        {
+          "provider": "helius",
+          "purpose": "parsed-transactions",
+          "durationMs": 1467,
+          "status": 200,
+          "success": true
+        },
+        {
+          "provider": "helius",
+          "purpose": "parsed-transactions",
+          "durationMs": 1378,
+          "status": 200,
+          "success": true
+        },
+        {
+          "provider": "helius",
+          "purpose": "parsed-transactions",
+          "durationMs": 1167,
+          "status": 200,
+          "success": true
+        },
+        {
+          "provider": "helius",
+          "purpose": "parsed-transactions",
+          "durationMs": 1701,
+          "status": 200,
+          "success": true
+        },
+        {
+          "provider": "helius",
+          "purpose": "parsed-transactions",
+          "durationMs": 1356,
+          "status": 200,
+          "success": true
+        },
+        {
+          "provider": "helius",
+          "purpose": "parsed-transactions",
+          "durationMs": 1349,
+          "status": 200,
+          "success": true
+        },
+        {
+          "provider": "coinbase",
+          "purpose": "sol-range",
+          "durationMs": 557,
+          "status": 200,
+          "success": true
+        },
+        {
+          "provider": "coinbase",
+          "purpose": "sol-range",
+          "durationMs": 595,
+          "status": 200,
+          "success": true
+        },
+        {
+          "provider": "coingecko",
+          "purpose": "token-range",
+          "durationMs": 578,
+          "status": 404,
+          "success": false
+        },
+        {
+          "provider": "coingecko",
+          "purpose": "token-range",
+          "durationMs": 612,
+          "status": 404,
+          "success": false
+        },
+        {
+          "provider": "coingecko",
+          "purpose": "token-range",
+          "durationMs": 273,
+          "status": 404,
+          "success": false
+        },
+        {
+          "provider": "coingecko",
+          "purpose": "token-range",
+          "durationMs": 287,
+          "status": 404,
+          "success": false
+        },
+        {
+          "provider": "coingecko",
+          "purpose": "token-range",
+          "durationMs": 278,
+          "status": 404,
+          "success": false
+        },
+        {
+          "provider": "coingecko",
+          "purpose": "token-range",
+          "durationMs": 371,
+          "status": 200,
+          "success": true
+        },
+        {
+          "provider": "coingecko",
+          "purpose": "token-range",
+          "durationMs": 300,
+          "status": 404,
+          "success": false
+        },
+        {
+          "provider": "coingecko",
+          "purpose": "token-range",
+          "durationMs": 292,
+          "status": 200,
+          "success": true
+        },
+        {
+          "provider": "coingecko",
+          "purpose": "token-range",
+          "durationMs": 279,
+          "status": 404,
+          "success": false
+        },
+        {
+          "provider": "coingecko",
+          "purpose": "token-range",
+          "durationMs": 269,
+          "status": 404,
+          "success": false
+        },
+        {
+          "provider": "coingecko",
+          "purpose": "token-range",
+          "durationMs": 258,
+          "status": 404,
+          "success": false
+        },
+        {
+          "provider": "coingecko",
+          "purpose": "token-range",
+          "durationMs": 284,
+          "status": 404,
+          "success": false
+        },
+        {
+          "provider": "coingecko",
+          "purpose": "token-range",
+          "durationMs": 281,
+          "status": 200,
+          "success": true
+        },
+        {
+          "provider": "coingecko",
+          "purpose": "token-range",
+          "durationMs": 269,
+          "status": 404,
+          "success": false
+        },
+        {
+          "provider": "coingecko",
+          "purpose": "token-range",
+          "durationMs": 281,
+          "status": 200,
+          "success": true
+        },
+        {
+          "provider": "coingecko",
+          "purpose": "token-range",
+          "durationMs": 285,
+          "status": 404,
+          "success": false
+        },
+        {
+          "provider": "coingecko",
+          "purpose": "token-range",
+          "durationMs": 342,
+          "status": 404,
+          "success": false
+        },
+        {
+          "provider": "coingecko",
+          "purpose": "token-range",
+          "durationMs": 276,
+          "status": 404,
+          "success": false
+        },
+        {
+          "provider": "coingecko",
+          "purpose": "token-range",
+          "durationMs": 281,
+          "status": 404,
+          "success": false
+        }
+      ]
+    }
+  ],
+  "slowest": [
+    {
+      "provider": "helius",
+      "purpose": "history-page",
+      "durationMs": 3391,
+      "status": 200,
+      "success": true,
+      "label": "diogenes-low"
+    },
+    {
+      "provider": "helius",
+      "purpose": "parsed-transactions",
+      "durationMs": 2733,
+      "status": 200,
+      "success": true,
+      "label": "high-C"
+    },
+    {
+      "provider": "helius",
+      "purpose": "history-page",
+      "durationMs": 2532,
+      "status": 200,
+      "success": true,
+      "label": "medium-B"
+    },
+    {
+      "provider": "helius",
+      "purpose": "parsed-transactions",
+      "durationMs": 2505,
+      "status": 200,
+      "success": true,
+      "label": "diogenes-low"
+    },
+    {
+      "provider": "helius",
+      "purpose": "history-page",
+      "durationMs": 2436,
+      "status": 200,
+      "success": true,
+      "label": "diogenes-low"
+    },
+    {
+      "provider": "helius",
+      "purpose": "parsed-transactions",
+      "durationMs": 2080,
+      "status": 200,
+      "success": true,
+      "label": "diogenes-low"
+    },
+    {
+      "provider": "helius",
+      "purpose": "parsed-transactions",
+      "durationMs": 1998,
+      "status": 200,
+      "success": true,
+      "label": "diogenes-low"
+    },
+    {
+      "provider": "coingecko",
+      "purpose": "token-range",
+      "durationMs": 1971,
+      "status": 404,
+      "success": false,
+      "label": "high-C"
+    },
+    {
+      "provider": "helius",
+      "purpose": "parsed-transactions",
+      "durationMs": 1943,
+      "status": 200,
+      "success": true,
+      "label": "token-A"
+    },
+    {
+      "provider": "helius",
+      "purpose": "parsed-transactions",
+      "durationMs": 1914,
+      "status": 200,
+      "success": true,
+      "label": "diogenes-low"
+    }
+  ],
+  "providerAggregates": {
+    "helius:balances": {
+      "count": 39,
+      "totalMs": 10427,
+      "failures": 16,
+      "retried429": 16
+    },
+    "helius:history-page": {
+      "count": 46,
+      "totalMs": 46726,
+      "failures": 6,
+      "retried429": 6
+    },
+    "helius:parsed-transactions": {
+      "count": 40,
+      "totalMs": 65849,
+      "failures": 0,
+      "retried429": 0
+    },
+    "coinbase:sol-range": {
+      "count": 11,
+      "totalMs": 7641,
+      "failures": 0,
+      "retried429": 0
+    },
+    "coingecko:token-range": {
+      "count": 39,
+      "totalMs": 14951,
+      "failures": 30,
+      "retried429": 0
+    }
+  }
+}

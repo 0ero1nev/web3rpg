@@ -19,6 +19,9 @@ export TMPDIR="${runtime_root}/tmp"
 export WRANGLER_WRITE_LOGS=false
 export WRANGLER_LOG_PATH="${runtime_root}/wrangler/logs"
 export MINIFLARE_REGISTRY_PATH="${runtime_root}/wrangler/registry"
+# Node 24+ does not use HTTP(S)_PROXY for fetch unless explicitly enabled.
+# This contains no proxy address; the runtime-owned proxy variables stay server-side.
+export NODE_USE_ENV_PROXY="${NODE_USE_ENV_PROXY:-1}"
 
 # The runtime may provide a global npm cache. Keep the image's read-only Sites
 # seed separate and make this project's writable cache authoritative.

@@ -1,0 +1,574 @@
+{
+  "generatedAt": "2026-10-05T16:30:41.464Z",
+  "datasetSize": 44,
+  "scoredWallets": 44,
+  "failedWallets": 0,
+  "perPersona": [
+    {
+      "personaId": "sisyphus",
+      "measurableCount": 44,
+      "nullCount": 0,
+      "zeroCount": 21,
+      "eligibleCount": 6,
+      "measurabilityRate": 100,
+      "eligibilityRate": 13.6,
+      "averageMatch": 28.68,
+      "medianMatch": 9,
+      "averageConfidence": 31.39,
+      "medianConfidence": 24,
+      "winnerCount": 4
+    },
+    {
+      "personaId": "newton",
+      "measurableCount": 44,
+      "nullCount": 0,
+      "zeroCount": 21,
+      "eligibleCount": 6,
+      "measurabilityRate": 100,
+      "eligibilityRate": 13.6,
+      "averageMatch": 26.11,
+      "medianMatch": 7,
+      "averageConfidence": 16.89,
+      "medianConfidence": 1,
+      "winnerCount": 2
+    },
+    {
+      "personaId": "caesar",
+      "measurableCount": 44,
+      "nullCount": 0,
+      "zeroCount": 21,
+      "eligibleCount": 12,
+      "measurabilityRate": 100,
+      "eligibilityRate": 27.3,
+      "averageMatch": 28.11,
+      "medianMatch": 29.5,
+      "averageConfidence": 33.86,
+      "medianConfidence": 10.5,
+      "winnerCount": 6
+    },
+    {
+      "personaId": "croesus",
+      "measurableCount": 44,
+      "nullCount": 0,
+      "zeroCount": 27,
+      "eligibleCount": 18,
+      "measurabilityRate": 100,
+      "eligibilityRate": 40.9,
+      "averageMatch": 10.16,
+      "medianMatch": 0,
+      "averageConfidence": 45.66,
+      "medianConfidence": 56.5,
+      "winnerCount": 6
+    },
+    {
+      "personaId": "icarus",
+      "measurableCount": 9,
+      "nullCount": 35,
+      "zeroCount": 0,
+      "eligibleCount": 2,
+      "measurabilityRate": 20.5,
+      "eligibilityRate": 4.5,
+      "averageMatch": 40.67,
+      "medianMatch": 47,
+      "averageConfidence": 20.45,
+      "medianConfidence": 0,
+      "winnerCount": 0
+    },
+    {
+      "personaId": "midas",
+      "measurableCount": 33,
+      "nullCount": 11,
+      "zeroCount": 31,
+      "eligibleCount": 2,
+      "measurabilityRate": 75,
+      "eligibilityRate": 4.5,
+      "averageMatch": 2.82,
+      "medianMatch": 0,
+      "averageConfidence": 3.27,
+      "medianConfidence": 0,
+      "winnerCount": 0
+    },
+    {
+      "personaId": "don_quixote",
+      "measurableCount": 33,
+      "nullCount": 11,
+      "zeroCount": 33,
+      "eligibleCount": 0,
+      "measurabilityRate": 75,
+      "eligibilityRate": 0,
+      "averageMatch": 0,
+      "medianMatch": 0,
+      "averageConfidence": 0,
+      "medianConfidence": 0,
+      "winnerCount": 0
+    },
+    {
+      "personaId": "napoleon",
+      "measurableCount": 7,
+      "nullCount": 37,
+      "zeroCount": 5,
+      "eligibleCount": 2,
+      "measurabilityRate": 15.9,
+      "eligibilityRate": 4.5,
+      "averageMatch": 15.71,
+      "medianMatch": 0,
+      "averageConfidence": 57.27,
+      "medianConfidence": 50,
+      "winnerCount": 0
+    }
+  ],
+  "winnerDistribution": {
+    "sisyphus": 4,
+    "newton": 2,
+    "caesar": 6,
+    "croesus": 6,
+    "icarus": 0,
+    "midas": 0,
+    "don_quixote": 0,
+    "napoleon": 0
+  },
+  "noEligiblePersonaCount": 26,
+  "noEligiblePersonaRate": 59.1,
+  "singleEligibleCount": 6,
+  "marginBuckets": {
+    "0-4": 1,
+    "5-9": 4,
+    "10-19": 3,
+    "20+": 4
+  },
+  "namedOverlaps": [
+    {
+      "personas": [
+        "sisyphus",
+        "caesar"
+      ],
+      "count": 5,
+      "percent": 11.4,
+      "wallets": [
+        "B",
+        "D",
+        "W12",
+        "W16",
+        "W35"
+      ]
+    },
+    {
+      "personas": [
+        "newton",
+        "napoleon"
+      ],
+      "count": 0,
+      "percent": 0,
+      "wallets": []
+    }
+  ],
+  "overlapsWithCounts": [
+    {
+      "pair": "Sisyphus + Newton",
+      "count": 5,
+      "percent": 11.4
+    },
+    {
+      "pair": "Sisyphus + Caesar",
+      "count": 5,
+      "percent": 11.4
+    },
+    {
+      "pair": "Newton + Caesar",
+      "count": 4,
+      "percent": 9.1
+    },
+    {
+      "pair": "Sisyphus + Croesus",
+      "count": 1,
+      "percent": 2.3
+    },
+    {
+      "pair": "Newton + Croesus",
+      "count": 1,
+      "percent": 2.3
+    },
+    {
+      "pair": "Caesar + Croesus",
+      "count": 1,
+      "percent": 2.3
+    }
+  ],
+  "icarus": {
+    "measurableCount": 9,
+    "notMeasurableCount": 35,
+    "eligibleCount": 2,
+    "eligibleEpisodesConsidered": 359,
+    "episodesPriced": 26,
+    "unsupportedMints": 72,
+    "budgetLimitedWallets": [
+      "C",
+      "W34"
+    ]
+  },
+  "cost": {
+    "heliusRequests": 839,
+    "coinbaseRequests": 42,
+    "coingeckoRequests": 91,
+    "tokenHistoryRequests": 90,
+    "cacheHits": 6,
+    "providerFailures": 0,
+    "unsupportedMints": 72,
+    "heliusPerWallet": 19.1,
+    "tokenHistoryPerWallet": 2,
+    "priceOutboundPerWallet": 3
+  },
+  "coverageStats": {
+    "qualifyingSwaps": {
+      "total": 3715,
+      "min": 0,
+      "median": 2,
+      "max": 710
+    },
+    "observedVolumeWallets": 23,
+    "pnlCoverageMean": 0.136,
+    "volumeCoverageMean": 0.491,
+    "historicalPriceCoverageMean": 0.118,
+    "currentPriceCoverageMean": 0.072
+  },
+  "topMatches": {
+    "sisyphus": [
+      {
+        "label": "W16",
+        "source": "pump-major",
+        "match": 96,
+        "eligible": false
+      },
+      {
+        "label": "W12",
+        "source": "pump-major",
+        "match": 92,
+        "eligible": false
+      },
+      {
+        "label": "W19",
+        "source": "pump-b",
+        "match": 92,
+        "eligible": false
+      },
+      {
+        "label": "D",
+        "source": "seed",
+        "match": 90,
+        "eligible": false
+      },
+      {
+        "label": "B",
+        "source": "seed",
+        "match": 87,
+        "eligible": true
+      }
+    ],
+    "newton": [
+      {
+        "label": "W16",
+        "source": "pump-major",
+        "match": 90,
+        "eligible": false
+      },
+      {
+        "label": "W12",
+        "source": "pump-major",
+        "match": 84,
+        "eligible": false
+      },
+      {
+        "label": "B",
+        "source": "seed",
+        "match": 79,
+        "eligible": false
+      },
+      {
+        "label": "W19",
+        "source": "pump-b",
+        "match": 76,
+        "eligible": false
+      },
+      {
+        "label": "A",
+        "source": "seed",
+        "match": 73,
+        "eligible": true
+      }
+    ],
+    "caesar": [
+      {
+        "label": "W16",
+        "source": "pump-major",
+        "match": 93,
+        "eligible": true
+      },
+      {
+        "label": "W12",
+        "source": "pump-major",
+        "match": 87,
+        "eligible": false
+      },
+      {
+        "label": "B",
+        "source": "seed",
+        "match": 84,
+        "eligible": true
+      },
+      {
+        "label": "W26",
+        "source": "jup",
+        "match": 84,
+        "eligible": false
+      },
+      {
+        "label": "W35",
+        "source": "meta-d",
+        "match": 75,
+        "eligible": true
+      }
+    ],
+    "croesus": [
+      {
+        "label": "B",
+        "source": "seed",
+        "match": 73,
+        "eligible": true
+      },
+      {
+        "label": "W30",
+        "source": "meta-d",
+        "match": 45,
+        "eligible": false
+      },
+      {
+        "label": "W35",
+        "source": "meta-d",
+        "match": 42,
+        "eligible": true
+      },
+      {
+        "label": "W19",
+        "source": "pump-b",
+        "match": 37,
+        "eligible": true
+      },
+      {
+        "label": "A",
+        "source": "seed",
+        "match": 36,
+        "eligible": true
+      }
+    ],
+    "icarus": [
+      {
+        "label": "W34",
+        "source": "pump-b",
+        "match": 57,
+        "eligible": true
+      },
+      {
+        "label": "W13",
+        "source": "pump-c",
+        "match": 55,
+        "eligible": true
+      },
+      {
+        "label": "W17",
+        "source": "pump-c",
+        "match": 51,
+        "eligible": false
+      },
+      {
+        "label": "C",
+        "source": "seed",
+        "match": 49,
+        "eligible": false
+      },
+      {
+        "label": "W30",
+        "source": "meta-d",
+        "match": 47,
+        "eligible": false
+      }
+    ],
+    "midas": [
+      {
+        "label": "W13",
+        "source": "pump-c",
+        "match": 57,
+        "eligible": true
+      },
+      {
+        "label": "W24",
+        "source": "pump-b",
+        "match": 36,
+        "eligible": true
+      },
+      {
+        "label": "W01",
+        "source": "pump-c",
+        "match": 0,
+        "eligible": false
+      },
+      {
+        "label": "W02",
+        "source": "pump-a",
+        "match": 0,
+        "eligible": false
+      },
+      {
+        "label": "W03",
+        "source": "pump-b",
+        "match": 0,
+        "eligible": false
+      }
+    ],
+    "don_quixote": [
+      {
+        "label": "W01",
+        "source": "pump-c",
+        "match": 0,
+        "eligible": false
+      },
+      {
+        "label": "W02",
+        "source": "pump-a",
+        "match": 0,
+        "eligible": false
+      },
+      {
+        "label": "W03",
+        "source": "pump-b",
+        "match": 0,
+        "eligible": false
+      },
+      {
+        "label": "W04",
+        "source": "meta-d",
+        "match": 0,
+        "eligible": false
+      },
+      {
+        "label": "W05",
+        "source": "jup",
+        "match": 0,
+        "eligible": false
+      }
+    ],
+    "napoleon": [
+      {
+        "label": "A",
+        "source": "seed",
+        "match": 58,
+        "eligible": true
+      },
+      {
+        "label": "C",
+        "source": "seed",
+        "match": 52,
+        "eligible": true
+      },
+      {
+        "label": "D",
+        "source": "seed",
+        "match": 0,
+        "eligible": false
+      },
+      {
+        "label": "W15",
+        "source": "jup",
+        "match": 0,
+        "eligible": false
+      },
+      {
+        "label": "W22",
+        "source": "pump-major",
+        "match": 0,
+        "eligible": false
+      }
+    ]
+  },
+  "lowestWinners": [
+    {
+      "label": "W20",
+      "source": "meta-d",
+      "persona": "croesus",
+      "match": 0,
+      "margin": null,
+      "txs": 1000
+    },
+    {
+      "label": "W26",
+      "source": "jup",
+      "persona": "croesus",
+      "match": 0,
+      "margin": null,
+      "txs": 267
+    },
+    {
+      "label": "W14",
+      "source": "pump-b",
+      "persona": "croesus",
+      "match": 1,
+      "margin": null,
+      "txs": 1000
+    },
+    {
+      "label": "W17",
+      "source": "pump-c",
+      "persona": "croesus",
+      "match": 6,
+      "margin": null,
+      "txs": 548
+    },
+    {
+      "label": "W39",
+      "source": "pump-b",
+      "persona": "croesus",
+      "match": 14,
+      "margin": null,
+      "txs": 1000
+    },
+    {
+      "label": "W12",
+      "source": "pump-major",
+      "persona": "croesus",
+      "match": 36,
+      "margin": null,
+      "txs": 1000
+    },
+    {
+      "label": "W15",
+      "source": "jup",
+      "persona": "newton",
+      "match": 40,
+      "margin": 7,
+      "txs": 170
+    },
+    {
+      "label": "W24",
+      "source": "pump-b",
+      "persona": "caesar",
+      "match": 50,
+      "margin": 14,
+      "txs": 1000
+    },
+    {
+      "label": "C",
+      "source": "seed",
+      "persona": "sisyphus",
+      "match": 60,
+      "margin": 6,
+      "txs": 1000
+    },
+    {
+      "label": "W13",
+      "source": "pump-c",
+      "persona": "caesar",
+      "match": 62,
+      "margin": 5,
+      "txs": 1000
+    }
+  ]
+}

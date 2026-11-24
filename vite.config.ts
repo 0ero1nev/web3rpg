@@ -1,9 +1,10 @@
 import vinext from "vinext";
-import { defineConfig } from "vite";
+import { defineConfig, loadEnv } from "vite";
 import hostingConfig from "./.openai/hosting.json";
 import { readExecutionProfile } from "./scripts/execution-profile.mjs";
 import { sites } from "./build/sites-vite-plugin";
 import { connectorPreview } from "./build/connector-preview-plugin.mjs";
+import { pricingBridge, LOCAL_PRICING_BRIDGE_PATH } from "./build/pricing-bridge-plugin.mjs";
 
 const SITE_CREATOR_PLACEHOLDER_DATABASE_ID =
   "00000000-0000-4000-8000-000000000000";
@@ -36,7 +37,7 @@ const localBindingConfig = {
     : [],
 };
 
-export default defineConfig(async ({ command }) => {
+export default defineConfig(async ({ command, mode }) => {
   // Use Miniflare's local Request.cf placeholder unless fetching is requested.
   process.env.CLOUDFLARE_CF_FETCH_ENABLED ??= "false";
   process.env.WRANGLER_SEND_METRICS ??= "false";
@@ -50,6 +51,7 @@ export default defineConfig(async ({ command }) => {
 
   // Wrangler snapshots its log path while the Cloudflare plugin is imported.
   const { cloudflare } = await import("@cloudflare/vite-plugin");
+  const localEnvironment = loadEnv(mode, process.cwd(), "");
 
   return {
     server: {
@@ -64,11 +66,17 @@ export default defineConfig(async ({ command }) => {
       vinext(),
       sites({ mockAuth: !managedLinux }),
       connectorPreview(),
+      ...(command === "serve"
+        ? [pricingBridge({ coinGeckoApiKey: localEnvironment.COINGECKO_API_KEY })]
+        : []),
       cloudflare({
         viteEnvironment: { name: "rsc", childEnvironments: ["ssr"] },
         inspectorPort: false,
         config: {
           ...localBindingConfig,
+          ...(command === "serve"
+            ? { vars: { LOCAL_PRICING_BRIDGE_URL: `http://127.0.0.1:5173${LOCAL_PRICING_BRIDGE_PATH}` } }
+            : {}),
           ...(command === "serve"
             ? {
                 services: [

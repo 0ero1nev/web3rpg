@@ -1,0 +1,413 @@
+{
+  "generatedAt": "2026-10-06T08:04:01.896Z",
+  "productionChange": "weightedValue now divides by declared total weight (personaScoring.ts); exported for tests; no other formula, gate, or threshold touched",
+  "before": {
+    "assigned": 22,
+    "coverage": "22/40",
+    "winnerDistribution": {
+      "caesar": 9,
+      "newton": 4,
+      "don_quixote": 1,
+      "sisyphus": 6,
+      "icarus": 1,
+      "napoleon": 1
+    },
+    "newtonAbove50": 26,
+    "sisyphusAbove50": 24,
+    "noStrongMatch": 18
+  },
+  "after": {
+    "assigned": 22,
+    "coverage": "22/40",
+    "winnerDistribution": {
+      "caesar": 8,
+      "sisyphus": 6,
+      "newton": 5,
+      "icarus": 1,
+      "napoleon": 1,
+      "don_quixote": 1
+    },
+    "newtonAbove50": 11,
+    "sisyphusAbove50": 23,
+    "noStrongMatch": 18
+  },
+  "winnerChanges": [
+    {
+      "label": "T7",
+      "from": null,
+      "to": "newton",
+      "reason": null,
+      "drifted": true
+    },
+    {
+      "label": "M3",
+      "from": "caesar",
+      "to": null,
+      "reason": "NO_STRONG_MATCH",
+      "drifted": true
+    }
+  ],
+  "matchChangesAbove10": [
+    {
+      "label": "T2",
+      "persona": "newton",
+      "before": 91,
+      "after": 9,
+      "delta": -82,
+      "attribution": "integrity fix: zero re-entries -> ACTIVITY-only weight 0.10"
+    },
+    {
+      "label": "T2",
+      "persona": "icarus",
+      "before": 2,
+      "after": 25,
+      "delta": 23,
+      "attribution": "shared weightedValue fix on a null dimension, or live-data drift"
+    },
+    {
+      "label": "T7",
+      "persona": "newton",
+      "before": 63,
+      "after": 73,
+      "delta": 10,
+      "attribution": "drift or partial-evidence renormalization change"
+    },
+    {
+      "label": "T7",
+      "persona": "don_quixote",
+      "before": null,
+      "after": 12,
+      "delta": 12,
+      "attribution": "shared weightedValue fix on a null dimension, or live-data drift"
+    },
+    {
+      "label": "P2",
+      "persona": "newton",
+      "before": 57,
+      "after": 6,
+      "delta": -51,
+      "attribution": "integrity fix: zero re-entries -> ACTIVITY-only weight 0.10"
+    },
+    {
+      "label": "P4",
+      "persona": "newton",
+      "before": 69,
+      "after": 7,
+      "delta": -62,
+      "attribution": "integrity fix: zero re-entries -> ACTIVITY-only weight 0.10"
+    },
+    {
+      "label": "P5",
+      "persona": "newton",
+      "before": 57,
+      "after": 6,
+      "delta": -51,
+      "attribution": "integrity fix: zero re-entries -> ACTIVITY-only weight 0.10"
+    },
+    {
+      "label": "P9",
+      "persona": "newton",
+      "before": 53,
+      "after": 5,
+      "delta": -48,
+      "attribution": "integrity fix: zero re-entries -> ACTIVITY-only weight 0.10"
+    },
+    {
+      "label": "L5",
+      "persona": "newton",
+      "before": 68,
+      "after": 7,
+      "delta": -61,
+      "attribution": "integrity fix: zero re-entries -> ACTIVITY-only weight 0.10"
+    },
+    {
+      "label": "L6",
+      "persona": "newton",
+      "before": 70,
+      "after": 7,
+      "delta": -63,
+      "attribution": "integrity fix: zero re-entries -> ACTIVITY-only weight 0.10"
+    },
+    {
+      "label": "L7",
+      "persona": "newton",
+      "before": 10,
+      "after": 47,
+      "delta": 37,
+      "attribution": "drift or partial-evidence renormalization change"
+    },
+    {
+      "label": "L8",
+      "persona": "sisyphus",
+      "before": 67,
+      "after": 77,
+      "delta": 10,
+      "attribution": "drift (stagnation was measurable both runs)"
+    },
+    {
+      "label": "M1",
+      "persona": "newton",
+      "before": 51,
+      "after": 5,
+      "delta": -46,
+      "attribution": "integrity fix: zero re-entries -> ACTIVITY-only weight 0.10"
+    },
+    {
+      "label": "M2",
+      "persona": "newton",
+      "before": 56,
+      "after": 6,
+      "delta": -50,
+      "attribution": "integrity fix: zero re-entries -> ACTIVITY-only weight 0.10"
+    },
+    {
+      "label": "M3",
+      "persona": "sisyphus",
+      "before": 67,
+      "after": 56,
+      "delta": -11,
+      "attribution": "drift (stagnation was measurable both runs)"
+    },
+    {
+      "label": "M3",
+      "persona": "newton",
+      "before": 57,
+      "after": 5,
+      "delta": -52,
+      "attribution": "integrity fix: zero re-entries -> ACTIVITY-only weight 0.10"
+    },
+    {
+      "label": "M3",
+      "persona": "caesar",
+      "before": 50,
+      "after": 39,
+      "delta": -11,
+      "attribution": "shared weightedValue fix on a null dimension, or live-data drift"
+    },
+    {
+      "label": "M4",
+      "persona": "newton",
+      "before": 59,
+      "after": 6,
+      "delta": -53,
+      "attribution": "integrity fix: zero re-entries -> ACTIVITY-only weight 0.10"
+    },
+    {
+      "label": "M5",
+      "persona": "newton",
+      "before": 60,
+      "after": 6,
+      "delta": -54,
+      "attribution": "integrity fix: zero re-entries -> ACTIVITY-only weight 0.10"
+    },
+    {
+      "label": "M6",
+      "persona": "newton",
+      "before": 61,
+      "after": 7,
+      "delta": -54,
+      "attribution": "integrity fix: zero re-entries -> ACTIVITY-only weight 0.10"
+    },
+    {
+      "label": "M6",
+      "persona": "caesar",
+      "before": 28,
+      "after": 8,
+      "delta": -20,
+      "attribution": "shared weightedValue fix on a null dimension, or live-data drift"
+    },
+    {
+      "label": "M7",
+      "persona": "sisyphus",
+      "before": 39,
+      "after": 28,
+      "delta": -11,
+      "attribution": "integrity fix: null stagnation no longer renormalized"
+    },
+    {
+      "label": "M10",
+      "persona": "sisyphus",
+      "before": 79,
+      "after": 46,
+      "delta": -33,
+      "attribution": "integrity fix: null stagnation no longer renormalized"
+    },
+    {
+      "label": "M10",
+      "persona": "newton",
+      "before": 64,
+      "after": 6,
+      "delta": -58,
+      "attribution": "integrity fix: zero re-entries -> ACTIVITY-only weight 0.10"
+    },
+    {
+      "label": "T9",
+      "persona": "sisyphus",
+      "before": 38,
+      "after": 26,
+      "delta": -12,
+      "attribution": "integrity fix: null stagnation no longer renormalized"
+    },
+    {
+      "label": "T9",
+      "persona": "newton",
+      "before": 81,
+      "after": 8,
+      "delta": -73,
+      "attribution": "integrity fix: zero re-entries -> ACTIVITY-only weight 0.10"
+    }
+  ],
+  "zeroReentryNewtonVerification": {
+    "cases": [
+      {
+        "label": "M10",
+        "newtonBefore": 64,
+        "newtonAfter": 6,
+        "stillAbove50": false
+      },
+      {
+        "label": "M1",
+        "newtonBefore": 51,
+        "newtonAfter": 5,
+        "stillAbove50": false
+      },
+      {
+        "label": "P2",
+        "newtonBefore": 57,
+        "newtonAfter": 6,
+        "stillAbove50": false
+      },
+      {
+        "label": "P9",
+        "newtonBefore": 53,
+        "newtonAfter": 5,
+        "stillAbove50": false
+      },
+      {
+        "label": "L6",
+        "newtonBefore": 70,
+        "newtonAfter": 7,
+        "stillAbove50": false
+      },
+      {
+        "label": "L5",
+        "newtonBefore": 68,
+        "newtonAfter": 7,
+        "stillAbove50": false
+      },
+      {
+        "label": "M5",
+        "newtonBefore": 60,
+        "newtonAfter": 6,
+        "stillAbove50": false
+      },
+      {
+        "label": "M4",
+        "newtonBefore": 59,
+        "newtonAfter": 6,
+        "stillAbove50": false
+      },
+      {
+        "label": "P4",
+        "newtonBefore": 69,
+        "newtonAfter": 7,
+        "stillAbove50": false
+      },
+      {
+        "label": "T2",
+        "newtonBefore": 91,
+        "newtonAfter": 9,
+        "stillAbove50": false
+      },
+      {
+        "label": "P5",
+        "newtonBefore": 57,
+        "newtonAfter": 6,
+        "stillAbove50": false
+      },
+      {
+        "label": "M2",
+        "newtonBefore": 56,
+        "newtonAfter": 6,
+        "stillAbove50": false
+      },
+      {
+        "label": "M3",
+        "newtonBefore": 57,
+        "newtonAfter": 5,
+        "stillAbove50": false
+      },
+      {
+        "label": "M6",
+        "newtonBefore": 61,
+        "newtonAfter": 7,
+        "stillAbove50": false
+      },
+      {
+        "label": "T9",
+        "newtonBefore": 81,
+        "newtonAfter": 8,
+        "stillAbove50": false
+      }
+    ],
+    "stillAbove50Count": 0
+  },
+  "nullStagnationSisyphus": [
+    {
+      "label": "M10",
+      "sisyphusBefore": 79,
+      "sisyphusAfter": 46
+    }
+  ],
+  "coreMinimumSimulations": [
+    {
+      "minimum": 20,
+      "sisyphusAbove50": 23,
+      "sisyphusEligible": 9,
+      "assigned": 22,
+      "coverage": "22/40",
+      "distribution": {
+        "caesar": 8,
+        "sisyphus": 6,
+        "newton": 5,
+        "icarus": 1,
+        "napoleon": 1,
+        "don_quixote": 1
+      },
+      "affected": []
+    },
+    {
+      "minimum": 30,
+      "sisyphusAbove50": 23,
+      "sisyphusEligible": 9,
+      "assigned": 22,
+      "coverage": "22/40",
+      "distribution": {
+        "caesar": 8,
+        "sisyphus": 6,
+        "newton": 5,
+        "icarus": 1,
+        "napoleon": 1,
+        "don_quixote": 1
+      },
+      "affected": []
+    },
+    {
+      "minimum": 40,
+      "sisyphusAbove50": 23,
+      "sisyphusEligible": 8,
+      "assigned": 22,
+      "coverage": "22/40",
+      "distribution": {
+        "caesar": 8,
+        "sisyphus": 6,
+        "newton": 5,
+        "icarus": 1,
+        "napoleon": 1,
+        "don_quixote": 1
+      },
+      "affected": []
+    }
+  ],
+  "coreMinimumDecision": "NOT IMPLEMENTED — no candidate (20/30/40) has a clear semantic justification; they map to arbitrary |progress| cutoffs (8%/7%/6% of volume) on a continuous scale whose existing semantic anchor is meaningfulProgressRate = 0.10 (stagnation > 0). Reported per spec; left unimplemented."
+}

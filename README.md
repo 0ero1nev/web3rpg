@@ -34,7 +34,58 @@ The Worker uses `vinext/server/fetch-handler`, including Vinext's config-aware i
 
 Local previews use Miniflare's placeholder `Request.cf` metadata without a network lookup. Set `CLOUDFLARE_CF_FETCH_ENABLED=true` to opt into fetching preview metadata; this setting does not change hosted request metadata.
 
+### Server-side outbound proxy
+
+Historical pricing is fetched only by the server. The local `dev` and `start`
+commands set `NODE_USE_ENV_PROXY=1`, allowing Node 24+ `fetch` to honor the
+runtime-provided `HTTP_PROXY`, `HTTPS_PROXY`, and `NO_PROXY` variables. Proxy
+URLs and credentials must remain runtime environment settings; never add them
+to `.env*`, application source, API responses, or client bundles. Direct-egress
+hosting environments need no proxy variables and are unaffected by this flag.
+
+Vinext development API handlers execute inside an isolated Worker runtime that
+does not inherit the launcher process's proxy environment. In `vite dev` only,
+historical pricing therefore uses a same-origin, allowlisted bridge owned by the
+Node launcher. The bridge accepts only Coinbase/CoinGecko SOL range requests,
+keeps credentials server-side, and is not included in production builds.
+
 Local tool usage metrics are disabled by default. Set `WRANGLER_SEND_METRICS=true` to opt in.
+
+### Public wallet-analysis controls
+
+`POST /api/analyze-wallet` accepts only JSON containing a Solana public key and
+an optional boolean progress flag. The route is same-origin by default. Add
+exact browser origins to `ANALYSIS_ALLOWED_ORIGINS` only when a separate trusted
+frontend needs access.
+
+The request/body limit, per-client rate window, cold-analysis concurrency and
+queue, and successful-result cache are configured with the `ANALYSIS_*`
+variables documented in `.env.example`. Their defaults are MVP safeguards, not
+permanent product limits. Hosted Cloudflare requests use `CF-Connecting-IP`.
+For another reverse proxy, either provide `X-Real-IP` or set
+`ANALYSIS_TRUST_X_FORWARDED_FOR=1` only after configuring the proxy to overwrite
+untrusted incoming forwarding headers. Multi-instance deployments should also
+enforce a platform-level rate limit if they require one limit shared across the
+entire fleet; the application guard is intentionally process/isolate-local.
+
+### Internal analyzer and Python Agent
+
+`POST /api/internal/v1/analyze-wallet` is the versioned service boundary for
+the independent Python Agent. It calls the same deterministic
+`buildWalletProfile()` implementation as the public route, but returns regular
+JSON instead of browser progress NDJSON. It does not change the public route or
+the existing card experience.
+
+The internal route requires `Authorization: Bearer <ANALYZER_SERVICE_TOKEN>`
+and fails closed when the runtime secret is absent. Configure the value as a
+local untracked environment variable and as a hosted Sites runtime secret;
+never put it in source, `.openai/hosting.json`, logs, or browser code. CORS is
+not authentication. A private hosted Site may additionally require the
+platform `OAI-Sites-Authorization` service-access header.
+
+The FastAPI/LangGraph service, v1 contracts, local setup, tests, and deployment
+notes are documented in `agent-service/README.md`. Java and PostgreSQL are
+outside this milestone and are not used by this integration.
 
 ## Included Shape
 

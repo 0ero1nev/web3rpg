@@ -1,0 +1,145 @@
+{
+  "generatedAt": "2026-10-05T17:21:03.684Z",
+  "scoredBefore": 44,
+  "scoredAfter": 44,
+  "failuresAfter": 0,
+  "before": {
+    "noWinner": 26,
+    "winnerDistribution": {
+      "sisyphus": 4,
+      "newton": 2,
+      "caesar": 6,
+      "croesus": 6,
+      "icarus": 0,
+      "midas": 0,
+      "don_quixote": 0,
+      "napoleon": 0
+    },
+    "donQuixote": {
+      "measurable": 33,
+      "nonZero": 0,
+      "eligible": 0,
+      "wins": 0,
+      "strongMatches": 0
+    }
+  },
+  "after": {
+    "reasonCounts": {
+      "INSUFFICIENT_HISTORY": 26,
+      "NO_ELIGIBLE_PERSONA": 0,
+      "NO_STRONG_MATCH": 7,
+      "ASSIGNED": 11
+    },
+    "winnerDistribution": {
+      "sisyphus": 4,
+      "newton": 1,
+      "caesar": 5,
+      "croesus": 0,
+      "icarus": 1,
+      "midas": 0,
+      "don_quixote": 0,
+      "napoleon": 0
+    },
+    "donQuixote": {
+      "measurable": 32,
+      "nonZero": 3,
+      "eligible": 3,
+      "wins": 0,
+      "strongMatches": 1
+    }
+  },
+  "changedWallets": [
+    {
+      "label": "W12",
+      "before": "croesus",
+      "after": null,
+      "reason": "NO_STRONG_MATCH",
+      "donQuixoteBefore": null,
+      "donQuixoteAfter": null,
+      "drifted": false
+    },
+    {
+      "label": "W13",
+      "before": "caesar",
+      "after": "icarus",
+      "reason": null,
+      "donQuixoteBefore": 0,
+      "donQuixoteAfter": 63,
+      "drifted": true
+    },
+    {
+      "label": "W14",
+      "before": "croesus",
+      "after": null,
+      "reason": "NO_STRONG_MATCH",
+      "donQuixoteBefore": 0,
+      "donQuixoteAfter": 0,
+      "drifted": false
+    },
+    {
+      "label": "W15",
+      "before": "newton",
+      "after": null,
+      "reason": "NO_STRONG_MATCH",
+      "donQuixoteBefore": 0,
+      "donQuixoteAfter": 0,
+      "drifted": false
+    },
+    {
+      "label": "W17",
+      "before": "croesus",
+      "after": null,
+      "reason": "NO_STRONG_MATCH",
+      "donQuixoteBefore": 0,
+      "donQuixoteAfter": null,
+      "drifted": true
+    },
+    {
+      "label": "W20",
+      "before": "croesus",
+      "after": null,
+      "reason": "NO_STRONG_MATCH",
+      "donQuixoteBefore": 0,
+      "donQuixoteAfter": 0,
+      "drifted": true
+    },
+    {
+      "label": "W26",
+      "before": "croesus",
+      "after": null,
+      "reason": "NO_STRONG_MATCH",
+      "donQuixoteBefore": 0,
+      "donQuixoteAfter": 0,
+      "drifted": false
+    },
+    {
+      "label": "W39",
+      "before": "croesus",
+      "after": null,
+      "reason": "NO_STRONG_MATCH",
+      "donQuixoteBefore": 0,
+      "donQuixoteAfter": 34,
+      "drifted": false
+    }
+  ],
+  "donQuixoteStrongest": [
+    {
+      "label": "W13",
+      "returnPct": -0.5087967191236419,
+      "days": 39.2,
+      "match": 63
+    },
+    {
+      "label": "W39",
+      "returnPct": -0.38482573870666426,
+      "days": 4.5,
+      "match": 34
+    },
+    {
+      "label": "W30",
+      "returnPct": -0.00019652741280529185,
+      "days": 3,
+      "match": 1
+    }
+  ]
+}

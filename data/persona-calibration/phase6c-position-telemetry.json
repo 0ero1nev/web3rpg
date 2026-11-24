@@ -1,0 +1,860 @@
+{
+  "generatedAt": "2026-10-06T12:45:25.139Z",
+  "status": "TELEMETRY COLLECTION — Persona #9 remains offline-only; scoring/eligibility/thresholds untouched",
+  "wallets": [
+    {
+      "label": "T9",
+      "stratum": "T",
+      "historyComplete": false,
+      "qualifyingSwaps": 294,
+      "distinctTokens": 279,
+      "swapsPerToken": 1.05,
+      "realizedPnlUsd": 0.1512137728977316,
+      "pnlCoverage": 0.25,
+      "observedVolumeUsd": 1.3474457534600046,
+      "telemetry": {
+        "actions": {
+          "buyLegCount": 277,
+          "addLegCount": 13,
+          "partialSellLegCount": 4,
+          "exitLegCount": 0,
+          "reentryLegCount": 0,
+          "disposalLegCount": 4,
+          "cyclingLegCount": 4
+        },
+        "assetInteraction": {
+          "meanTradeLegsPerAsset": 1.05,
+          "medianTradeLegsPerAsset": 1,
+          "repeatedAssetRate": 0.047,
+          "highlyRepeatedAssetRate": 0.007
+        },
+        "episodes": {
+          "observedOpenEpisodeCount": 276,
+          "observedExitEpisodeCount": 0,
+          "unresolvedDisappearanceEpisodeCount": 1,
+          "unknownOpeningStateEpisodeCount": 2
+        }
+      },
+      "personas": {
+        "sisyphus": {
+          "match": 27,
+          "eligible": false
+        },
+        "caesar": {
+          "match": 16,
+          "eligible": true
+        },
+        "don_quixote": {
+          "match": 12,
+          "eligible": true
+        },
+        "newton": {
+          "match": 8,
+          "eligible": false
+        },
+        "croesus": {
+          "match": 0,
+          "eligible": true
+        },
+        "midas": {
+          "match": 0,
+          "eligible": false
+        },
+        "napoleon": {
+          "match": null,
+          "eligible": false
+        },
+        "icarus": {
+          "match": null,
+          "eligible": false
+        }
+      },
+      "winner": null,
+      "resultReason": "NO_STRONG_MATCH",
+      "offlineFeatures": {
+        "BREADTH": 100,
+        "CYCLING_SCARCITY": 20,
+        "ACCUMULATION_TILT_REVISED": 100,
+        "resolvedEpisodeCount": 276,
+        "unresolvedEpisodeCount": 3,
+        "offlineMatch": 72,
+        "proposedEligibility": true
+      },
+      "classification": "VALIDATED"
+    },
+    {
+      "label": "P4",
+      "stratum": "P",
+      "historyComplete": false,
+      "qualifyingSwaps": 120,
+      "distinctTokens": 70,
+      "swapsPerToken": 1.71,
+      "realizedPnlUsd": 88.40665162823998,
+      "pnlCoverage": 0.01,
+      "observedVolumeUsd": 3141.314462296189,
+      "telemetry": {
+        "actions": {
+          "buyLegCount": 4,
+          "addLegCount": 1,
+          "partialSellLegCount": 116,
+          "exitLegCount": 0,
+          "reentryLegCount": 0,
+          "disposalLegCount": 116,
+          "cyclingLegCount": 116
+        },
+        "assetInteraction": {
+          "meanTradeLegsPerAsset": 1.73,
+          "medianTradeLegsPerAsset": 1,
+          "repeatedAssetRate": 0.414,
+          "highlyRepeatedAssetRate": 0.186
+        },
+        "episodes": {
+          "observedOpenEpisodeCount": 2,
+          "observedExitEpisodeCount": 0,
+          "unresolvedDisappearanceEpisodeCount": 0,
+          "unknownOpeningStateEpisodeCount": 68
+        }
+      },
+      "personas": {
+        "sisyphus": {
+          "match": 48,
+          "eligible": false
+        },
+        "caesar": {
+          "match": 38,
+          "eligible": false
+        },
+        "croesus": {
+          "match": 8,
+          "eligible": true
+        },
+        "newton": {
+          "match": 7,
+          "eligible": false
+        },
+        "napoleon": {
+          "match": null,
+          "eligible": false
+        },
+        "icarus": {
+          "match": null,
+          "eligible": false
+        },
+        "midas": {
+          "match": null,
+          "eligible": false
+        },
+        "don_quixote": {
+          "match": null,
+          "eligible": false
+        }
+      },
+      "winner": null,
+      "resultReason": "NO_STRONG_MATCH",
+      "offlineFeatures": {
+        "BREADTH": 92.4,
+        "CYCLING_SCARCITY": 0.9,
+        "ACCUMULATION_TILT_REVISED": 100,
+        "resolvedEpisodeCount": 2,
+        "unresolvedEpisodeCount": 68,
+        "offlineMatch": 62.6,
+        "proposedEligibility": false
+      },
+      "classification": "REJECTED"
+    },
+    {
+      "label": "M4",
+      "stratum": "M",
+      "historyComplete": false,
+      "qualifyingSwaps": 56,
+      "distinctTokens": 53,
+      "swapsPerToken": 1.06,
+      "realizedPnlUsd": null,
+      "pnlCoverage": 0,
+      "observedVolumeUsd": 37.194344952189994,
+      "telemetry": {
+        "actions": {
+          "buyLegCount": 0,
+          "addLegCount": 0,
+          "partialSellLegCount": 56,
+          "exitLegCount": 0,
+          "reentryLegCount": 0,
+          "disposalLegCount": 56,
+          "cyclingLegCount": 56
+        },
+        "assetInteraction": {
+          "meanTradeLegsPerAsset": 1.06,
+          "medianTradeLegsPerAsset": 1,
+          "repeatedAssetRate": 0.057,
+          "highlyRepeatedAssetRate": 0
+        },
+        "episodes": {
+          "observedOpenEpisodeCount": 0,
+          "observedExitEpisodeCount": 0,
+          "unresolvedDisappearanceEpisodeCount": 0,
+          "unknownOpeningStateEpisodeCount": 53
+        }
+      },
+      "personas": {
+        "sisyphus": {
+          "match": 20,
+          "eligible": false
+        },
+        "newton": {
+          "match": 6,
+          "eligible": false
+        },
+        "caesar": {
+          "match": 2,
+          "eligible": false
+        },
+        "croesus": {
+          "match": 0,
+          "eligible": true
+        },
+        "midas": {
+          "match": 0,
+          "eligible": false
+        },
+        "don_quixote": {
+          "match": 0,
+          "eligible": false
+        },
+        "napoleon": {
+          "match": null,
+          "eligible": false
+        },
+        "icarus": {
+          "match": null,
+          "eligible": false
+        }
+      },
+      "winner": null,
+      "resultReason": "NO_STRONG_MATCH",
+      "offlineFeatures": {
+        "BREADTH": 86.4,
+        "CYCLING_SCARCITY": 1.8,
+        "ACCUMULATION_TILT_REVISED": null,
+        "resolvedEpisodeCount": 0,
+        "unresolvedEpisodeCount": 53,
+        "offlineMatch": 30.9,
+        "proposedEligibility": false
+      },
+      "classification": "REJECTED"
+    },
+    {
+      "label": "M5",
+      "stratum": "M",
+      "historyComplete": false,
+      "qualifyingSwaps": 67,
+      "distinctTokens": 30,
+      "swapsPerToken": 2.23,
+      "realizedPnlUsd": null,
+      "pnlCoverage": 0,
+      "observedVolumeUsd": 1462.8382600902896,
+      "telemetry": {
+        "actions": {
+          "buyLegCount": 1,
+          "addLegCount": 0,
+          "partialSellLegCount": 67,
+          "exitLegCount": 0,
+          "reentryLegCount": 0,
+          "disposalLegCount": 67,
+          "cyclingLegCount": 67
+        },
+        "assetInteraction": {
+          "meanTradeLegsPerAsset": 2.27,
+          "medianTradeLegsPerAsset": 2,
+          "repeatedAssetRate": 0.6,
+          "highlyRepeatedAssetRate": 0.3
+        },
+        "episodes": {
+          "observedOpenEpisodeCount": 1,
+          "observedExitEpisodeCount": 0,
+          "unresolvedDisappearanceEpisodeCount": 0,
+          "unknownOpeningStateEpisodeCount": 29
+        }
+      },
+      "personas": {
+        "sisyphus": {
+          "match": 26,
+          "eligible": false
+        },
+        "caesar": {
+          "match": 7,
+          "eligible": false
+        },
+        "newton": {
+          "match": 6,
+          "eligible": false
+        },
+        "croesus": {
+          "match": 3,
+          "eligible": true
+        },
+        "napoleon": {
+          "match": null,
+          "eligible": false
+        },
+        "icarus": {
+          "match": null,
+          "eligible": false
+        },
+        "midas": {
+          "match": null,
+          "eligible": false
+        },
+        "don_quixote": {
+          "match": null,
+          "eligible": false
+        }
+      },
+      "winner": null,
+      "resultReason": "NO_STRONG_MATCH",
+      "offlineFeatures": {
+        "BREADTH": 74.4,
+        "CYCLING_SCARCITY": 1.5,
+        "ACCUMULATION_TILT_REVISED": 100,
+        "resolvedEpisodeCount": 1,
+        "unresolvedEpisodeCount": 29,
+        "offlineMatch": 56.6,
+        "proposedEligibility": false
+      },
+      "classification": "REJECTED"
+    },
+    {
+      "label": "M6",
+      "stratum": "M",
+      "historyComplete": false,
+      "qualifyingSwaps": 197,
+      "distinctTokens": 47,
+      "swapsPerToken": 4.19,
+      "realizedPnlUsd": null,
+      "pnlCoverage": 0,
+      "observedVolumeUsd": 10703.296893160174,
+      "telemetry": {
+        "actions": {
+          "buyLegCount": 0,
+          "addLegCount": 0,
+          "partialSellLegCount": 197,
+          "exitLegCount": 0,
+          "reentryLegCount": 0,
+          "disposalLegCount": 197,
+          "cyclingLegCount": 197
+        },
+        "assetInteraction": {
+          "meanTradeLegsPerAsset": 4.19,
+          "medianTradeLegsPerAsset": 2,
+          "repeatedAssetRate": 0.553,
+          "highlyRepeatedAssetRate": 0.426
+        },
+        "episodes": {
+          "observedOpenEpisodeCount": 0,
+          "observedExitEpisodeCount": 0,
+          "unresolvedDisappearanceEpisodeCount": 0,
+          "unknownOpeningStateEpisodeCount": 47
+        }
+      },
+      "personas": {
+        "sisyphus": {
+          "match": 38,
+          "eligible": false
+        },
+        "croesus": {
+          "match": 20,
+          "eligible": true
+        },
+        "caesar": {
+          "match": 9,
+          "eligible": false
+        },
+        "newton": {
+          "match": 8,
+          "eligible": false
+        },
+        "midas": {
+          "match": 0,
+          "eligible": false
+        },
+        "don_quixote": {
+          "match": 0,
+          "eligible": false
+        },
+        "napoleon": {
+          "match": null,
+          "eligible": false
+        },
+        "icarus": {
+          "match": null,
+          "eligible": false
+        }
+      },
+      "winner": null,
+      "resultReason": "NO_STRONG_MATCH",
+      "offlineFeatures": {
+        "BREADTH": 83.9,
+        "CYCLING_SCARCITY": 0.5,
+        "ACCUMULATION_TILT_REVISED": null,
+        "resolvedEpisodeCount": 0,
+        "unresolvedEpisodeCount": 47,
+        "offlineMatch": 29.5,
+        "proposedEligibility": false
+      },
+      "classification": "REJECTED"
+    },
+    {
+      "label": "L5",
+      "stratum": "L",
+      "historyComplete": false,
+      "qualifyingSwaps": 111,
+      "distinctTokens": 46,
+      "swapsPerToken": 2.41,
+      "realizedPnlUsd": -161.94400224145448,
+      "pnlCoverage": 0.01,
+      "observedVolumeUsd": 1908.6293583228999,
+      "telemetry": {
+        "actions": {
+          "buyLegCount": 1,
+          "addLegCount": 31,
+          "partialSellLegCount": 79,
+          "exitLegCount": 0,
+          "reentryLegCount": 0,
+          "disposalLegCount": 79,
+          "cyclingLegCount": 79
+        },
+        "assetInteraction": {
+          "meanTradeLegsPerAsset": 2.41,
+          "medianTradeLegsPerAsset": 1,
+          "repeatedAssetRate": 0.37,
+          "highlyRepeatedAssetRate": 0.239
+        },
+        "episodes": {
+          "observedOpenEpisodeCount": 1,
+          "observedExitEpisodeCount": 0,
+          "unresolvedDisappearanceEpisodeCount": 0,
+          "unknownOpeningStateEpisodeCount": 45
+        }
+      },
+      "personas": {
+        "caesar": {
+          "match": 70,
+          "eligible": true
+        },
+        "sisyphus": {
+          "match": 34,
+          "eligible": false
+        },
+        "newton": {
+          "match": 7,
+          "eligible": false
+        },
+        "croesus": {
+          "match": 5,
+          "eligible": true
+        },
+        "napoleon": {
+          "match": null,
+          "eligible": false
+        },
+        "icarus": {
+          "match": null,
+          "eligible": false
+        },
+        "midas": {
+          "match": null,
+          "eligible": false
+        },
+        "don_quixote": {
+          "match": null,
+          "eligible": false
+        }
+      },
+      "winner": {
+        "personaId": "caesar",
+        "match": 70
+      },
+      "resultReason": null,
+      "offlineFeatures": {
+        "BREADTH": 83.4,
+        "CYCLING_SCARCITY": 1.3,
+        "ACCUMULATION_TILT_REVISED": 100,
+        "resolvedEpisodeCount": 1,
+        "unresolvedEpisodeCount": 45,
+        "offlineMatch": 59.6,
+        "proposedEligibility": false
+      },
+      "classification": "REJECTED"
+    },
+    {
+      "label": "L6",
+      "stratum": "L",
+      "historyComplete": false,
+      "qualifyingSwaps": 127,
+      "distinctTokens": 48,
+      "swapsPerToken": 2.65,
+      "realizedPnlUsd": -141.11215746970936,
+      "pnlCoverage": 0.04,
+      "observedVolumeUsd": 14982.721179274733,
+      "telemetry": {
+        "actions": {
+          "buyLegCount": 11,
+          "addLegCount": 12,
+          "partialSellLegCount": 104,
+          "exitLegCount": 0,
+          "reentryLegCount": 0,
+          "disposalLegCount": 104,
+          "cyclingLegCount": 104
+        },
+        "assetInteraction": {
+          "meanTradeLegsPerAsset": 2.65,
+          "medianTradeLegsPerAsset": 1.5,
+          "repeatedAssetRate": 0.5,
+          "highlyRepeatedAssetRate": 0.313
+        },
+        "episodes": {
+          "observedOpenEpisodeCount": 5,
+          "observedExitEpisodeCount": 0,
+          "unresolvedDisappearanceEpisodeCount": 0,
+          "unknownOpeningStateEpisodeCount": 43
+        }
+      },
+      "personas": {
+        "don_quixote": {
+          "match": 99,
+          "eligible": true
+        },
+        "sisyphus": {
+          "match": 58,
+          "eligible": false
+        },
+        "caesar": {
+          "match": 40,
+          "eligible": true
+        },
+        "croesus": {
+          "match": 27,
+          "eligible": true
+        },
+        "newton": {
+          "match": 7,
+          "eligible": false
+        },
+        "midas": {
+          "match": 0,
+          "eligible": false
+        },
+        "napoleon": {
+          "match": null,
+          "eligible": false
+        },
+        "icarus": {
+          "match": null,
+          "eligible": false
+        }
+      },
+      "winner": {
+        "personaId": "don_quixote",
+        "match": 99
+      },
+      "resultReason": null,
+      "offlineFeatures": {
+        "BREADTH": 84.3,
+        "CYCLING_SCARCITY": 1,
+        "ACCUMULATION_TILT_REVISED": 100,
+        "resolvedEpisodeCount": 5,
+        "unresolvedEpisodeCount": 43,
+        "offlineMatch": 59.8,
+        "proposedEligibility": false
+      },
+      "classification": "REJECTED"
+    },
+    {
+      "label": "P7",
+      "stratum": "P",
+      "historyComplete": true,
+      "qualifyingSwaps": 52,
+      "distinctTokens": 37,
+      "swapsPerToken": 1.41,
+      "realizedPnlUsd": 1.112798455358634,
+      "pnlCoverage": 0.1,
+      "observedVolumeUsd": 1487.5162923555106,
+      "telemetry": {
+        "actions": {
+          "buyLegCount": 22,
+          "addLegCount": 6,
+          "partialSellLegCount": 30,
+          "exitLegCount": 1,
+          "reentryLegCount": 0,
+          "disposalLegCount": 31,
+          "cyclingLegCount": 31
+        },
+        "assetInteraction": {
+          "meanTradeLegsPerAsset": 1.59,
+          "medianTradeLegsPerAsset": 1,
+          "repeatedAssetRate": 0.324,
+          "highlyRepeatedAssetRate": 0.108
+        },
+        "episodes": {
+          "observedOpenEpisodeCount": 19,
+          "observedExitEpisodeCount": 1,
+          "unresolvedDisappearanceEpisodeCount": 15,
+          "unknownOpeningStateEpisodeCount": 2
+        }
+      },
+      "personas": {
+        "sisyphus": {
+          "match": 52,
+          "eligible": false
+        },
+        "caesar": {
+          "match": 30,
+          "eligible": true
+        },
+        "don_quixote": {
+          "match": 13,
+          "eligible": true
+        },
+        "newton": {
+          "match": 6,
+          "eligible": false
+        },
+        "croesus": {
+          "match": 4,
+          "eligible": true
+        },
+        "midas": {
+          "match": 0,
+          "eligible": false
+        },
+        "napoleon": {
+          "match": null,
+          "eligible": false
+        },
+        "icarus": {
+          "match": null,
+          "eligible": false
+        }
+      },
+      "winner": null,
+      "resultReason": "NO_STRONG_MATCH",
+      "offlineFeatures": {
+        "BREADTH": 78.8,
+        "CYCLING_SCARCITY": 3.1,
+        "ACCUMULATION_TILT_REVISED": 95,
+        "resolvedEpisodeCount": 20,
+        "unresolvedEpisodeCount": 17,
+        "offlineMatch": 57.2,
+        "proposedEligibility": false
+      },
+      "classification": "REJECTED"
+    },
+    {
+      "label": "M8",
+      "stratum": "M",
+      "historyComplete": false,
+      "qualifyingSwaps": 74,
+      "distinctTokens": 35,
+      "swapsPerToken": 2.11,
+      "realizedPnlUsd": 0.0008370850030332088,
+      "pnlCoverage": 0.08,
+      "observedVolumeUsd": 64.5543691946,
+      "telemetry": {
+        "actions": {
+          "buyLegCount": 21,
+          "addLegCount": 45,
+          "partialSellLegCount": 37,
+          "exitLegCount": 1,
+          "reentryLegCount": 0,
+          "disposalLegCount": 38,
+          "cyclingLegCount": 38
+        },
+        "assetInteraction": {
+          "meanTradeLegsPerAsset": 2.97,
+          "medianTradeLegsPerAsset": 2,
+          "repeatedAssetRate": 0.514,
+          "highlyRepeatedAssetRate": 0.343
+        },
+        "episodes": {
+          "observedOpenEpisodeCount": 20,
+          "observedExitEpisodeCount": 1,
+          "unresolvedDisappearanceEpisodeCount": 0,
+          "unknownOpeningStateEpisodeCount": 14
+        }
+      },
+      "personas": {
+        "sisyphus": {
+          "match": 59,
+          "eligible": false
+        },
+        "caesar": {
+          "match": 40,
+          "eligible": true
+        },
+        "newton": {
+          "match": 6,
+          "eligible": false
+        },
+        "croesus": {
+          "match": 0,
+          "eligible": true
+        },
+        "napoleon": {
+          "match": null,
+          "eligible": false
+        },
+        "icarus": {
+          "match": null,
+          "eligible": false
+        },
+        "midas": {
+          "match": null,
+          "eligible": false
+        },
+        "don_quixote": {
+          "match": null,
+          "eligible": false
+        }
+      },
+      "winner": null,
+      "resultReason": "NO_STRONG_MATCH",
+      "offlineFeatures": {
+        "BREADTH": 77.6,
+        "CYCLING_SCARCITY": 2.6,
+        "ACCUMULATION_TILT_REVISED": 95.2,
+        "resolvedEpisodeCount": 21,
+        "unresolvedEpisodeCount": 14,
+        "offlineMatch": 56.6,
+        "proposedEligibility": false
+      },
+      "classification": "REJECTED"
+    },
+    {
+      "label": "L10",
+      "stratum": "L",
+      "historyComplete": false,
+      "qualifyingSwaps": 83,
+      "distinctTokens": 23,
+      "swapsPerToken": 3.61,
+      "realizedPnlUsd": -18.49351982773016,
+      "pnlCoverage": 0.32,
+      "observedVolumeUsd": 6241.578010723509,
+      "telemetry": {
+        "actions": {
+          "buyLegCount": 22,
+          "addLegCount": 27,
+          "partialSellLegCount": 33,
+          "exitLegCount": 1,
+          "reentryLegCount": 0,
+          "disposalLegCount": 34,
+          "cyclingLegCount": 34
+        },
+        "assetInteraction": {
+          "meanTradeLegsPerAsset": 3.61,
+          "medianTradeLegsPerAsset": 2,
+          "repeatedAssetRate": 0.739,
+          "highlyRepeatedAssetRate": 0.304
+        },
+        "episodes": {
+          "observedOpenEpisodeCount": 13,
+          "observedExitEpisodeCount": 1,
+          "unresolvedDisappearanceEpisodeCount": 2,
+          "unknownOpeningStateEpisodeCount": 7
+        }
+      },
+      "personas": {
+        "sisyphus": {
+          "match": 61,
+          "eligible": false
+        },
+        "caesar": {
+          "match": 41,
+          "eligible": true
+        },
+        "croesus": {
+          "match": 18,
+          "eligible": true
+        },
+        "icarus": {
+          "match": 6,
+          "eligible": false
+        },
+        "newton": {
+          "match": 6,
+          "eligible": false
+        },
+        "midas": {
+          "match": 0,
+          "eligible": false
+        },
+        "don_quixote": {
+          "match": 0,
+          "eligible": false
+        },
+        "napoleon": {
+          "match": null,
+          "eligible": false
+        }
+      },
+      "winner": null,
+      "resultReason": "NO_STRONG_MATCH",
+      "offlineFeatures": {
+        "BREADTH": 68.9,
+        "CYCLING_SCARCITY": 2.9,
+        "ACCUMULATION_TILT_REVISED": 92.9,
+        "resolvedEpisodeCount": 14,
+        "unresolvedEpisodeCount": 9,
+        "offlineMatch": 53,
+        "proposedEligibility": false
+      },
+      "classification": "REJECTED"
+    }
+  ],
+  "sisyphusOverlap": [
+    {
+      "label": "P7",
+      "sisyphusMatch": 52,
+      "sisyphusEligible": false,
+      "pnlCoverage": 0.1,
+      "stagnation": 99.3,
+      "repeatedAssetRate": 0.324,
+      "highlyRepeatedAssetRate": 0.108,
+      "cyclingLegCount": 31,
+      "cyclingRate": 0.596,
+      "persona9OfflineMatch": 57.2,
+      "structuralVerdict": "SISYPHUS-leaning"
+    },
+    {
+      "label": "M8",
+      "sisyphusMatch": 59,
+      "sisyphusEligible": false,
+      "pnlCoverage": 0.08,
+      "stagnation": 100,
+      "repeatedAssetRate": 0.514,
+      "highlyRepeatedAssetRate": 0.343,
+      "cyclingLegCount": 38,
+      "cyclingRate": 0.514,
+      "persona9OfflineMatch": 56.6,
+      "structuralVerdict": "SISYPHUS-leaning"
+    },
+    {
+      "label": "L10",
+      "sisyphusMatch": 61,
+      "sisyphusEligible": false,
+      "pnlCoverage": 0.32,
+      "stagnation": 97,
+      "repeatedAssetRate": 0.739,
+      "highlyRepeatedAssetRate": 0.304,
+      "cyclingLegCount": 34,
+      "cyclingRate": 0.41,
+      "persona9OfflineMatch": 53,
+      "structuralVerdict": "SISYPHUS-leaning"
+    }
+  ],
+  "l5SafetyCheck": {
+    "observedOpenEpisodeCount": 1,
+    "unresolvedEpisodeCount": 45,
+    "proposedEligibility": false,
+    "verdict": "SAFE: Persona #9 is NOT eligible for L5 (observable accumulation evidence insufficient)"
+  },
+  "readyForImplementation": "NO"
+}

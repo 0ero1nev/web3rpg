@@ -1,0 +1,1161 @@
+{
+  "generatedAt": "2026-10-06T06:30:43.808Z",
+  "input": {
+    "nsmWallets": 18,
+    "selectedTotal": 40,
+    "assigned": 22
+  },
+  "clusterCounts": {
+    "C": 3,
+    "E": 3,
+    "B?": 11,
+    "B": 1
+  },
+  "coverage": {
+    "current": "22/40 (55.0%)",
+    "withClusterA": "22/40 (55.0%)",
+    "withClustersAB": "34/40 (85.0%)"
+  },
+  "profitableExitCluster": {
+    "count": 0,
+    "definition": "realizedPnl>0 (coverage>=0.2), >=3 completed exits, re-entry rate<=0.25, priced episodes all giveback<0.6, no severe long-held loser; priced-episode evidence required",
+    "wallets": []
+  },
+  "lowDramaCluster": {
+    "strictCount": 1,
+    "plusUnpricedCount": 12,
+    "definition": "re-entry<=1 or rate<=0.15, qualifyingSwaps<=200, tokenCount>=4, no priced giveback>=0.5, no severe long-held loser, Napoleon-ineligible",
+    "wallets": [
+      "P3(unpriced)",
+      "P4(unpriced)",
+      "P5(unpriced)",
+      "P7(unpriced)",
+      "P9(unpriced)",
+      "L1(unpriced)",
+      "L7",
+      "M4(unpriced)",
+      "M5(unpriced)",
+      "M6(unpriced)",
+      "M7(unpriced)",
+      "M8(unpriced)"
+    ]
+  },
+  "dataGaps": [
+    "turnoverScore / concentrationScore not captured in Phase 5C outputs — activity and token-count proxies used instead",
+    "per-episode realized returns and priced re-entry direction not captured — profitable-exit discipline verified only through wallet-level realized PnL, re-entry counts, and top priced Icarus episodes",
+    "most wallets have 0-2 priced episodes, so 'retained gains' checks rest on thin evidence"
+  ],
+  "rows": [
+    {
+      "label": "T7",
+      "stratum": "T",
+      "cluster": "C",
+      "clusterNotes": [
+        "near-miss: caesar@44 eligible but under 50",
+        "A-checks failed: measurableProfit, retainedPricedGains"
+      ],
+      "qualifyingSwaps": 346,
+      "realizedPnlUsd": 0.8827853904889833,
+      "pnlCoverage": 0.05194805194805195,
+      "observedVolumeUsd": 658.2269796729786,
+      "volumeCoverage": 1,
+      "completedPositions": 4,
+      "openPositions": 4,
+      "reentries": 1,
+      "reentryRate": 0.25,
+      "tradedTokenCount": 47,
+      "turnoverProxy": "qualifyingSwaps=346, tradedTokenCount=47 (turnover/concentration scores not captured in 5C outputs)",
+      "concentrationProxy": "largest-position data not captured; tokenCount=47",
+      "topPersona": {
+        "personaId": "sisyphus",
+        "match": 78
+      },
+      "highestMatch": 78,
+      "eligiblePersonas": [
+        {
+          "personaId": "caesar",
+          "match": 44
+        },
+        {
+          "personaId": "croesus",
+          "match": 0
+        }
+      ],
+      "nearMisses": [
+        {
+          "personaId": "caesar",
+          "match": 44
+        }
+      ],
+      "icarusTop": [
+        {
+          "symbol": "6e8LLH",
+          "peakReturnPct": 0.13116993656140608,
+          "givebackPct": 5.098918524139092,
+          "finalReturnPct": -0.5376548827816973
+        },
+        {
+          "symbol": "9aqmJj",
+          "peakReturnPct": 0.16239302049121496,
+          "givebackPct": 1.7344333563574708,
+          "finalReturnPct": -0.11926685108839044
+        },
+        {
+          "symbol": "9aqmJj",
+          "peakReturnPct": 0.14588943522866593,
+          "givebackPct": 0.9942442788241286,
+          "finalReturnPct": 0.0008396989116815494
+        }
+      ],
+      "donQuixoteStrongest": null,
+      "checksA": {
+        "measurableProfit": false,
+        "multipleExits": true,
+        "lowReentry": true,
+        "retainedPricedGains": false,
+        "noSevereLongLoser": true
+      },
+      "checksB": {
+        "minimalReentry": true,
+        "moderateActivity": false,
+        "diversifiedish": true,
+        "noPricedGiveback": false,
+        "noSevereLongLoser": true,
+        "noNapoleonSequence": true
+      }
+    },
+    {
+      "label": "T9",
+      "stratum": "T",
+      "cluster": "E",
+      "clusterNotes": [
+        "weak/mixed observable behavior, no distinctive pattern",
+        "A-checks failed: measurableProfit, multipleExits, lowReentry"
+      ],
+      "qualifyingSwaps": 271,
+      "realizedPnlUsd": null,
+      "pnlCoverage": 0,
+      "observedVolumeUsd": 0.6492354000000014,
+      "volumeCoverage": 1,
+      "completedPositions": 0,
+      "openPositions": 258,
+      "reentries": 0,
+      "reentryRate": null,
+      "tradedTokenCount": 258,
+      "turnoverProxy": "qualifyingSwaps=271, tradedTokenCount=258 (turnover/concentration scores not captured in 5C outputs)",
+      "concentrationProxy": "largest-position data not captured; tokenCount=258",
+      "topPersona": {
+        "personaId": "newton",
+        "match": 81
+      },
+      "highestMatch": 81,
+      "eligiblePersonas": [
+        {
+          "personaId": "caesar",
+          "match": 21
+        },
+        {
+          "personaId": "croesus",
+          "match": 0
+        },
+        {
+          "personaId": "don_quixote",
+          "match": 10
+        }
+      ],
+      "nearMisses": [],
+      "icarusTop": [
+        {
+          "symbol": "Agency",
+          "peakReturnPct": 0.009787579515269762,
+          "givebackPct": -3.6881921858394318,
+          "finalReturnPct": 0.04588605380176932
+        }
+      ],
+      "donQuixoteStrongest": {
+        "returnPct": -0.8896760002886964,
+        "days": 0.1,
+        "match": 10
+      },
+      "checksA": {
+        "measurableProfit": false,
+        "multipleExits": false,
+        "lowReentry": false,
+        "retainedPricedGains": true,
+        "noSevereLongLoser": true
+      },
+      "checksB": {
+        "minimalReentry": true,
+        "moderateActivity": false,
+        "diversifiedish": true,
+        "noPricedGiveback": true,
+        "noSevereLongLoser": true,
+        "noNapoleonSequence": true
+      }
+    },
+    {
+      "label": "P1",
+      "stratum": "P",
+      "cluster": "C",
+      "clusterNotes": [
+        "near-miss: sisyphus@44 eligible but under 50",
+        "A-checks failed: retainedPricedGains"
+      ],
+      "qualifyingSwaps": 210,
+      "realizedPnlUsd": 1871.052148633006,
+      "pnlCoverage": 0.7899159663865546,
+      "observedVolumeUsd": 31968.936818166167,
+      "volumeCoverage": 1,
+      "completedPositions": 37,
+      "openPositions": 45,
+      "reentries": 3,
+      "reentryRate": 0.08108108108108109,
+      "tradedTokenCount": 94,
+      "turnoverProxy": "qualifyingSwaps=210, tradedTokenCount=94 (turnover/concentration scores not captured in 5C outputs)",
+      "concentrationProxy": "largest-position data not captured; tokenCount=94",
+      "topPersona": {
+        "personaId": "sisyphus",
+        "match": 44
+      },
+      "highestMatch": 44,
+      "eligiblePersonas": [
+        {
+          "personaId": "sisyphus",
+          "match": 44
+        },
+        {
+          "personaId": "newton",
+          "match": 36
+        },
+        {
+          "personaId": "caesar",
+          "match": 25
+        },
+        {
+          "personaId": "croesus",
+          "match": 31
+        },
+        {
+          "personaId": "don_quixote",
+          "match": 5
+        }
+      ],
+      "nearMisses": [
+        {
+          "personaId": "sisyphus",
+          "match": 44
+        }
+      ],
+      "icarusTop": [],
+      "donQuixoteStrongest": {
+        "returnPct": -0.5753675051864195,
+        "days": 0.1,
+        "match": 5
+      },
+      "checksA": {
+        "measurableProfit": true,
+        "multipleExits": true,
+        "lowReentry": true,
+        "retainedPricedGains": false,
+        "noSevereLongLoser": true
+      },
+      "checksB": {
+        "minimalReentry": true,
+        "moderateActivity": false,
+        "diversifiedish": true,
+        "noPricedGiveback": true,
+        "noSevereLongLoser": true,
+        "noNapoleonSequence": true
+      }
+    },
+    {
+      "label": "P3",
+      "stratum": "P",
+      "cluster": "B?",
+      "clusterNotes": [
+        "low-drama shape but no priced episodes — economic quality unverifiable",
+        "A-checks failed: measurableProfit, retainedPricedGains"
+      ],
+      "qualifyingSwaps": 41,
+      "realizedPnlUsd": 89.40508452045745,
+      "pnlCoverage": 0.11538461538461539,
+      "observedVolumeUsd": 1524.02033736586,
+      "volumeCoverage": 0.7317073170731707,
+      "completedPositions": 3,
+      "openPositions": 12,
+      "reentries": 0,
+      "reentryRate": 0,
+      "tradedTokenCount": 30,
+      "turnoverProxy": "qualifyingSwaps=41, tradedTokenCount=30 (turnover/concentration scores not captured in 5C outputs)",
+      "concentrationProxy": "largest-position data not captured; tokenCount=30",
+      "topPersona": {
+        "personaId": "sisyphus",
+        "match": 34
+      },
+      "highestMatch": 34,
+      "eligiblePersonas": [
+        {
+          "personaId": "caesar",
+          "match": 29
+        },
+        {
+          "personaId": "croesus",
+          "match": 7
+        }
+      ],
+      "nearMisses": [],
+      "icarusTop": [],
+      "donQuixoteStrongest": null,
+      "checksA": {
+        "measurableProfit": false,
+        "multipleExits": true,
+        "lowReentry": true,
+        "retainedPricedGains": false,
+        "noSevereLongLoser": true
+      },
+      "checksB": {
+        "minimalReentry": true,
+        "moderateActivity": true,
+        "diversifiedish": true,
+        "noPricedGiveback": true,
+        "noSevereLongLoser": true,
+        "noNapoleonSequence": true
+      }
+    },
+    {
+      "label": "P4",
+      "stratum": "P",
+      "cluster": "B?",
+      "clusterNotes": [
+        "low-drama shape but no priced episodes — economic quality unverifiable",
+        "A-checks failed: measurableProfit, multipleExits, lowReentry, retainedPricedGains"
+      ],
+      "qualifyingSwaps": 118,
+      "realizedPnlUsd": 88.40665162823998,
+      "pnlCoverage": 0.008771929824561403,
+      "observedVolumeUsd": 3001.0890698655194,
+      "volumeCoverage": 1,
+      "completedPositions": 0,
+      "openPositions": 2,
+      "reentries": 0,
+      "reentryRate": null,
+      "tradedTokenCount": 66,
+      "turnoverProxy": "qualifyingSwaps=118, tradedTokenCount=66 (turnover/concentration scores not captured in 5C outputs)",
+      "concentrationProxy": "largest-position data not captured; tokenCount=66",
+      "topPersona": {
+        "personaId": "newton",
+        "match": 69
+      },
+      "highestMatch": 69,
+      "eligiblePersonas": [
+        {
+          "personaId": "croesus",
+          "match": 8
+        }
+      ],
+      "nearMisses": [],
+      "icarusTop": [],
+      "donQuixoteStrongest": null,
+      "checksA": {
+        "measurableProfit": false,
+        "multipleExits": false,
+        "lowReentry": false,
+        "retainedPricedGains": false,
+        "noSevereLongLoser": true
+      },
+      "checksB": {
+        "minimalReentry": true,
+        "moderateActivity": true,
+        "diversifiedish": true,
+        "noPricedGiveback": true,
+        "noSevereLongLoser": true,
+        "noNapoleonSequence": true
+      }
+    },
+    {
+      "label": "P5",
+      "stratum": "P",
+      "cluster": "B?",
+      "clusterNotes": [
+        "low-drama shape but no priced episodes — economic quality unverifiable",
+        "A-checks failed: measurableProfit, multipleExits, lowReentry, retainedPricedGains"
+      ],
+      "qualifyingSwaps": 51,
+      "realizedPnlUsd": 31.63825862088551,
+      "pnlCoverage": 0.14285714285714285,
+      "observedVolumeUsd": 3335.881725365811,
+      "volumeCoverage": 1,
+      "completedPositions": 0,
+      "openPositions": 9,
+      "reentries": 0,
+      "reentryRate": null,
+      "tradedTokenCount": 17,
+      "turnoverProxy": "qualifyingSwaps=51, tradedTokenCount=17 (turnover/concentration scores not captured in 5C outputs)",
+      "concentrationProxy": "largest-position data not captured; tokenCount=17",
+      "topPersona": {
+        "personaId": "newton",
+        "match": 57
+      },
+      "highestMatch": 57,
+      "eligiblePersonas": [
+        {
+          "personaId": "caesar",
+          "match": 44
+        },
+        {
+          "personaId": "croesus",
+          "match": 15
+        },
+        {
+          "personaId": "don_quixote",
+          "match": 33
+        }
+      ],
+      "nearMisses": [
+        {
+          "personaId": "caesar",
+          "match": 44
+        }
+      ],
+      "icarusTop": [],
+      "donQuixoteStrongest": {
+        "returnPct": -0.8862617470758616,
+        "days": 2.1,
+        "match": 33
+      },
+      "checksA": {
+        "measurableProfit": false,
+        "multipleExits": false,
+        "lowReentry": false,
+        "retainedPricedGains": false,
+        "noSevereLongLoser": true
+      },
+      "checksB": {
+        "minimalReentry": true,
+        "moderateActivity": true,
+        "diversifiedish": true,
+        "noPricedGiveback": true,
+        "noSevereLongLoser": true,
+        "noNapoleonSequence": true
+      }
+    },
+    {
+      "label": "P7",
+      "stratum": "P",
+      "cluster": "B?",
+      "clusterNotes": [
+        "low-drama shape but no priced episodes — economic quality unverifiable",
+        "A-checks failed: measurableProfit, multipleExits, retainedPricedGains"
+      ],
+      "qualifyingSwaps": 52,
+      "realizedPnlUsd": 1.112798455358634,
+      "pnlCoverage": 0.0967741935483871,
+      "observedVolumeUsd": 1487.5162923555106,
+      "volumeCoverage": 0.8653846153846154,
+      "completedPositions": 1,
+      "openPositions": 19,
+      "reentries": 0,
+      "reentryRate": 0,
+      "tradedTokenCount": 37,
+      "turnoverProxy": "qualifyingSwaps=52, tradedTokenCount=37 (turnover/concentration scores not captured in 5C outputs)",
+      "concentrationProxy": "largest-position data not captured; tokenCount=37",
+      "topPersona": {
+        "personaId": "sisyphus",
+        "match": 52
+      },
+      "highestMatch": 52,
+      "eligiblePersonas": [
+        {
+          "personaId": "caesar",
+          "match": 30
+        },
+        {
+          "personaId": "croesus",
+          "match": 4
+        },
+        {
+          "personaId": "don_quixote",
+          "match": 5
+        }
+      ],
+      "nearMisses": [],
+      "icarusTop": [],
+      "donQuixoteStrongest": {
+        "returnPct": -0.08370491298998162,
+        "days": 0.3,
+        "match": 5
+      },
+      "checksA": {
+        "measurableProfit": false,
+        "multipleExits": false,
+        "lowReentry": true,
+        "retainedPricedGains": false,
+        "noSevereLongLoser": true
+      },
+      "checksB": {
+        "minimalReentry": true,
+        "moderateActivity": true,
+        "diversifiedish": true,
+        "noPricedGiveback": true,
+        "noSevereLongLoser": true,
+        "noNapoleonSequence": true
+      }
+    },
+    {
+      "label": "P8",
+      "stratum": "P",
+      "cluster": "E",
+      "clusterNotes": [
+        "weak/mixed observable behavior, no distinctive pattern",
+        "A-checks failed: measurableProfit, multipleExits, retainedPricedGains"
+      ],
+      "qualifyingSwaps": 151,
+      "realizedPnlUsd": 0.875722420869423,
+      "pnlCoverage": 0.035398230088495575,
+      "observedVolumeUsd": 2987.1847017123505,
+      "volumeCoverage": 0.6754966887417219,
+      "completedPositions": 2,
+      "openPositions": 3,
+      "reentries": 0,
+      "reentryRate": 0,
+      "tradedTokenCount": 13,
+      "turnoverProxy": "qualifyingSwaps=151, tradedTokenCount=13 (turnover/concentration scores not captured in 5C outputs)",
+      "concentrationProxy": "largest-position data not captured; tokenCount=13",
+      "topPersona": {
+        "personaId": "sisyphus",
+        "match": 86
+      },
+      "highestMatch": 86,
+      "eligiblePersonas": [
+        {
+          "personaId": "croesus",
+          "match": 9
+        },
+        {
+          "personaId": "don_quixote",
+          "match": 36
+        }
+      ],
+      "nearMisses": [],
+      "icarusTop": [
+        {
+          "symbol": "PYTHIA",
+          "peakReturnPct": 0.5998017436683092,
+          "givebackPct": 1.3918183344109414,
+          "finalReturnPct": -0.23501332018089538
+        },
+        {
+          "symbol": "5UUH9R",
+          "peakReturnPct": 0.0064410599462823015,
+          "givebackPct": 20.38801443987929,
+          "finalReturnPct": -0.12487936324664893
+        }
+      ],
+      "donQuixoteStrongest": {
+        "returnPct": -0.23501332018089538,
+        "days": 16.6,
+        "match": 36
+      },
+      "checksA": {
+        "measurableProfit": false,
+        "multipleExits": false,
+        "lowReentry": true,
+        "retainedPricedGains": false,
+        "noSevereLongLoser": true
+      },
+      "checksB": {
+        "minimalReentry": true,
+        "moderateActivity": true,
+        "diversifiedish": true,
+        "noPricedGiveback": false,
+        "noSevereLongLoser": true,
+        "noNapoleonSequence": true
+      }
+    },
+    {
+      "label": "P9",
+      "stratum": "P",
+      "cluster": "B?",
+      "clusterNotes": [
+        "low-drama shape but no priced episodes — economic quality unverifiable",
+        "A-checks failed: measurableProfit, multipleExits, lowReentry, retainedPricedGains"
+      ],
+      "qualifyingSwaps": 39,
+      "realizedPnlUsd": 0.7173228710684252,
+      "pnlCoverage": 0.08333333333333333,
+      "observedVolumeUsd": 4864.39990000317,
+      "volumeCoverage": 0.9230769230769231,
+      "completedPositions": 0,
+      "openPositions": 12,
+      "reentries": 0,
+      "reentryRate": null,
+      "tradedTokenCount": 19,
+      "turnoverProxy": "qualifyingSwaps=39, tradedTokenCount=19 (turnover/concentration scores not captured in 5C outputs)",
+      "concentrationProxy": "largest-position data not captured; tokenCount=19",
+      "topPersona": {
+        "personaId": "sisyphus",
+        "match": 54
+      },
+      "highestMatch": 54,
+      "eligiblePersonas": [
+        {
+          "personaId": "caesar",
+          "match": 42
+        },
+        {
+          "personaId": "croesus",
+          "match": 18
+        }
+      ],
+      "nearMisses": [
+        {
+          "personaId": "caesar",
+          "match": 42
+        }
+      ],
+      "icarusTop": [],
+      "donQuixoteStrongest": null,
+      "checksA": {
+        "measurableProfit": false,
+        "multipleExits": false,
+        "lowReentry": false,
+        "retainedPricedGains": false,
+        "noSevereLongLoser": true
+      },
+      "checksB": {
+        "minimalReentry": true,
+        "moderateActivity": true,
+        "diversifiedish": true,
+        "noPricedGiveback": true,
+        "noSevereLongLoser": true,
+        "noNapoleonSequence": true
+      }
+    },
+    {
+      "label": "L1",
+      "stratum": "L",
+      "cluster": "B?",
+      "clusterNotes": [
+        "low-drama shape but no priced episodes — economic quality unverifiable",
+        "A-checks failed: measurableProfit, lowReentry, retainedPricedGains"
+      ],
+      "qualifyingSwaps": 14,
+      "realizedPnlUsd": -890.0035012781722,
+      "pnlCoverage": 0.5714285714285714,
+      "observedVolumeUsd": 10434.98674031252,
+      "volumeCoverage": 1,
+      "completedPositions": 3,
+      "openPositions": 3,
+      "reentries": 1,
+      "reentryRate": 0.3333333333333333,
+      "tradedTokenCount": 8,
+      "turnoverProxy": "qualifyingSwaps=14, tradedTokenCount=8 (turnover/concentration scores not captured in 5C outputs)",
+      "concentrationProxy": "largest-position data not captured; tokenCount=8",
+      "topPersona": {
+        "personaId": "newton",
+        "match": 60
+      },
+      "highestMatch": 60,
+      "eligiblePersonas": [
+        {
+          "personaId": "croesus",
+          "match": 31
+        }
+      ],
+      "nearMisses": [],
+      "icarusTop": [],
+      "donQuixoteStrongest": null,
+      "checksA": {
+        "measurableProfit": false,
+        "multipleExits": true,
+        "lowReentry": false,
+        "retainedPricedGains": false,
+        "noSevereLongLoser": true
+      },
+      "checksB": {
+        "minimalReentry": true,
+        "moderateActivity": true,
+        "diversifiedish": true,
+        "noPricedGiveback": true,
+        "noSevereLongLoser": true,
+        "noNapoleonSequence": true
+      }
+    },
+    {
+      "label": "L7",
+      "stratum": "L",
+      "cluster": "B",
+      "clusterNotes": [
+        "low-drama shape with at least some priced episodes",
+        "A-checks failed: measurableProfit, multipleExits, retainedPricedGains"
+      ],
+      "qualifyingSwaps": 24,
+      "realizedPnlUsd": -40.835899503219935,
+      "pnlCoverage": 0.09090909090909091,
+      "observedVolumeUsd": 10721.735364194381,
+      "volumeCoverage": 1,
+      "completedPositions": 1,
+      "openPositions": 0,
+      "reentries": 0,
+      "reentryRate": 0,
+      "tradedTokenCount": 6,
+      "turnoverProxy": "qualifyingSwaps=24, tradedTokenCount=6 (turnover/concentration scores not captured in 5C outputs)",
+      "concentrationProxy": "largest-position data not captured; tokenCount=6",
+      "topPersona": {
+        "personaId": "sisyphus",
+        "match": 57
+      },
+      "highestMatch": 57,
+      "eligiblePersonas": [
+        {
+          "personaId": "caesar",
+          "match": 49
+        },
+        {
+          "personaId": "croesus",
+          "match": 27
+        }
+      ],
+      "nearMisses": [
+        {
+          "personaId": "caesar",
+          "match": 49
+        }
+      ],
+      "icarusTop": [
+        {
+          "symbol": "GJAFwW",
+          "peakReturnPct": -0.009029497728149427,
+          "givebackPct": null,
+          "finalReturnPct": -0.03422715360713784
+        }
+      ],
+      "donQuixoteStrongest": null,
+      "checksA": {
+        "measurableProfit": false,
+        "multipleExits": false,
+        "lowReentry": true,
+        "retainedPricedGains": false,
+        "noSevereLongLoser": true
+      },
+      "checksB": {
+        "minimalReentry": true,
+        "moderateActivity": true,
+        "diversifiedish": true,
+        "noPricedGiveback": true,
+        "noSevereLongLoser": true,
+        "noNapoleonSequence": true
+      }
+    },
+    {
+      "label": "L9",
+      "stratum": "L",
+      "cluster": "E",
+      "clusterNotes": [
+        "weak/mixed observable behavior, no distinctive pattern",
+        "A-checks failed: measurableProfit, multipleExits, lowReentry, retainedPricedGains"
+      ],
+      "qualifyingSwaps": 19,
+      "realizedPnlUsd": -22.008535,
+      "pnlCoverage": 0.2222222222222222,
+      "observedVolumeUsd": 712.4621129999999,
+      "volumeCoverage": 1,
+      "completedPositions": 2,
+      "openPositions": 5,
+      "reentries": 1,
+      "reentryRate": 0.5,
+      "tradedTokenCount": 9,
+      "turnoverProxy": "qualifyingSwaps=19, tradedTokenCount=9 (turnover/concentration scores not captured in 5C outputs)",
+      "concentrationProxy": "largest-position data not captured; tokenCount=9",
+      "topPersona": {
+        "personaId": "icarus",
+        "match": 46
+      },
+      "highestMatch": 46,
+      "eligiblePersonas": [
+        {
+          "personaId": "croesus",
+          "match": 2
+        },
+        {
+          "personaId": "don_quixote",
+          "match": 12
+        }
+      ],
+      "nearMisses": [],
+      "icarusTop": [
+        {
+          "symbol": "SiLVFM",
+          "peakReturnPct": 0.06263966619373651,
+          "givebackPct": 8.064189305086783,
+          "finalReturnPct": -0.44249846000000004
+        },
+        {
+          "symbol": "neet",
+          "peakReturnPct": 0.030940230980265992,
+          "givebackPct": 3.6011309438973083,
+          "finalReturnPct": -0.0804795922141001
+        },
+        {
+          "symbol": "SKR",
+          "peakReturnPct": 0.021416592858555017,
+          "givebackPct": 3.4057035240073135,
+          "finalReturnPct": -0.05152197291205578
+        }
+      ],
+      "donQuixoteStrongest": {
+        "returnPct": -0.08047959221410006,
+        "days": 7.1,
+        "match": 12
+      },
+      "checksA": {
+        "measurableProfit": false,
+        "multipleExits": false,
+        "lowReentry": false,
+        "retainedPricedGains": false,
+        "noSevereLongLoser": true
+      },
+      "checksB": {
+        "minimalReentry": true,
+        "moderateActivity": true,
+        "diversifiedish": true,
+        "noPricedGiveback": false,
+        "noSevereLongLoser": true,
+        "noNapoleonSequence": true
+      }
+    },
+    {
+      "label": "L10",
+      "stratum": "L",
+      "cluster": "C",
+      "clusterNotes": [
+        "near-miss: caesar@41 eligible but under 50",
+        "A-checks failed: measurableProfit, multipleExits, retainedPricedGains"
+      ],
+      "qualifyingSwaps": 84,
+      "realizedPnlUsd": -18.04485601319287,
+      "pnlCoverage": 0.30303030303030304,
+      "observedVolumeUsd": 6325.542733001339,
+      "volumeCoverage": 1,
+      "completedPositions": 1,
+      "openPositions": 14,
+      "reentries": 0,
+      "reentryRate": 0,
+      "tradedTokenCount": 24,
+      "turnoverProxy": "qualifyingSwaps=84, tradedTokenCount=24 (turnover/concentration scores not captured in 5C outputs)",
+      "concentrationProxy": "largest-position data not captured; tokenCount=24",
+      "topPersona": {
+        "personaId": "sisyphus",
+        "match": 61
+      },
+      "highestMatch": 61,
+      "eligiblePersonas": [
+        {
+          "personaId": "caesar",
+          "match": 41
+        },
+        {
+          "personaId": "croesus",
+          "match": 18
+        },
+        {
+          "personaId": "don_quixote",
+          "match": 1
+        }
+      ],
+      "nearMisses": [
+        {
+          "personaId": "caesar",
+          "match": 41
+        }
+      ],
+      "icarusTop": [
+        {
+          "symbol": "ZEC",
+          "peakReturnPct": 0.008880848841009481,
+          "givebackPct": 1.028457699142489,
+          "finalReturnPct": -0.0002527285244473719
+        }
+      ],
+      "donQuixoteStrongest": {
+        "returnPct": -0.0002527285244473543,
+        "days": 1.4,
+        "match": 1
+      },
+      "checksA": {
+        "measurableProfit": false,
+        "multipleExits": false,
+        "lowReentry": true,
+        "retainedPricedGains": false,
+        "noSevereLongLoser": true
+      },
+      "checksB": {
+        "minimalReentry": true,
+        "moderateActivity": true,
+        "diversifiedish": true,
+        "noPricedGiveback": false,
+        "noSevereLongLoser": true,
+        "noNapoleonSequence": true
+      }
+    },
+    {
+      "label": "M4",
+      "stratum": "M",
+      "cluster": "B?",
+      "clusterNotes": [
+        "low-drama shape but no priced episodes — economic quality unverifiable",
+        "A-checks failed: measurableProfit, multipleExits, lowReentry, retainedPricedGains"
+      ],
+      "qualifyingSwaps": 56,
+      "realizedPnlUsd": null,
+      "pnlCoverage": 0,
+      "observedVolumeUsd": 37.29186269009566,
+      "volumeCoverage": 1,
+      "completedPositions": 0,
+      "openPositions": 0,
+      "reentries": 0,
+      "reentryRate": null,
+      "tradedTokenCount": 53,
+      "turnoverProxy": "qualifyingSwaps=56, tradedTokenCount=53 (turnover/concentration scores not captured in 5C outputs)",
+      "concentrationProxy": "largest-position data not captured; tokenCount=53",
+      "topPersona": {
+        "personaId": "newton",
+        "match": 59
+      },
+      "highestMatch": 59,
+      "eligiblePersonas": [
+        {
+          "personaId": "croesus",
+          "match": 0
+        }
+      ],
+      "nearMisses": [],
+      "icarusTop": [],
+      "donQuixoteStrongest": null,
+      "checksA": {
+        "measurableProfit": false,
+        "multipleExits": false,
+        "lowReentry": false,
+        "retainedPricedGains": false,
+        "noSevereLongLoser": true
+      },
+      "checksB": {
+        "minimalReentry": true,
+        "moderateActivity": true,
+        "diversifiedish": true,
+        "noPricedGiveback": true,
+        "noSevereLongLoser": true,
+        "noNapoleonSequence": true
+      }
+    },
+    {
+      "label": "M5",
+      "stratum": "M",
+      "cluster": "B?",
+      "clusterNotes": [
+        "low-drama shape but no priced episodes — economic quality unverifiable",
+        "A-checks failed: measurableProfit, multipleExits, lowReentry, retainedPricedGains"
+      ],
+      "qualifyingSwaps": 60,
+      "realizedPnlUsd": null,
+      "pnlCoverage": 0,
+      "observedVolumeUsd": 1457.9901387067953,
+      "volumeCoverage": 1,
+      "completedPositions": 0,
+      "openPositions": 1,
+      "reentries": 0,
+      "reentryRate": null,
+      "tradedTokenCount": 31,
+      "turnoverProxy": "qualifyingSwaps=60, tradedTokenCount=31 (turnover/concentration scores not captured in 5C outputs)",
+      "concentrationProxy": "largest-position data not captured; tokenCount=31",
+      "topPersona": {
+        "personaId": "newton",
+        "match": 60
+      },
+      "highestMatch": 60,
+      "eligiblePersonas": [
+        {
+          "personaId": "croesus",
+          "match": 3
+        }
+      ],
+      "nearMisses": [],
+      "icarusTop": [],
+      "donQuixoteStrongest": null,
+      "checksA": {
+        "measurableProfit": false,
+        "multipleExits": false,
+        "lowReentry": false,
+        "retainedPricedGains": false,
+        "noSevereLongLoser": true
+      },
+      "checksB": {
+        "minimalReentry": true,
+        "moderateActivity": true,
+        "diversifiedish": true,
+        "noPricedGiveback": true,
+        "noSevereLongLoser": true,
+        "noNapoleonSequence": true
+      }
+    },
+    {
+      "label": "M6",
+      "stratum": "M",
+      "cluster": "B?",
+      "clusterNotes": [
+        "low-drama shape but no priced episodes — economic quality unverifiable",
+        "A-checks failed: measurableProfit, multipleExits, lowReentry, retainedPricedGains"
+      ],
+      "qualifyingSwaps": 67,
+      "realizedPnlUsd": null,
+      "pnlCoverage": 0,
+      "observedVolumeUsd": 3663.8929477214206,
+      "volumeCoverage": 1,
+      "completedPositions": 0,
+      "openPositions": 0,
+      "reentries": 0,
+      "reentryRate": null,
+      "tradedTokenCount": 24,
+      "turnoverProxy": "qualifyingSwaps=67, tradedTokenCount=24 (turnover/concentration scores not captured in 5C outputs)",
+      "concentrationProxy": "largest-position data not captured; tokenCount=24",
+      "topPersona": {
+        "personaId": "newton",
+        "match": 61
+      },
+      "highestMatch": 61,
+      "eligiblePersonas": [
+        {
+          "personaId": "croesus",
+          "match": 13
+        }
+      ],
+      "nearMisses": [],
+      "icarusTop": [],
+      "donQuixoteStrongest": null,
+      "checksA": {
+        "measurableProfit": false,
+        "multipleExits": false,
+        "lowReentry": false,
+        "retainedPricedGains": false,
+        "noSevereLongLoser": true
+      },
+      "checksB": {
+        "minimalReentry": true,
+        "moderateActivity": true,
+        "diversifiedish": true,
+        "noPricedGiveback": true,
+        "noSevereLongLoser": true,
+        "noNapoleonSequence": true
+      }
+    },
+    {
+      "label": "M7",
+      "stratum": "M",
+      "cluster": "B?",
+      "clusterNotes": [
+        "low-drama shape but no priced episodes — economic quality unverifiable",
+        "A-checks failed: measurableProfit, retainedPricedGains"
+      ],
+      "qualifyingSwaps": 74,
+      "realizedPnlUsd": null,
+      "pnlCoverage": 0,
+      "observedVolumeUsd": 16839.94087937676,
+      "volumeCoverage": 0.6621621621621622,
+      "completedPositions": 7,
+      "openPositions": 9,
+      "reentries": 0,
+      "reentryRate": 0,
+      "tradedTokenCount": 40,
+      "turnoverProxy": "qualifyingSwaps=74, tradedTokenCount=40 (turnover/concentration scores not captured in 5C outputs)",
+      "concentrationProxy": "largest-position data not captured; tokenCount=40",
+      "topPersona": {
+        "personaId": "caesar",
+        "match": 47
+      },
+      "highestMatch": 47,
+      "eligiblePersonas": [
+        {
+          "personaId": "croesus",
+          "match": 30
+        }
+      ],
+      "nearMisses": [],
+      "icarusTop": [],
+      "donQuixoteStrongest": null,
+      "checksA": {
+        "measurableProfit": false,
+        "multipleExits": true,
+        "lowReentry": true,
+        "retainedPricedGains": false,
+        "noSevereLongLoser": true
+      },
+      "checksB": {
+        "minimalReentry": true,
+        "moderateActivity": true,
+        "diversifiedish": true,
+        "noPricedGiveback": true,
+        "noSevereLongLoser": true,
+        "noNapoleonSequence": true
+      }
+    },
+    {
+      "label": "M8",
+      "stratum": "M",
+      "cluster": "B?",
+      "clusterNotes": [
+        "low-drama shape but no priced episodes — economic quality unverifiable",
+        "A-checks failed: measurableProfit, multipleExits, retainedPricedGains"
+      ],
+      "qualifyingSwaps": 74,
+      "realizedPnlUsd": 0.0008370850030332088,
+      "pnlCoverage": 0.07894736842105263,
+      "observedVolumeUsd": 64.5543691946,
+      "volumeCoverage": 0.5945945945945946,
+      "completedPositions": 1,
+      "openPositions": 20,
+      "reentries": 0,
+      "reentryRate": 0,
+      "tradedTokenCount": 35,
+      "turnoverProxy": "qualifyingSwaps=74, tradedTokenCount=35 (turnover/concentration scores not captured in 5C outputs)",
+      "concentrationProxy": "largest-position data not captured; tokenCount=35",
+      "topPersona": {
+        "personaId": "sisyphus",
+        "match": 59
+      },
+      "highestMatch": 59,
+      "eligiblePersonas": [
+        {
+          "personaId": "caesar",
+          "match": 40
+        },
+        {
+          "personaId": "croesus",
+          "match": 0
+        }
+      ],
+      "nearMisses": [
+        {
+          "personaId": "caesar",
+          "match": 40
+        }
+      ],
+      "icarusTop": [],
+      "donQuixoteStrongest": null,
+      "checksA": {
+        "measurableProfit": false,
+        "multipleExits": false,
+        "lowReentry": true,
+        "retainedPricedGains": false,
+        "noSevereLongLoser": true
+      },
+      "checksB": {
+        "minimalReentry": true,
+        "moderateActivity": true,
+        "diversifiedish": true,
+        "noPricedGiveback": true,
+        "noSevereLongLoser": true,
+        "noNapoleonSequence": true
+      }
+    }
+  ]
+}
